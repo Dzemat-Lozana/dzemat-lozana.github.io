@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-    {{ if .Site.IsServer }}
+    {{ if hugo.IsServer }}
         {{ $css := resources.Get "css/main.css" | resources.PostCSS }}
         <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     {{ else }}
         {{ $css := resources.Get "css/style.css" }}
-        {{ $css = $css | minify | fingerprint | resources.PostProcess }}
+        {{ $css = $css | minify | fingerprint }}
         <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     {{ end }}
 </head>
