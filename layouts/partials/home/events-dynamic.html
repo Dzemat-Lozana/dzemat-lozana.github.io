@@ -7,97 +7,17 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {{ $today := now }}
-            {{ $events := where .Site.RegularPages "Type" "events" }}
-            {{ $upcomingEvents := where $events ".Params.eventDate" "ge" $today }}
-            {{ $sortedUpcoming := sort $upcomingEvents ".Params.eventDate" "asc" }}
+            {{ $events := where .Site.RegularPages "Section" "events" }}
+            {{ $sortedEvents := sort $events ".Params.eventDate" "desc" }}
             
-            {{ if gt (len $sortedUpcoming) 0 }}
-                {{ range first 3 $sortedUpcoming }}
+            {{ if gt (len $sortedEvents) 0 }}
+                {{ range first 3 $sortedEvents }}
                     {{ partial "events/event-card.html" . }}
                 {{ end }}
             {{ else }}
-                {{ $pastEvents := where $events ".Params.eventDate" "lt" $today }}
-                {{ $sortedPast := sort $pastEvents ".Params.eventDate" "desc" }}
-                
-                {{ if gt (len $sortedPast) 0 }}
-                    {{ range first 3 $sortedPast }}
-                        {{ partial "events/event-card.html" . }}
-                    {{ end }}
-                {{ else }}
-                    <!-- Fallback to static examples if no events exist -->
-                    <div class="bg-white rounded-lg overflow-hidden shadow-md border border-neutral-200 hover:shadow-lg transition-shadow">
-                        <div class="relative">
-                            <img src="/images/iftar.jpg" alt="Iftar communautaire" class="w-full h-48 object-cover" onerror="this.src='/images/placeholder.jpg'; this.onerror=null;" />
-                            <div class="absolute top-0 right-0 bg-secondary text-white px-3 py-1 m-2 rounded-md text-sm font-medium">
-                                <div class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                    </svg>
-                                    <span>15 avril 2026 • 19:30</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-heading font-semibold mb-3">{{ i18n "events_iftar_title" }}</h3>
-                            <p class="text-gray-600 mb-4">{{ i18n "events_iftar_description" }}</p>
-                            <a href="{{ "events" | relLangURL }}" class="inline-flex items-center text-primary hover:text-primary-dark transition-colors">
-                                {{ i18n "events_read_more" }}
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-lg overflow-hidden shadow-md border border-neutral-200 hover:shadow-lg transition-shadow">
-                        <div class="relative">
-                            <img src="/images/conference.jpg" alt="Conférence sur l'Islam en Europe" class="w-full h-48 object-cover" onerror="this.src='/images/placeholder.jpg'; this.onerror=null;" />
-                            <div class="absolute top-0 right-0 bg-secondary text-white px-3 py-1 m-2 rounded-md text-sm font-medium">
-                                <div class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                    </svg>
-                                    <span>5 mai 2025 • 18:00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-heading font-semibold mb-3">{{ i18n "events_conference_title" }}</h3>
-                            <p class="text-gray-600 mb-4">{{ i18n "events_conference_description" }}</p>
-                            <a href="{{ "events" | relLangURL }}" class="inline-flex items-center text-primary hover:text-primary-dark transition-colors">
-                                {{ i18n "events_read_more" }}
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="bg-white rounded-lg overflow-hidden shadow-md border border-neutral-200 hover:shadow-lg transition-shadow">
-                        <div class="relative">
-                            <img src="/images/language.jpg" alt="Cours de langue bosniaque" class="w-full h-48 object-cover" onerror="this.src='/images/placeholder.jpg'; this.onerror=null;" />
-                            <div class="absolute top-0 right-0 bg-secondary text-white px-3 py-1 m-2 rounded-md text-sm font-medium">
-                                <div class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                    </svg>
-                                    <span>20 avril 2025 • 10:00</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <h3 class="text-xl font-heading font-semibold mb-3">{{ i18n "events_language_title" }}</h3>
-                            <p class="text-gray-600 mb-4">{{ i18n "events_language_description" }}</p>
-                            <a href="{{ "events" | relLangURL }}" class="inline-flex items-center text-primary hover:text-primary-dark transition-colors">
-                                {{ i18n "events_read_more" }}
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                {{ end }}
+                <div class="col-span-3 text-center py-12">
+                    <p class="text-gray-500">{{ i18n "events_no_upcoming" }}</p>
+                </div>
             {{ end }}
         </div>
 
