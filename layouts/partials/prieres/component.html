@@ -1,0 +1,82 @@
+<!-- Section des horaires de prière -->
+{{ $prayerTimes := .Site.Data.prayer_times }}
+
+<section class="py-16 md:py-24 bg-gradient-to-br from-teal-50 to-amber-50 relative overflow-hidden w-full">
+  <!-- Motif subtil en arrière-plan -->
+  <div class="absolute inset-0 bg-gradient-to-br from-teal-50 to-amber-50 w-full"></div>
+  <div class="container mx-auto px-4 relative z-10">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Horaires des prières</h2>
+      <p class="text-xl text-gray-500 max-w-2xl mx-auto">Horaires pour aujourd'hui</p>
+    </div>
+
+    <div class="max-w-4xl mx-auto">
+      <!-- Information sur le lever du soleil -->
+      <div class="bg-gradient-to-r from-amber-500 to-amber-400 rounded-lg p-6 mb-8 shadow-md text-white">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center">
+            <div class="bg-white/20 rounded-md p-3 mr-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 10V2"></path>
+                <path d="m4.93 10.93 1.41 1.41"></path>
+                <path d="M2 18h2"></path>
+                <path d="M20 18h2"></path>
+                <path d="m19.07 10.93-1.41 1.41"></path>
+                <path d="M22 22H2"></path>
+                <path d="M16 6 12 2 8 6"></path>
+                <path d="M16 18a4 4 0 0 0-8 0"></path>
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-white font-medium text-xl">Lever du soleil</h3>
+              <p class="text-white/80">Moment où le soleil apparaît à l'horizon</p>
+            </div>
+          </div>
+          <div class="text-3xl font-bold">{{ $prayerTimes.sunrise.time }}</div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Fajr -->
+        {{ $prayer := merge $prayerTimes.fajr (dict "name" "Fajr" "color" "teal" "icon" "sunrise") }}
+        {{ partial "prieres/card.html" $prayer }}
+        
+        <!-- Dhuhr -->
+        {{ $prayer := merge $prayerTimes.dhuhr (dict "name" "Dhuhr" "color" "amber" "icon" "sun") }}
+        {{ partial "prieres/card.html" $prayer }}
+        
+        <!-- Asr -->
+        {{ $prayer := merge $prayerTimes.asr (dict "name" "Asr" "color" "blue" "icon" "sun") }}
+        {{ partial "prieres/card.html" $prayer }}
+        
+        <!-- Maghrib -->
+        {{ $prayer := merge $prayerTimes.maghrib (dict "name" "Maghrib" "color" "green" "icon" "sunset") }}
+        {{ partial "prieres/card.html" $prayer }}
+        
+        <!-- Isha -->
+        {{ $prayer := merge $prayerTimes.isha (dict "name" "Isha" "color" "indigo" "icon" "moon") }}
+        {{ partial "prieres/card.html" $prayer }}
+
+        <!-- Jumuaa -->
+        {{ $prayer := merge (dict "time" $prayerTimes.jumua.time "iqama" $prayerTimes.jumua.time) (dict "name" "Jumuaa" "color" "purple" "icon" "calendar") }}
+        {{ partial "prieres/card.html" $prayer }}
+      </div>
+
+      <div class="mt-6 text-xs text-right text-gray-500">
+        <div class="flex justify-between items-center">
+          <div class="text-sm">
+            Dernière mise à jour: {{ $prayerTimes.last_updated }}
+          </div>
+          <a href="https://mawaqit.net/fr/dzematlozana" target="_blank" rel="noopener noreferrer" class="hover:underline flex items-center justify-end">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+            Source des données
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
