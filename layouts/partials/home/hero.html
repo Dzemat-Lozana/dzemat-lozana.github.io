@@ -11,29 +11,29 @@
             <!-- Text content -->
             <div class="lg:col-span-5 text-center lg:text-left">
                 <div class="inline-block bg-primary/10 text-primary px-4 py-2 rounded-md mb-6 font-medium">
-                    Bienvenue
+                    {{ i18n "hero.welcome" }}
                 </div>
 
                 <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">
                     <span class="text-primary">Džemat</span> <span class="text-secondary">Lozana</span>
                 </h1>
 
-                <h2 class="text-2xl md:text-3xl font-medium mb-6 text-gray-700">Džemat Lozana</h2>
+                <h2 class="text-2xl md:text-3xl font-medium mb-6 text-gray-700">{{ i18n "hero.subtitle" }}</h2>
 
                 <p class="text-lg md:text-xl mb-8 text-gray-600 max-w-xl mx-auto lg:mx-0">
-                    Un lieu de prière, d'éducation et de communauté pour les musulmans bosniaques de Lausanne
+                    {{ i18n "hero.description" }}
                 </p>
 
                 <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                     <a href="#about" class="inline-flex items-center px-5 py-3 rounded-md bg-primary text-white hover:bg-primary-dark transition-colors shadow-sm">
-                        En savoir plus
+                        {{ i18n "hero.button" }}
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                         </svg>
                     </a>
 
                     <a href="#prayer" class="inline-flex items-center px-5 py-3 rounded-md border border-primary/20 text-primary hover:bg-primary/5 transition-colors">
-                        Prières
+                        {{ i18n "nav.prayer" }}
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                         </svg>
@@ -54,11 +54,11 @@
                     <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-black/0 p-6 text-white">
                         <div class="flex flex-col md:flex-row justify-between items-center">
                             <div>
-                                <h3 class="text-xl font-bold mb-1">Association Bosniaque de Lausanne</h3>
-                                <p class="text-white/80">Un lieu de prière, d'éducation et de communauté</p>
+                                <h3 class="text-xl font-bold mb-1">{{ i18n "hero.association" }}</h3>
+                                <p class="text-white/80">{{ i18n "hero.community_place" }}</p>
                             </div>
                             <div class="mt-4 md:mt-0 bg-primary/20 backdrop-blur-sm px-4 py-2 rounded-md">
-                                <div class="text-sm text-white/80">Heure actuelle</div>
+                                <div class="text-sm text-white/80">{{ i18n "hero.current_time" }}</div>
                                 <div class="text-2xl font-bold" id="current-time">
                                     <script>
                                         document.addEventListener('DOMContentLoaded', function() {
@@ -89,7 +89,7 @@
                                 <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
                             </svg>
                         </div>
-                        <span class="text-sm font-medium text-center">Prières</span>
+                        <span class="text-sm font-medium text-center">{{ i18n "nav.prayer" }}</span>
                     </div>
 
                     <div class="bg-white rounded-lg p-4 shadow-md border-t-4 border-secondary flex flex-col items-center hover:shadow-lg transition-shadow">
@@ -101,7 +101,7 @@
                                 <line x1="3" x2="21" y1="10" y2="10"></line>
                             </svg>
                         </div>
-                        <span class="text-sm font-medium text-center">Événements</span>
+                        <span class="text-sm font-medium text-center">{{ i18n "nav.events" }}</span>
                     </div>
 
                     <div class="bg-white rounded-lg p-4 shadow-md border-t-4 border-blue-500 flex flex-col items-center hover:shadow-lg transition-shadow">
@@ -113,7 +113,7 @@
                                 <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                             </svg>
                         </div>
-                        <span class="text-sm font-medium text-center">Communauté</span>
+                        <span class="text-sm font-medium text-center">{{ i18n "nav.community" }}</span>
                     </div>
                 </div>
             </div>

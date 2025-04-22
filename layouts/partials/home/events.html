@@ -1,9 +1,9 @@
 <section id="events" class="py-20 bg-white">
     <div class="container mx-auto px-4">
         <div class="text-center mb-12">
-            <span class="text-primary font-medium">Événements</span>
-            <h2 class="text-3xl md:text-4xl font-heading font-bold mt-2 mb-4">Événements à venir</h2>
-            <p class="text-gray-600 max-w-2xl mx-auto">Rejoignez-nous pour nos prochains événements</p>
+            <span class="text-primary font-medium">{{ i18n "events.title" }}</span>
+            <h2 class="text-3xl md:text-4xl font-heading font-bold mt-2 mb-4">{{ i18n "events.subtitle" }}</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">{{ i18n "events.description" }}</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -20,10 +20,10 @@
                     </div>
                 </div>
                 <div class="p-6">
-                    <h3 class="text-xl font-heading font-semibold mb-3">Iftar communautaire</h3>
-                    <p class="text-gray-600 mb-4">Rejoignez-nous pour notre iftar communautaire annuel pendant le mois sacré de Ramadan.</p>
+                    <h3 class="text-xl font-heading font-semibold mb-3">{{ i18n "events.iftar.title" }}</h3>
+                    <p class="text-gray-600 mb-4">{{ i18n "events.iftar.description" }}</p>
                     <a href="#" class="inline-flex items-center text-primary hover:text-primary-dark transition-colors">
-                        Lire la suite
+                        {{ i18n "events.read_more" }}
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                         </svg>
@@ -44,10 +44,10 @@
                     </div>
                 </div>
                 <div class="p-6">
-                    <h3 class="text-xl font-heading font-semibold mb-3">Conférence sur l'Islam en Europe</h3>
-                    <p class="text-gray-600 mb-4">Une conférence sur les défis et les opportunités pour les musulmans en Europe aujourd'hui.</p>
+                    <h3 class="text-xl font-heading font-semibold mb-3">{{ i18n "events.conference.title" }}</h3>
+                    <p class="text-gray-600 mb-4">{{ i18n "events.conference.description" }}</p>
                     <a href="#" class="inline-flex items-center text-primary hover:text-primary-dark transition-colors">
-                        Lire la suite
+                        {{ i18n "events.read_more" }}
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                         </svg>
@@ -68,10 +68,10 @@
                     </div>
                 </div>
                 <div class="p-6">
-                    <h3 class="text-xl font-heading font-semibold mb-3">Cours de langue bosniaque</h3>
-                    <p class="text-gray-600 mb-4">Début des cours de langue bosniaque pour débutants et niveau intermédiaire.</p>
+                    <h3 class="text-xl font-heading font-semibold mb-3">{{ i18n "events.language.title" }}</h3>
+                    <p class="text-gray-600 mb-4">{{ i18n "events.language.description" }}</p>
                     <a href="#" class="inline-flex items-center text-primary hover:text-primary-dark transition-colors">
-                        Lire la suite
+                        {{ i18n "events.read_more" }}
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                         </svg>
@@ -82,7 +82,7 @@
 
         <div class="text-center mt-12">
             <a href="#" class="inline-flex items-center px-5 py-3 rounded-md border border-primary/20 text-primary hover:bg-primary/5 transition-colors">
-                Voir tous les événements
+                {{ i18n "events.view_all" }}
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>

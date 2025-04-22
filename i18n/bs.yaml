@@ -1,16 +1,108 @@
-- id: home
-  translation: "Početna"
-- id: about
-  translation: "O Nama"
-- id: contact
-  translation: "Kontakt"
-- id: language
-  translation: "Jezik"
-- id: readMore
-  translation: "Pročitaj više"
-- id: posts
-  translation: "Članci"
-- id: recentPosts
-  translation: "Nedavni članci"
-- id: allRights
-  translation: "Sva prava zadržana"
+# Navigation
+nav:
+  home: "Početna"
+  about: "O nama"
+  services: "Usluge"
+  events: "Događaji"
+  contact: "Kontakt"
+  login: "Prijava"
+  membership: "Članstvo"
+  prayer: "Namaz"
+  committee: "Odbor"
+  community: "Zajednica"
+
+# Hero section
+hero:
+  welcome: "Dobrodošli"
+  subtitle: "Džemat Lozana"
+  description: "Mjesto molitve, obrazovanja i zajednice za bosanske muslimane u Lozani"
+  button: "Saznajte više"
+  current_time: "Trenutno vrijeme"
+  association: "Bosansko Udruženje Lozana"
+  community_place: "Mjesto molitve, obrazovanja i zajednice"
+
+# About section
+about:
+  title: "O nama"
+  subtitle: "Naša misija i vrijednosti"
+  description: "Bosansko Udruženje Lozana je neprofitna organizacija koja služi bosanskoj muslimanskoj zajednici u Lozani i okolini. Osnovana na principima islama prema hanefijskoj školi i vrijednostima otvorenosti i tolerancije, trudimo se očuvati naš kulturni identitet dok promovišemo integraciju i međukulturalni dijalog."
+  mission:
+    title: "Naša misija"
+    description: "Raditi na tome da muslimani mogu obavljati svoje vjerske obrede, osigurati mjesto bogoslužja za muslimane porijeklom iz Bosne i Hercegovine, te očuvati koheziju i društveni mir."
+  values:
+    title: "Naše vrijednosti"
+    description: "Poštovanje, tolerancija, otvorenost, dijalog i očuvanje našeg kulturnog i vjerskog naslijeđa."
+  community:
+    title: "Zajednica"
+    description: "Pridružite se živoj i solidarnoj zajednici"
+  education:
+    title: "Obrazovanje"
+    description: "Pristup kursevima religije i kulture"
+  tradition:
+    title: "Tradicija"
+    description: "Očuvanje našeg kulturnog naslijeđa"
+
+# Services section
+services:
+  title: "Naše usluge"
+  subtitle: "Šta nudimo"
+  description: "Otkrijte usluge koje nudimo našoj zajednici"
+  prayer:
+    title: "Dnevni namazi"
+    description: "Nudimo prostor za pet dnevnih namaza kao i džuma namaz. Naša džamija je otvorena za sve muslimane, bez obzira na njihovo porijeklo."
+  education:
+    title: "Vjersko obrazovanje"
+    description: "Kursevi Kurana, arapskog jezika i islamskog obrazovanja za djecu i odrasle. Naše kurseve vode kvalifikovani i iskusni učitelji."
+  language:
+    title: "Kursevi jezika"
+    description: "Kursevi bosanskog jezika za očuvanje našeg kulturnog naslijeđa. Ovi kursevi su otvoreni za sve, djecu i odrasle, koji žele naučiti ili poboljšati svoje znanje bosanskog jezika."
+  events:
+    title: "Događaji zajednice"
+    description: "Proslave vjerskih praznika, iftari tokom Ramazana i drugi društveni događaji. Ovi događaji su prilika za jačanje veza unutar naše zajednice i dijeljenje naše kulture sa našim komšijama."
+
+# Events section
+events:
+  title: "Događaji"
+  subtitle: "Nadolazeći događaji"
+  description: "Pridružite nam se na našim nadolazećim događajima"
+  read_more: "Pročitajte više"
+  view_all: "Pogledajte sve događaje"
+  iftar:
+    title: "Zajednički iftar"
+    description: "Pridružite nam se na našem godišnjem zajedničkom iftaru tokom svetog mjeseca Ramazana."
+  conference:
+    title: "Konferencija o islamu u Evropi"
+    description: "Konferencija o izazovima i mogućnostima za muslimane u Evropi danas."
+  language:
+    title: "Kursevi bosanskog jezika"
+    description: "Početak kurseva bosanskog jezika za početnike i srednji nivo."
+
+# Contact section
+contact:
+  title: "Kontaktirajte nas"
+  subtitle: "Kontaktirajte nas"
+  description: "Tu smo da vam pomognemo"
+  info: "Informacije"
+  address:
+    title: "Adresa"
+    line1: "123 Rue de Lausanne"
+    line2: "1000 Lausanne"
+    line3: "Švicarska"
+  phone:
+    title: "Telefon"
+    number: "+41 21 123 45 67"
+  email:
+    title: "Email"
+    address: "info@dzemat-lozana.ch"
+  form:
+    title: "Kontakt forma"
+    name: "Ime"
+    email: "Email"
+    message: "Poruka"
+    submit: "Pošalji"
+
+# Footer
+footer:
+  rights: "Sva prava zadržana"
+  design: "Dizajnirano sa"
+  community: "za bosansku zajednicu"
