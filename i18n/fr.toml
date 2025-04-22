@@ -1,124 +1,85 @@
 # Navigation
-[nav]
-home = "Accueil"
-about = "À propos"
-services = "Services"
-events = "Événements"
-contact = "Contact"
-login = "Connexion"
-membership = "Adhésion"
-prayer = "Prières"
-committee = "Comité"
-community = "Communauté"
+nav_home = "Accueil"
+nav_about = "À propos"
+nav_services = "Services"
+nav_events = "Événements"
+nav_contact = "Contact"
+nav_login = "Connexion"
+nav_membership = "Adhésion"
+nav_prayer = "Prières"
+nav_committee = "Comité"
+nav_community = "Communauté"
 
 # Hero section
-[hero]
-welcome = "Bienvenue"
-subtitle = "Džemat Lozana"
-description = "Un lieu de prière, d'éducation et de communauté pour les musulmans bosniaques de Lausanne"
-button = "En savoir plus"
-current_time = "Heure actuelle"
-association = "Association Bosniaque de Lausanne"
-community_place = "Un lieu de prière, d'éducation et de communauté"
+hero_welcome = "Bienvenue"
+hero_subtitle = "Džemat Lozana"
+hero_description = "Un lieu de prière, d'éducation et de communauté pour les musulmans bosniaques de Lausanne"
+hero_button = "En savoir plus"
+hero_current_time = "Heure actuelle"
+hero_association = "Association Bosniaque de Lausanne"
+hero_community_place = "Un lieu de prière, d'éducation et de communauté"
 
 # About section
-[about]
-title = "À propos de nous"
-subtitle = "Notre mission et nos valeurs"
-description = "L'Association Bosniaque de Lausanne est une organisation à but non lucratif qui sert la communauté bosniaque musulmane de Lausanne et ses environs. Fondée sur les principes de l'Islam selon l'école Hanafite et les valeurs d'ouverture et de tolérance, nous nous efforçons de préserver notre identité culturelle tout en favorisant l'intégration et le dialogue interculturel."
-
-[about.mission]
-title = "Notre mission"
-description = "Œuvrer pour que les musulmans puissent accomplir leurs pratiques rituelles et cultuelles, assurer un lieu de culte pour les musulmans originaires de Bosnie-Herzégovine, et préserver la cohésion et la paix sociale."
-
-[about.values]
-title = "Nos valeurs"
-description = "Respect, tolérance, ouverture, dialogue et préservation de notre héritage culturel et religieux."
-
-[about.community]
-title = "Communauté"
-description = "Rejoignez une communauté vivante et solidaire"
-
-[about.education]
-title = "Éducation"
-description = "Accès à des cours de religion et de culture"
-
-[about.tradition]
-title = "Tradition"
-description = "Préservation de notre héritage culturel"
+about_title = "À propos de nous"
+about_subtitle = "Notre mission et nos valeurs"
+about_description = "L'Association Bosniaque de Lausanne est une organisation à but non lucratif qui sert la communauté bosniaque musulmane de Lausanne et ses environs. Fondée sur les principes de l'Islam selon l'école Hanafite et les valeurs d'ouverture et de tolérance, nous nous efforçons de préserver notre identité culturelle tout en favorisant l'intégration et le dialogue interculturel."
+about_mission_title = "Notre mission"
+about_mission_description = "Œuvrer pour que les musulmans puissent accomplir leurs pratiques rituelles et cultuelles, assurer un lieu de culte pour les musulmans originaires de Bosnie-Herzégovine, et préserver la cohésion et la paix sociale."
+about_values_title = "Nos valeurs"
+about_values_description = "Respect, tolérance, ouverture, dialogue et préservation de notre héritage culturel et religieux."
+about_community_title = "Communauté"
+about_community_description = "Rejoignez une communauté vivante et solidaire"
+about_education_title = "Éducation"
+about_education_description = "Accès à des cours de religion et de culture"
+about_tradition_title = "Tradition"
+about_tradition_description = "Préservation de notre héritage culturel"
 
 # Services section
-[services]
-title = "Nos services"
-subtitle = "Ce que nous offrons"
-description = "Découvrez les services que nous proposons à notre communauté"
-
-[services.prayer]
-title = "Prières quotidiennes"
-description = "Nous offrons un espace pour les cinq prières quotidiennes ainsi que la prière du vendredi (Jumu'ah). Notre mosquée est ouverte à tous les musulmans, quelle que soit leur origine."
-
-[services.education]
-title = "Éducation religieuse"
-description = "Cours de Coran, d'arabe et d'éducation islamique pour enfants et adultes. Nos cours sont dispensés par des enseignants qualifiés et expérimentés."
-
-[services.language]
-title = "Cours de langue"
-description = "Cours de langue bosniaque pour préserver notre héritage culturel. Ces cours sont ouverts à tous, enfants comme adultes, qui souhaitent apprendre ou améliorer leur connaissance de la langue bosniaque."
-
-[services.events]
-title = "Événements communautaires"
-description = "Célébrations des fêtes religieuses, iftar pendant le Ramadan, et autres événements sociaux. Ces événements sont l'occasion de renforcer les liens au sein de notre communauté et de partager notre culture avec nos voisins."
+services_title = "Nos services"
+services_subtitle = "Ce que nous offrons"
+services_description = "Découvrez les services que nous proposons à notre communauté"
+services_prayer_title = "Prières quotidiennes"
+services_prayer_description = "Nous offrons un espace pour les cinq prières quotidiennes ainsi que la prière du vendredi (Jumu'ah). Notre mosquée est ouverte à tous les musulmans, quelle que soit leur origine."
+services_education_title = "Éducation religieuse"
+services_education_description = "Cours de Coran, d'arabe et d'éducation islamique pour enfants et adultes. Nos cours sont dispensés par des enseignants qualifiés et expérimentés."
+services_language_title = "Cours de langue"
+services_language_description = "Cours de langue bosniaque pour préserver notre héritage culturel. Ces cours sont ouverts à tous, enfants comme adultes, qui souhaitent apprendre ou améliorer leur connaissance de la langue bosniaque."
+services_events_title = "Événements communautaires"
+services_events_description = "Célébrations des fêtes religieuses, iftar pendant le Ramadan, et autres événements sociaux. Ces événements sont l'occasion de renforcer les liens au sein de notre communauté et de partager notre culture avec nos voisins."
 
 # Events section
-[events]
-title = "Événements"
-subtitle = "Événements à venir"
-description = "Rejoignez-nous pour nos prochains événements"
-read_more = "Lire la suite"
-view_all = "Voir tous les événements"
-
-[events.iftar]
-title = "Iftar communautaire"
-description = "Rejoignez-nous pour notre iftar communautaire annuel pendant le mois sacré de Ramadan."
-
-[events.conference]
-title = "Conférence sur l'Islam en Europe"
-description = "Une conférence sur les défis et les opportunités pour les musulmans en Europe aujourd'hui."
-
-[events.language]
-title = "Cours de langue bosniaque"
-description = "Début des cours de langue bosniaque pour débutants et niveau intermédiaire."
+events_title = "Événements"
+events_subtitle = "Événements à venir"
+events_description = "Rejoignez-nous pour nos prochains événements"
+events_read_more = "Lire la suite"
+events_view_all = "Voir tous les événements"
+events_iftar_title = "Iftar communautaire"
+events_iftar_description = "Rejoignez-nous pour notre iftar communautaire annuel pendant le mois sacré de Ramadan."
+events_conference_title = "Conférence sur l'Islam en Europe"
+events_conference_description = "Une conférence sur les défis et les opportunités pour les musulmans en Europe aujourd'hui."
+events_language_title = "Cours de langue bosniaque"
+events_language_description = "Début des cours de langue bosniaque pour débutants et niveau intermédiaire."
 
 # Contact section
-[contact]
-title = "Contactez-nous"
-subtitle = "Contactez-nous"
-description = "Nous sommes là pour vous aider"
-info = "Information"
-
-[contact.address]
-title = "Adresse"
-line1 = "123 Rue de Lausanne"
-line2 = "1000 Lausanne"
-line3 = "Suisse"
-
-[contact.phone]
-title = "Téléphone"
-number = "+41 21 123 45 67"
-
-[contact.email]
-title = "Email"
-address = "info@dzemat-lozana.ch"
-
-[contact.form]
-title = "Formulaire de contact"
-name = "Nom"
-email = "Email"
-message = "Message"
-submit = "Envoyer"
+contact_title = "Contactez-nous"
+contact_subtitle = "Contactez-nous"
+contact_description = "Nous sommes là pour vous aider"
+contact_info = "Information"
+contact_address_title = "Adresse"
+contact_address_line1 = "123 Rue de Lausanne"
+contact_address_line2 = "1000 Lausanne"
+contact_address_line3 = "Suisse"
+contact_phone_title = "Téléphone"
+contact_phone_number = "+41 21 123 45 67"
+contact_email_title = "Email"
+contact_email_address = "info@dzemat-lozana.ch"
+contact_form_title = "Formulaire de contact"
+contact_form_name = "Nom"
+contact_form_email = "Email"
+contact_form_message = "Message"
+contact_form_submit = "Envoyer"
 
 # Footer
-[footer]
-rights = "Tous droits réservés"
-design = "Conçu avec"
-community = "for the Bosnian community"
+footer_rights = "Tous droits réservés"
+footer_design = "Conçu avec"
+footer_community = "for the Bosnian community"

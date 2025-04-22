@@ -1,124 +1,85 @@
 # Navigation
-[nav]
-home = "Početna"
-about = "O nama"
-services = "Usluge"
-events = "Događaji"
-contact = "Kontakt"
-login = "Prijava"
-membership = "Članstvo"
-prayer = "Namaz"
-committee = "Odbor"
-community = "Zajednica"
+nav_home = "Početna"
+nav_about = "O nama"
+nav_services = "Usluge"
+nav_events = "Događaji"
+nav_contact = "Kontakt"
+nav_login = "Prijava"
+nav_membership = "Članstvo"
+nav_prayer = "Namaz"
+nav_committee = "Odbor"
+nav_community = "Zajednica"
 
 # Hero section
-[hero]
-welcome = "Dobrodošli"
-subtitle = "Džemat Lozana"
-description = "Mjesto molitve, obrazovanja i zajednice za bosanske muslimane u Lozani"
-button = "Saznajte više"
-current_time = "Trenutno vrijeme"
-association = "Bosansko Udruženje Lozana"
-community_place = "Mjesto molitve, obrazovanja i zajednice"
+hero_welcome = "Dobrodošli"
+hero_subtitle = "Džemat Lozana"
+hero_description = "Mjesto molitve, obrazovanja i zajednice za bosanske muslimane u Lozani"
+hero_button = "Saznajte više"
+hero_current_time = "Trenutno vrijeme"
+hero_association = "Bosansko Udruženje Lozana"
+hero_community_place = "Mjesto molitve, obrazovanja i zajednice"
 
 # About section
-[about]
-title = "O nama"
-subtitle = "Naša misija i vrijednosti"
-description = "Bosansko Udruženje Lozana je neprofitna organizacija koja služi bosanskoj muslimanskoj zajednici u Lozani i okolini. Osnovana na principima islama prema hanefijskoj školi i vrijednostima otvorenosti i tolerancije, trudimo se očuvati naš kulturni identitet dok promovišemo integraciju i međukulturalni dijalog."
-
-[about.mission]
-title = "Naša misija"
-description = "Raditi na tome da muslimani mogu obavljati svoje vjerske obrede, osigurati mjesto bogoslužja za muslimane porijeklom iz Bosne i Hercegovine, te očuvati koheziju i društveni mir."
-
-[about.values]
-title = "Naše vrijednosti"
-description = "Poštovanje, tolerancija, otvorenost, dijalog i očuvanje našeg kulturnog i vjerskog naslijeđa."
-
-[about.community]
-title = "Zajednica"
-description = "Pridružite se živoj i solidarnoj zajednici"
-
-[about.education]
-title = "Obrazovanje"
-description = "Pristup kursevima religije i kulture"
-
-[about.tradition]
-title = "Tradicija"
-description = "Očuvanje našeg kulturnog naslijeđa"
+about_title = "O nama"
+about_subtitle = "Naša misija i vrijednosti"
+about_description = "Bosansko Udruženje Lozana je neprofitna organizacija koja služi bosanskoj muslimanskoj zajednici u Lozani i okolini. Osnovana na principima islama prema hanefijskoj školi i vrijednostima otvorenosti i tolerancije, trudimo se očuvati naš kulturni identitet dok promovišemo integraciju i međukulturalni dijalog."
+about_mission_title = "Naša misija"
+about_mission_description = "Raditi na tome da muslimani mogu obavljati svoje vjerske obrede, osigurati mjesto bogoslužja za muslimane porijeklom iz Bosne i Hercegovine, te očuvati koheziju i društveni mir."
+about_values_title = "Naše vrijednosti"
+about_values_description = "Poštovanje, tolerancija, otvorenost, dijalog i očuvanje našeg kulturnog i vjerskog naslijeđa."
+about_community_title = "Zajednica"
+about_community_description = "Pridružite se živoj i solidarnoj zajednici"
+about_education_title = "Obrazovanje"
+about_education_description = "Pristup kursevima religije i kulture"
+about_tradition_title = "Tradicija"
+about_tradition_description = "Očuvanje našeg kulturnog naslijeđa"
 
 # Services section
-[services]
-title = "Naše usluge"
-subtitle = "Šta nudimo"
-description = "Otkrijte usluge koje nudimo našoj zajednici"
-
-[services.prayer]
-title = "Dnevni namazi"
-description = "Nudimo prostor za pet dnevnih namaza kao i džuma namaz. Naša džamija je otvorena za sve muslimane, bez obzira na njihovo porijeklo."
-
-[services.education]
-title = "Vjersko obrazovanje"
-description = "Kursevi Kurana, arapskog jezika i islamskog obrazovanja za djecu i odrasle. Naše kurseve vode kvalifikovani i iskusni učitelji."
-
-[services.language]
-title = "Kursevi jezika"
-description = "Kursevi bosanskog jezika za očuvanje našeg kulturnog naslijeđa. Ovi kursevi su otvoreni za sve, djecu i odrasle, koji žele naučiti ili poboljšati svoje znanje bosanskog jezika."
-
-[services.events]
-title = "Događaji zajednice"
-description = "Proslave vjerskih praznika, iftari tokom Ramazana i drugi društveni događaji. Ovi događaji su prilika za jačanje veza unutar naše zajednice i dijeljenje naše kulture sa našim komšijama."
+services_title = "Naše usluge"
+services_subtitle = "Šta nudimo"
+services_description = "Otkrijte usluge koje nudimo našoj zajednici"
+services_prayer_title = "Dnevni namazi"
+services_prayer_description = "Nudimo prostor za pet dnevnih namaza kao i džuma namaz. Naša džamija je otvorena za sve muslimane, bez obzira na njihovo porijeklo."
+services_education_title = "Vjersko obrazovanje"
+services_education_description = "Kursevi Kurana, arapskog jezika i islamskog obrazovanja za djecu i odrasle. Naše kurseve vode kvalifikovani i iskusni učitelji."
+services_language_title = "Kursevi jezika"
+services_language_description = "Kursevi bosanskog jezika za očuvanje našeg kulturnog naslijeđa. Ovi kursevi su otvoreni za sve, djecu i odrasle, koji žele naučiti ili poboljšati svoje znanje bosanskog jezika."
+services_events_title = "Događaji zajednice"
+services_events_description = "Proslave vjerskih praznika, iftari tokom Ramazana i drugi društveni događaji. Ovi događaji su prilika za jačanje veza unutar naše zajednice i dijeljenje naše kulture sa našim komšijama."
 
 # Events section
-[events]
-title = "Događaji"
-subtitle = "Nadolazeći događaji"
-description = "Pridružite nam se na našim nadolazećim događajima"
-read_more = "Pročitajte više"
-view_all = "Pogledajte sve događaje"
-
-[events.iftar]
-title = "Zajednički iftar"
-description = "Pridružite nam se na našem godišnjem zajedničkom iftaru tokom svetog mjeseca Ramazana."
-
-[events.conference]
-title = "Konferencija o islamu u Evropi"
-description = "Konferencija o izazovima i mogućnostima za muslimane u Evropi danas."
-
-[events.language]
-title = "Kursevi bosanskog jezika"
-description = "Početak kurseva bosanskog jezika za početnike i srednji nivo."
+events_title = "Događaji"
+events_subtitle = "Nadolazeći događaji"
+events_description = "Pridružite nam se na našim nadolazećim događajima"
+events_read_more = "Pročitajte više"
+events_view_all = "Pogledajte sve događaje"
+events_iftar_title = "Zajednički iftar"
+events_iftar_description = "Pridružite nam se na našem godišnjem zajedničkom iftaru tokom svetog mjeseca Ramazana."
+events_conference_title = "Konferencija o islamu u Evropi"
+events_conference_description = "Konferencija o izazovima i mogućnostima za muslimane u Evropi danas."
+events_language_title = "Kursevi bosanskog jezika"
+events_language_description = "Početak kurseva bosanskog jezika za početnike i srednji nivo."
 
 # Contact section
-[contact]
-title = "Kontaktirajte nas"
-subtitle = "Kontaktirajte nas"
-description = "Tu smo da vam pomognemo"
-info = "Informacije"
-
-[contact.address]
-title = "Adresa"
-line1 = "123 Rue de Lausanne"
-line2 = "1000 Lausanne"
-line3 = "Švicarska"
-
-[contact.phone]
-title = "Telefon"
-number = "+41 21 123 45 67"
-
-[contact.email]
-title = "Email"
-address = "info@dzemat-lozana.ch"
-
-[contact.form]
-title = "Kontakt forma"
-name = "Ime"
-email = "Email"
-message = "Poruka"
-submit = "Pošalji"
+contact_title = "Kontaktirajte nas"
+contact_subtitle = "Kontaktirajte nas"
+contact_description = "Tu smo da vam pomognemo"
+contact_info = "Informacije"
+contact_address_title = "Adresa"
+contact_address_line1 = "123 Rue de Lausanne"
+contact_address_line2 = "1000 Lausanne"
+contact_address_line3 = "Švicarska"
+contact_phone_title = "Telefon"
+contact_phone_number = "+41 21 123 45 67"
+contact_email_title = "Email"
+contact_email_address = "info@dzemat-lozana.ch"
+contact_form_title = "Kontakt forma"
+contact_form_name = "Ime"
+contact_form_email = "Email"
+contact_form_message = "Poruka"
+contact_form_submit = "Pošalji"
 
 # Footer
-[footer]
-rights = "Sva prava zadržana"
-design = "Dizajnirano sa"
-community = "za bosansku zajednicu"
+footer_rights = "Sva prava zadržana"
+footer_design = "Dizajnirano sa"
+footer_community = "za bosansku zajednicu"
