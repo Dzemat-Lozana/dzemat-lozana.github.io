@@ -1,4 +1,4 @@
-baseURL: https://selmirrrrr.github.io/abl/
+baseURL: https://selmirrrrr.github.io/abl
 title: Association Bosniaque de Lausanne
 
 # Multilingual configuration
@@ -27,6 +27,7 @@ languages:
         - name: Événements
           url: /fr/events/
           weight: 40
+          identifier: events
         - name: Contact
           url: /#contact
           weight: 50
@@ -51,6 +52,7 @@ languages:
         - name: Događaji
           url: /bs/events/
           weight: 40
+          identifier: events
         - name: Kontakt
           url: /#contact
           weight: 50
@@ -72,4 +74,4 @@ taxonomies:
 # Permalinks
 permalinks:
   posts: /:year/:month/:slug/
-  events: /events/:slug/
+  events: /:sections/:slug/
