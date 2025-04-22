@@ -1,44 +1,85 @@
-<header class="bg-blue-800 text-white">
-    <div class="container mx-auto px-4 py-6">
-        <div class="flex flex-col md:flex-row justify-between items-center">
-            <div class="text-2xl font-bold mb-4 md:mb-0">
-                <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
-            </div>
-            <nav>
-                <ul class="flex space-x-6">
-                    {{ $currentPage := . }}
-                    {{ range .Site.Menus.main }}
-                    <li>
-                        <a href="{{ .URL }}" class="hover:text-blue-200 {{ if $currentPage.IsMenuCurrent "main" . }}text-blue-200 font-bold{{ end }}">
-                            {{ .Name }}
-                        </a>
-                    </li>
-                    {{ end }}
-                    
-                    <!-- Language switcher -->
-                    <li class="ml-6">
-                        <div class="relative inline-block text-left">
-                            <div>
-                                <button type="button" class="language-dropdown-button inline-flex justify-center w-full rounded-md px-2 py-1 bg-blue-700 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white">
-                                    {{ .Site.Language.LanguageName }}
-                                    <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                    </svg>
-                                </button>
-                            </div>
-                            <div class="language-dropdown-menu hidden origin-top-right absolute right-0 mt-2 w-32 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-                                <div class="py-1" role="none">
-                                    {{ range $.Site.Home.AllTranslations }}
-                                    <a href="{{ .Permalink }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 {{ if eq $.Site.Language.Lang .Language.Lang }}bg-gray-100 font-bold{{ end }}" role="menuitem" tabindex="-1">
-                                        {{ .Language.LanguageName }}
-                                    </a>
-                                    {{ end }}
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+<header class="sticky top-0 z-50 w-full border-b transition-all duration-300 bg-white shadow-sm">
+    <div class="container mx-auto px-4">
+        <div class="flex h-16 items-center justify-between">
+            <!-- Logo -->
+            <a href="{{ .Site.Home.RelPermalink }}" class="flex items-center space-x-2 z-10">
+                <span class="font-heading text-xl font-bold">
+                    <span class="text-primary">Džemat</span> <span class="text-secondary">Lozana</span>
+                </span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex md:items-center md:space-x-1 lg:space-x-2">
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                <a href="{{ .URL }}" class="px-3 py-2 text-sm font-medium rounded-md transition-colors {{ if $currentPage.IsMenuCurrent "main" . }}bg-primary/10 text-primary{{ else }}hover:bg-primary/5 hover:text-primary{{ end }}">
+                    {{ .Name }}
+                </a>
+                {{ end }}
             </nav>
+
+            <!-- Right side buttons -->
+            <div class="flex items-center gap-2 md:gap-3">
+                <!-- Connexion and Adhésion buttons for desktop -->
+                <div class="hidden md:flex md:gap-2">
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium rounded-md border border-primary/20 text-primary hover:bg-primary/5 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4M10 17l5-5-5-5M15 12H3" />
+                        </svg>
+                        Connexion
+                    </a>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium rounded-md bg-primary text-white hover:bg-primary-dark transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 7a4 4 0 1 0 0 8 4 4 0 0 0 0-8ZM19 8v6M22 11h-6" />
+                        </svg>
+                        Adhésion
+                    </a>
+                </div>
+
+                <!-- Language Switcher -->
+                <div class="relative inline-block text-left">
+                    <button type="button" class="language-dropdown-button inline-flex justify-center items-center rounded-md px-2 py-1 border border-primary/20 text-sm font-medium hover:bg-primary/5 transition-colors">
+                        {{ .Site.Language.LanguageName }}
+                        <svg class="ml-1 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div class="language-dropdown-menu hidden origin-top-right absolute right-0 mt-2 w-32 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-50" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                        <div class="py-1" role="none">
+                            {{ range $.Site.Home.AllTranslations }}
+                            <a href="{{ .Permalink }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 {{ if eq $.Site.Language.Lang .Language.Lang }}bg-gray-100 font-bold{{ end }}" role="menuitem" tabindex="-1">
+                                {{ .Language.LanguageName }}
+                            </a>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button type="button" class="mobile-menu-button md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-primary hover:bg-primary/5 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden md:hidden border-t border-gray-200">
+        <div class="px-2 pt-2 pb-3 space-y-1">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}" class="block px-3 py-2 rounded-md text-base font-medium {{ if $currentPage.IsMenuCurrent "main" . }}bg-primary/10 text-primary{{ else }}hover:bg-primary/5 hover:text-primary{{ end }}">
+                {{ .Name }}
+            </a>
+            {{ end }}
+            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-primary/5 hover:text-primary">
+                Connexion
+            </a>
+            <a href="#" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-primary/5 hover:text-primary">
+                Adhésion
+            </a>
         </div>
     </div>
 </header>

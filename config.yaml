@@ -13,6 +13,23 @@ languages:
     title: Association Bosniaque de Lausanne
     params:
       description: Site officiel de l'Association Bosniaque de Lausanne
+    menu:
+      main:
+        - name: Accueil
+          url: /#home
+          weight: 10
+        - name: À propos
+          url: /#about
+          weight: 20
+        - name: Services
+          url: /#services
+          weight: 30
+        - name: Événements
+          url: /#events
+          weight: 40
+        - name: Contact
+          url: /#contact
+          weight: 50
   bs:
     languageName: Bosanski
     languageCode: bs-ba
@@ -20,6 +37,23 @@ languages:
     title: Bosansko Udruzenje Lausanne
     params:
       description: Sluzbena stranica Bosanskog Udruzenja Lausanne
+    menu:
+      main:
+        - name: Početna
+          url: /#home
+          weight: 10
+        - name: O nama
+          url: /#about
+          weight: 20
+        - name: Usluge
+          url: /#services
+          weight: 30
+        - name: Događaji
+          url: /#events
+          weight: 40
+        - name: Kontakt
+          url: /#contact
+          weight: 50
 
 # Site parameters
 params:

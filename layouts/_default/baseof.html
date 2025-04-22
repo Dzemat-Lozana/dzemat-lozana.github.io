@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     {{ if hugo.IsServer }}
         {{ $css := resources.Get "css/main.css" | resources.PostCSS }}
         <link rel="stylesheet" href="{{ $css.RelPermalink }}">
@@ -14,9 +17,9 @@
         <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     {{ end }}
 </head>
-<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+<body class="bg-neutral-50 font-sans leading-normal tracking-normal text-neutral-800">
     {{ partial "header.html" . }}
-    <main class="container mx-auto px-4 py-8">
+    <main>
         {{ block "main" . }}{{ end }}
     </main>
     {{ partial "footer.html" . }}
@@ -26,5 +29,53 @@
         {{ $js = $js | minify | fingerprint }}
     {{ end }}
     <script src="{{ $js.RelPermalink }}"></script>
+    <script>
+        // Simple JavaScript for dropdown menus
+        document.addEventListener('DOMContentLoaded', function() {
+            // Language dropdown
+            const langButton = document.querySelector('.language-dropdown-button');
+            const langMenu = document.querySelector('.language-dropdown-menu');
+            
+            if (langButton && langMenu) {
+                langButton.addEventListener('click', function() {
+                    langMenu.classList.toggle('hidden');
+                });
+                
+                document.addEventListener('click', function(event) {
+                    if (!langButton.contains(event.target) && !langMenu.contains(event.target)) {
+                        langMenu.classList.add('hidden');
+                    }
+                });
+            }
+            
+            // Mobile menu
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+            
+            // Dropdown menus in navbar
+            const dropdownButtons = document.querySelectorAll('.dropdown-button');
+            
+            dropdownButtons.forEach(button => {
+                const menu = button.nextElementSibling;
+                
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    menu.classList.toggle('hidden');
+                });
+                
+                document.addEventListener('click', function(event) {
+                    if (!button.contains(event.target) && !menu.contains(event.target)) {
+                        menu.classList.add('hidden');
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
