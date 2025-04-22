@@ -7,8 +7,23 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {{ $events := where .Site.RegularPages "Section" "events" }}
+            {{ $allPages := .Site.Pages }}
+            {{ $events := slice }}
+            {{ range $allPages }}
+                {{ if and (eq .Section "events") (ne .Kind "section") }}
+                    {{ $events = $events | append . }}
+                {{ end }}
+            {{ end }}
             {{ $sortedEvents := sort $events ".Params.eventDate" "desc" }}
+            
+            <!-- Debug info -->
+            <div class="col-span-3 mb-8 p-4 bg-gray-100 rounded-lg">
+                <p>Current language: {{ .Site.Language.Lang }}</p>
+                <p>Number of events found: {{ len $sortedEvents }}</p>
+                {{ range $sortedEvents }}
+                <p>Event: {{ .Title }} ({{ .Params.eventDate }})</p>
+                {{ end }}
+            </div>
             
             {{ if gt (len $sortedEvents) 0 }}
                 {{ range first 3 $sortedEvents }}
