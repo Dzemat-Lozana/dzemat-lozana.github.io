@@ -1,0 +1,16 @@
+- id: home
+  translation: "Početna"
+- id: about
+  translation: "O Nama"
+- id: contact
+  translation: "Kontakt"
+- id: language
+  translation: "Jezik"
+- id: readMore
+  translation: "Pročitaj više"
+- id: posts
+  translation: "Članci"
+- id: recentPosts
+  translation: "Nedavni članci"
+- id: allRights
+  translation: "Sva prava zadržana"

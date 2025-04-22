@@ -9,7 +9,6 @@ languages:
   fr:
     languageName: Francais
     languageCode: fr-ch
-    contentDir: content/fr
     weight: 1
     title: Association Bosniaque de Lausanne
     params:
@@ -17,7 +16,6 @@ languages:
   bs:
     languageName: Bosanski
     languageCode: bs-ba
-    contentDir: content/bs
     weight: 2
     title: Bosansko Udruzenje Lausanne
     params:
@@ -39,4 +37,4 @@ taxonomies:
 
 # Permalinks
 permalinks:
-  posts: /:language/:year/:month/:slug/
+  posts: /:year/:month/:slug/

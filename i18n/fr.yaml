@@ -1,0 +1,16 @@
+- id: home
+  translation: "Accueil"
+- id: about
+  translation: "À Propos"
+- id: contact
+  translation: "Contact"
+- id: language
+  translation: "Langue"
+- id: readMore
+  translation: "Lire plus"
+- id: posts
+  translation: "Articles"
+- id: recentPosts
+  translation: "Articles récents"
+- id: allRights
+  translation: "Tous droits réservés"

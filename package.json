@@ -5,15 +5,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "hugo server --disableFastRender",
-    "build": "hugo --gc --minify"
+    "build": "hugo --gc --minify",
+    "start": "hugo server --disableFastRender --bind 0.0.0.0 --port 55043",
+    "tailwind:watch": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
+    "tailwind:build": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --minify"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Official website for the Association Bosniaque de Lausanne",
   "devDependencies": {
     "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.4"
+    "postcss": "^8.5.3"
+  },
+  "dependencies": {
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^3.3.3"
   }
 }

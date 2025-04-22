@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-    {{ $css := resources.Get "css/main.css" | resources.PostCSS }}
-    {{ if hugo.IsProduction }}
+    {{ if .Site.IsServer }}
+        {{ $css := resources.Get "css/main.css" | resources.PostCSS }}
+        <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    {{ else }}
+        {{ $css := resources.Get "css/style.css" }}
         {{ $css = $css | minify | fingerprint | resources.PostProcess }}
+        <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     {{ end }}
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 </head>
 <body class="bg-gray-100 font-sans leading-normal tracking-normal">
     {{ partial "header.html" . }}
@@ -17,5 +20,11 @@
         {{ block "main" . }}{{ end }}
     </main>
     {{ partial "footer.html" . }}
+    
+    {{ $js := resources.Get "js/main.js" }}
+    {{ if hugo.IsProduction }}
+        {{ $js = $js | minify | fingerprint }}
+    {{ end }}
+    <script src="{{ $js.RelPermalink }}"></script>
 </body>
 </html>
