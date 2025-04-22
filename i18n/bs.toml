@@ -12,7 +12,6 @@ nav_community = "Zajednica"
 
 # Hero section
 hero_welcome = "Dobrodošli"
-hero_subtitle = "Džemat Lozana"
 hero_description = "Mjesto molitve, obrazovanja i zajednice za bosanske muslimane u Lozani"
 hero_button = "Saznajte više"
 hero_current_time = "Trenutno vrijeme"
@@ -49,7 +48,6 @@ services_events_description = "Proslave vjerskih praznika, iftari tokom Ramazana
 
 # Events section
 events_title = "Događaji"
-events_subtitle = "Nadolazeći događaji"
 events_description = "Pridružite nam se na našim nadolazećim događajima"
 events_read_more = "Pročitajte više"
 events_view_all = "Pogledajte sve događaje"
@@ -66,6 +64,7 @@ events_past = "Prošli"
 events_no_upcoming = "Trenutno nema nadolazećih događaja"
 events_no_past = "Nema prošlih događaja"
 events_back_to_list = "Povratak na listu događaja"
+events_none = "Nema pronađenih događaja"
 
 # Contact section
 contact_title = "Kontaktirajte nas"
@@ -90,3 +89,9 @@ contact_form_submit = "Pošalji"
 footer_rights = "Sva prava zadržana"
 footer_design = "Dizajnirano sa"
 footer_community = "za bosansku zajednicu"
+
+# Pagination
+pagination_previous = "Prethodno"
+pagination_next = "Sljedeće"
+pagination_page = "Stranica"
+pagination_of = "od"

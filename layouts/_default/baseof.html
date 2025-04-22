@@ -8,14 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    {{ if hugo.IsServer }}
-        {{ $css := resources.Get "css/main.css" | resources.PostCSS }}
-        <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-    {{ else }}
-        {{ $css := resources.Get "css/style.css" }}
-        {{ $css = $css | minify | fingerprint }}
-        <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-    {{ end }}
+    {{- with resources.Get "css/output.css" }}
+        {{- if eq hugo.Environment "development" }}
+            <link rel="stylesheet" href="{{ .RelPermalink }}" />
+        {{- else }}
+            {{- with . | minify | fingerprint }}
+            <link
+                rel="stylesheet"
+                href="{{ .RelPermalink }}"
+                integrity="{{ .Data.Integrity }}"
+                crossorigin="anonymous"
+            />
+            {{- end }}
+        {{- end }}
+    {{- end }}
 </head>
 <body class="bg-neutral-50 font-sans leading-normal tracking-normal text-neutral-800">
     {{ partial "header.html" . }}

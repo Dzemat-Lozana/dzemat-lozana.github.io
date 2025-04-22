@@ -1,45 +1,54 @@
-<div class="bg-white rounded-lg overflow-hidden shadow-md border border-neutral-200 hover:shadow-lg transition-shadow h-full flex flex-col">
-    <div class="block relative">
-        {{ if .Params.image }}
-        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full h-48 object-cover">
-        {{ else }}
-        <div class="w-full h-48 bg-gradient-to-r from-primary/80 to-secondary/80 flex items-center justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-            </svg>
-        </div>
-        {{ end }}
-        <div class="absolute top-0 right-0 bg-secondary text-white px-3 py-1 m-2 rounded-md text-sm font-medium">
-            <div class="flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
+{{ $isPast := lt (time .Params.eventDate) now }}
+<a href="{{ .RelPermalink }}" class="group relative block {{ if $isPast }}opacity-75 hover:opacity-100 transition-opacity{{ end }}">
+    <!-- Event Card with Conditional Styling -->
+    <div class="h-full bg-white rounded-lg shadow-md overflow-hidden border {{ if not $isPast }}border-primary/20{{ else }}border-gray-200{{ end }} transition-all duration-300 group-hover:shadow-lg">
+        <!-- Image Section -->
+        <div class="relative">
+            <div class="aspect-[16/9] {{ if not .Params.image }}bg-gray-50 flex items-center justify-center overflow-hidden{{ end }}">
+                {{ if .Params.image }}
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full h-full object-cover {{ if $isPast }}grayscale hover:grayscale-0 transition-all duration-300{{ end }}">
+                {{ else }}
+                    <div class="relative w-full h-full flex items-center justify-center">
+                        <img src="/abl/images/logo.png" alt="Logo" class="w-24 h-24 opacity-20">
+                    </div>
+                {{ end }}
+            </div>
+            <!-- Date Badge -->
+            <div class="absolute top-0 right-0 {{ if $isPast }}bg-black{{ else }}bg-primary{{ end }} text-white px-3 py-1 m-2 rounded-md text-sm font-medium">
                 {{ $eventDate := .Params.eventDate | time.AsTime }}
-                <span>{{ $eventDate.Day }} {{ index (slice "Jan" "Feb" "Mar" "Apr" "May" "Jun" "Jul" "Aug" "Sep" "Oct" "Nov" "Dec") (sub $eventDate.Month 1) }} {{ $eventDate.Year }}</span>
+                {{ $endDate := .Params.endDate | time.AsTime }}
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    <span>{{ $eventDate.Day }} {{ index (slice "Jan" "Feb" "Mar" "Apr" "May" "Jun" "Jul" "Aug" "Sep" "Oct" "Nov" "Dec") (sub $eventDate.Month 1) }} {{ $eventDate.Year }}</span>
+                </div>
             </div>
         </div>
-    </a>
-    <div class="p-6 flex-grow flex flex-col">
-        <h3 class="text-xl font-heading font-semibold mb-3">
-            <a href="{{ .RelPermalink }}" class="hover:text-primary transition-colors">{{ .Title }}</a>
-        </h3>
-        <p class="text-gray-600 mb-4 flex-grow">{{ .Params.description | truncate 120 }}</p>
         
-        {{ if .Params.location }}
-        <div class="flex items-center text-gray-600 mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
-            <span class="text-sm">{{ .Params.location }}</span>
+        <!-- Content Section -->
+        <div class="p-6">
+            <h3 class="text-xl font-bold mb-2 {{ if not $isPast }}text-gray-900{{ else }}text-gray-600{{ end }} group-hover:text-primary transition-colors">
+                {{ .Title }}
+            </h3>
+            <p class="text-gray-600 mb-4 line-clamp-3">{{ .Description }}</p>
+            
+            {{ if .Params.location }}
+            <div class="flex items-center text-gray-600 mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <span class="text-sm">{{ .Params.location }}</span>
+            </div>
+            {{ end }}
+            
+            <span class="inline-flex items-center text-sm font-medium {{ if not $isPast }}text-primary group-hover:text-primary-dark{{ else }}text-gray-500 group-hover:text-gray-700{{ end }}">
+                {{ i18n "events_read_more" }}
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </span>
         </div>
-        {{ end }}
-        
-        <a href="{{ .RelPermalink }}" class="inline-flex items-center text-primary hover:text-primary-dark transition-colors mt-auto">
-            {{ i18n "events_read_more" }}
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-            </svg>
-        </a>
     </div>
-</div>
+</a>

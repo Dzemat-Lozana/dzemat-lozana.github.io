@@ -49,7 +49,6 @@ services_events_description = "Célébrations des fêtes religieuses, iftar pend
 
 # Events section
 events_title = "Événements"
-events_subtitle = "Événements à venir"
 events_description = "Rejoignez-nous pour nos prochains événements"
 events_read_more = "Lire la suite"
 events_view_all = "Voir tous les événements"
@@ -66,6 +65,7 @@ events_past = "Passés"
 events_no_upcoming = "Aucun événement à venir pour le moment"
 events_no_past = "Aucun événement passé"
 events_back_to_list = "Retour à la liste des événements"
+events_none = "Aucun événement trouvé"
 
 # Contact section
 contact_title = "Contactez-nous"
@@ -90,3 +90,9 @@ contact_form_submit = "Envoyer"
 footer_rights = "Tous droits réservés"
 footer_design = "Conçu avec"
 footer_community = "for the Bosnian community"
+
+# Pagination
+pagination_previous = "Précédent"
+pagination_next = "Suivant"
+pagination_page = "Page"
+pagination_of = "sur"
