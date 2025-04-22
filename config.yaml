@@ -25,7 +25,7 @@ languages:
           url: /#services
           weight: 30
         - name: Événements
-          url: /fr/events/
+          url: /#events
           weight: 40
           identifier: events
         - name: Contact
@@ -50,7 +50,7 @@ languages:
           url: /#services
           weight: 30
         - name: Događaji
-          url: /bs/events/
+          url: /#events
           weight: 40
           identifier: events
         - name: Kontakt
