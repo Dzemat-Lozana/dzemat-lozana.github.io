@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="prose lg:prose-xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
+    {{ .Content }}
+    {{ range .Pages }}
+    <article class="mb-8">
+        <h2 class="text-2xl font-semibold mb-2">
+            <a href="{{ .Permalink }}" class="text-blue-600 hover:text-blue-800">{{ .Title }}</a>
+        </h2>
+        <time class="text-sm text-gray-500">{{ .Date.Format "January 2, 2006" }}</time>
+        <div class="mt-2">
+            {{ .Summary }}
+        </div>
+        {{ if .Truncated }}
+        <a href="{{ .Permalink }}" class="text-blue-600 hover:text-blue-800 mt-2 inline-block">
+            {{ i18n "readMore" | default "Read More" }} →
+        </a>
+        {{ end }}
+    </article>
+    {{ end }}
+</div>
+{{ end }}

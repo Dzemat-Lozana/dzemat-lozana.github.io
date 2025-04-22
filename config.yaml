@@ -1,0 +1,42 @@
+baseURL: https://association-bosniaque-lausanne.github.io/
+title: Association Bosniaque de Lausanne
+
+# Multilingual configuration
+defaultContentLanguage: fr
+defaultContentLanguageInSubdir: true
+
+languages:
+  fr:
+    languageName: Francais
+    languageCode: fr-ch
+    contentDir: content/fr
+    weight: 1
+    title: Association Bosniaque de Lausanne
+    params:
+      description: Site officiel de l'Association Bosniaque de Lausanne
+  bs:
+    languageName: Bosanski
+    languageCode: bs-ba
+    contentDir: content/bs
+    weight: 2
+    title: Bosansko Udruzenje Lausanne
+    params:
+      description: Sluzbena stranica Bosanskog Udruzenja Lausanne
+
+# Site parameters
+params:
+  author: Association Bosniaque de Lausanne
+  description: Site officiel de l'Association Bosniaque de Lausanne
+  
+# Build settings
+build:
+  writeStats: true # Needed for TailwindCSS
+
+# Content management
+taxonomies:
+  category: categories
+  tag: tags
+
+# Permalinks
+permalinks:
+  posts: /:language/:year/:month/:slug/

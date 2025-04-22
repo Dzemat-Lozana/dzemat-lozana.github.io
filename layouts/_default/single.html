@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="prose lg:prose-xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
+    {{ if not .Date.IsZero }}
+    <time class="text-sm text-gray-500">{{ .Date.Format "January 2, 2006" }}</time>
+    {{ end }}
+    <div class="mt-6">
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}

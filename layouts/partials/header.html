@@ -1,0 +1,33 @@
+<header class="bg-blue-800 text-white">
+    <div class="container mx-auto px-4 py-6">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="text-2xl font-bold mb-4 md:mb-0">
+                <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                    <li>
+                        <a href="{{ .URL }}" class="hover:text-blue-200 {{ if $currentPage.IsMenuCurrent "main" . }}text-blue-200 font-bold{{ end }}">
+                            {{ .Name }}
+                        </a>
+                    </li>
+                    {{ end }}
+                    
+                    <!-- Language switcher -->
+                    <li class="ml-6">
+                        {{ range $.Site.Home.AllTranslations }}
+                        <a href="{{ .Permalink }}" class="hover:text-blue-200 {{ if eq $.Site.Language.Lang .Language.Lang }}text-blue-200 font-bold{{ end }}">
+                            {{ .Language.LanguageName }}
+                        </a>
+                        {{ if ne (add 1 .Language.Weight) (len $.Site.Home.AllTranslations) }}
+                        <span class="px-1">|</span>
+                        {{ end }}
+                        {{ end }}
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
