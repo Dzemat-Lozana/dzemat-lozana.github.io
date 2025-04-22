@@ -3,6 +3,27 @@ export const content = [
   './layouts/**/*.html',
   './content/**/*.md',
 ];
+export const safelist = [
+  // Add color variations for prayer cards
+  'border-teal-500',
+  'border-amber-500',
+  'border-blue-500',
+  'border-green-500',
+  'border-indigo-500',
+  'border-purple-500',
+  'bg-teal-50',
+  'bg-amber-50',
+  'bg-blue-50',
+  'bg-green-50',
+  'bg-indigo-50',
+  'bg-purple-50',
+  'text-teal-600',
+  'text-amber-600',
+  'text-blue-600',
+  'text-green-600',
+  'text-indigo-600',
+  'text-purple-600',
+];
 export const theme = {
   extend: {
     colors: {

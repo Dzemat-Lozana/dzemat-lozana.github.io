@@ -6,8 +6,8 @@
   <div class="absolute inset-0 bg-gradient-to-br from-teal-50 to-amber-50 w-full"></div>
   <div class="container mx-auto px-4 relative z-10">
     <div class="text-center mb-12">
-      <h2 class="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Horaires des prières</h2>
-      <p class="text-xl text-gray-500 max-w-2xl mx-auto">Horaires pour aujourd'hui</p>
+      <h2 class="text-primary text-3xl md:text-4xl font-bold mb-4 tracking-tight">{{ i18n "prayer_times_title" }}</h2>
+      <p class="text-xl text-gray-500 max-w-2xl mx-auto">{{ i18n "prayer_times_today" }}</p>
     </div>
 
     <div class="max-w-4xl mx-auto">
@@ -28,8 +28,8 @@
               </svg>
             </div>
             <div>
-              <h3 class="text-white font-medium text-xl">Lever du soleil</h3>
-              <p class="text-white/80">Moment où le soleil apparaît à l'horizon</p>
+              <h3 class="text-white font-medium text-xl">{{ i18n "prayer_sunrise" }}</h3>
+              <p class="text-white/80">{{ i18n "prayer_sunrise_desc" }}</p>
             </div>
           </div>
           <div class="text-3xl font-bold">{{ $prayerTimes.sunrise.time }}</div>
@@ -38,34 +38,34 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <!-- Fajr -->
-        {{ $prayer := merge $prayerTimes.fajr (dict "name" "Fajr" "color" "teal" "icon" "sunrise") }}
+        {{ $prayer := merge $prayerTimes.fajr (dict "name" (i18n "prayer_fajr") "color" "teal" "icon" "sunrise") }}
         {{ partial "prieres/card.html" $prayer }}
         
         <!-- Dhuhr -->
-        {{ $prayer := merge $prayerTimes.dhuhr (dict "name" "Dhuhr" "color" "amber" "icon" "sun") }}
+        {{ $prayer := merge $prayerTimes.dhuhr (dict "name" (i18n "prayer_dhuhr") "color" "amber" "icon" "sun") }}
         {{ partial "prieres/card.html" $prayer }}
         
         <!-- Asr -->
-        {{ $prayer := merge $prayerTimes.asr (dict "name" "Asr" "color" "blue" "icon" "sun") }}
+        {{ $prayer := merge $prayerTimes.asr (dict "name" (i18n "prayer_asr") "color" "blue" "icon" "sun") }}
         {{ partial "prieres/card.html" $prayer }}
         
         <!-- Maghrib -->
-        {{ $prayer := merge $prayerTimes.maghrib (dict "name" "Maghrib" "color" "green" "icon" "sunset") }}
+        {{ $prayer := merge $prayerTimes.maghrib (dict "name" (i18n "prayer_maghrib") "color" "green" "icon" "sunset") }}
         {{ partial "prieres/card.html" $prayer }}
         
         <!-- Isha -->
-        {{ $prayer := merge $prayerTimes.isha (dict "name" "Isha" "color" "indigo" "icon" "moon") }}
+        {{ $prayer := merge $prayerTimes.isha (dict "name" (i18n "prayer_isha") "color" "indigo" "icon" "moon") }}
         {{ partial "prieres/card.html" $prayer }}
 
         <!-- Jumuaa -->
-        {{ $prayer := merge (dict "time" $prayerTimes.jumua.time "iqama" $prayerTimes.jumua.time) (dict "name" "Jumuaa" "color" "purple" "icon" "calendar") }}
+        {{ $prayer := merge (dict "time" $prayerTimes.jumua.time "iqama" $prayerTimes.jumua.time) (dict "name" (i18n "prayer_jumua") "color" "purple" "icon" "calendar") }}
         {{ partial "prieres/card.html" $prayer }}
       </div>
 
       <div class="mt-6 text-xs text-right text-gray-500">
         <div class="flex justify-between items-center">
           <div class="text-sm">
-            Dernière mise à jour: {{ $prayerTimes.last_updated }}
+            {{ i18n "prayer_last_updated" }}: {{ $prayerTimes.last_updated }}
           </div>
           <a href="https://mawaqit.net/fr/dzematlozana" target="_blank" rel="noopener noreferrer" class="hover:underline flex items-center justify-end">
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1">
@@ -73,7 +73,7 @@
               <polyline points="15 3 21 3 21 9"></polyline>
               <line x1="10" y1="14" x2="21" y2="3"></line>
             </svg>
-            Source des données
+            {{ i18n "prayer_data_source" }}
           </a>
         </div>
       </div>
