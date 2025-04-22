@@ -1,0 +1,83 @@
+{{ define "main" }}
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <span class="text-primary font-medium">{{ i18n "events_title" }}</span>
+            <h1 class="text-3xl md:text-4xl font-heading font-bold mt-2 mb-4">{{ i18n "events_all" }}</h1>
+            <p class="text-gray-600 max-w-2xl mx-auto">{{ i18n "events_list_description" }}</p>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="flex justify-center mb-10">
+            <div class="inline-flex rounded-md shadow-sm" role="group">
+                <button type="button" id="upcoming-btn" class="px-4 py-2 text-sm font-medium text-white bg-primary rounded-l-lg border border-primary hover:bg-primary-dark focus:z-10 focus:ring-2 focus:ring-primary-light">
+                    {{ i18n "events_upcoming" }}
+                </button>
+                <button type="button" id="past-btn" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white rounded-r-lg border border-gray-200 hover:bg-gray-100 hover:text-primary focus:z-10 focus:ring-2 focus:ring-primary-light">
+                    {{ i18n "events_past" }}
+                </button>
+            </div>
+        </div>
+
+        <!-- Upcoming Events -->
+        <div id="upcoming-events" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {{ $today := now }}
+            {{ $upcomingEvents := where .Pages ".Params.eventDate" "ge" $today }}
+            {{ $sortedUpcoming := sort $upcomingEvents ".Params.eventDate" "asc" }}
+            
+            {{ if $sortedUpcoming }}
+                {{ range $sortedUpcoming }}
+                    {{ partial "events/event-card.html" . }}
+                {{ end }}
+            {{ else }}
+                <div class="col-span-full text-center py-12">
+                    <p class="text-gray-500">{{ i18n "events_no_upcoming" }}</p>
+                </div>
+            {{ end }}
+        </div>
+
+        <!-- Past Events (hidden by default) -->
+        <div id="past-events" class="hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {{ $pastEvents := where .Pages ".Params.eventDate" "lt" $today }}
+            {{ $sortedPast := sort $pastEvents ".Params.eventDate" "desc" }}
+            
+            {{ if $sortedPast }}
+                {{ range $sortedPast }}
+                    {{ partial "events/event-card.html" . }}
+                {{ end }}
+            {{ else }}
+                <div class="col-span-full text-center py-12">
+                    <p class="text-gray-500">{{ i18n "events_no_past" }}</p>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const upcomingBtn = document.getElementById('upcoming-btn');
+        const pastBtn = document.getElementById('past-btn');
+        const upcomingEvents = document.getElementById('upcoming-events');
+        const pastEvents = document.getElementById('past-events');
+
+        upcomingBtn.addEventListener('click', function() {
+            upcomingEvents.classList.remove('hidden');
+            pastEvents.classList.add('hidden');
+            upcomingBtn.classList.remove('bg-white', 'text-gray-900');
+            upcomingBtn.classList.add('bg-primary', 'text-white');
+            pastBtn.classList.remove('bg-primary', 'text-white');
+            pastBtn.classList.add('bg-white', 'text-gray-900');
+        });
+
+        pastBtn.addEventListener('click', function() {
+            upcomingEvents.classList.add('hidden');
+            pastEvents.classList.remove('hidden');
+            upcomingBtn.classList.remove('bg-primary', 'text-white');
+            upcomingBtn.classList.add('bg-white', 'text-gray-900');
+            pastBtn.classList.remove('bg-white', 'text-gray-900');
+            pastBtn.classList.add('bg-primary', 'text-white');
+        });
+    });
+</script>
+{{ end }}

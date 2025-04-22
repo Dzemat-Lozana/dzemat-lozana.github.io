@@ -69,6 +69,14 @@ taxonomies:
   category: categories
   tag: tags
 
+# Content types
+contentTypes:
+  events:
+    title: Events
+    pluralTitle: Events
+    single: event
+    plural: events
+
 # Permalinks
 permalinks:
   posts: /:year/:month/:slug/

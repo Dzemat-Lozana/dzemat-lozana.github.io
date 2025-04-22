@@ -59,6 +59,13 @@ events_conference_title = "Conférence sur l'Islam en Europe"
 events_conference_description = "Une conférence sur les défis et les opportunités pour les musulmans en Europe aujourd'hui."
 events_language_title = "Cours de langue bosniaque"
 events_language_description = "Début des cours de langue bosniaque pour débutants et niveau intermédiaire."
+events_all = "Tous les événements"
+events_list_description = "Découvrez tous nos événements passés et à venir"
+events_upcoming = "À venir"
+events_past = "Passés"
+events_no_upcoming = "Aucun événement à venir pour le moment"
+events_no_past = "Aucun événement passé"
+events_back_to_list = "Retour à la liste des événements"
 
 # Contact section
 contact_title = "Contactez-nous"

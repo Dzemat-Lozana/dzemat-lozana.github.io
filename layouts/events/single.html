@@ -1,0 +1,76 @@
+{{ define "main" }}
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+            <!-- Event Header -->
+            <div class="mb-10">
+                {{ if .Params.image }}
+                <div class="mb-8 rounded-lg overflow-hidden shadow-lg">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full h-auto object-cover">
+                </div>
+                {{ end }}
+                
+                <h1 class="text-4xl md:text-5xl font-heading font-bold mb-4">{{ .Title }}</h1>
+                
+                <div class="flex flex-wrap gap-4 mb-6">
+                    <!-- Date -->
+                    <div class="flex items-center text-gray-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                        <span>
+                            {{ $eventDate := .Params.eventDate | time.AsTime }}
+                            {{ $endDate := .Params.endDate | time.AsTime }}
+                            
+                            {{ $eventDate.Day }} {{ index (slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December") (sub $eventDate.Month 1) }} {{ $eventDate.Year }}
+                            
+                            {{ if ne (printf "%s" $eventDate.Format "2006-01-02") (printf "%s" $endDate.Format "2006-01-02") }}
+                                - {{ $endDate.Day }} {{ index (slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December") (sub $endDate.Month 1) }} {{ $endDate.Year }}
+                            {{ end }}
+                            
+                            {{ if $eventDate.Hour }}
+                                {{ $eventDate.Format "15:04" }}
+                                {{ if $endDate.Hour }}
+                                    - {{ $endDate.Format "15:04" }}
+                                {{ end }}
+                            {{ end }}
+                        </span>
+                    </div>
+                    
+                    <!-- Location -->
+                    {{ if .Params.location }}
+                    <div class="flex items-center text-gray-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <span>{{ .Params.location }}</span>
+                    </div>
+                    {{ end }}
+                </div>
+                
+                {{ if .Params.description }}
+                <div class="text-lg text-gray-700 mb-6">
+                    {{ .Params.description }}
+                </div>
+                {{ end }}
+            </div>
+            
+            <!-- Event Content -->
+            <div class="prose prose-lg max-w-none">
+                {{ .Content }}
+            </div>
+            
+            <!-- Back to Events -->
+            <div class="mt-12 pt-6 border-t border-gray-200">
+                <a href="{{ "events" | relLangURL }}" class="inline-flex items-center text-primary hover:text-primary-dark transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                    </svg>
+                    {{ i18n "events_back_to_list" }}
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

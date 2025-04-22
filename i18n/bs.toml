@@ -59,6 +59,13 @@ events_conference_title = "Konferencija o islamu u Evropi"
 events_conference_description = "Konferencija o izazovima i mogućnostima za muslimane u Evropi danas."
 events_language_title = "Kursevi bosanskog jezika"
 events_language_description = "Početak kurseva bosanskog jezika za početnike i srednji nivo."
+events_all = "Svi događaji"
+events_list_description = "Otkrijte sve naše prošle i nadolazeće događaje"
+events_upcoming = "Nadolazeći"
+events_past = "Prošli"
+events_no_upcoming = "Trenutno nema nadolazećih događaja"
+events_no_past = "Nema prošlih događaja"
+events_back_to_list = "Povratak na listu događaja"
 
 # Contact section
 contact_title = "Kontaktirajte nas"
