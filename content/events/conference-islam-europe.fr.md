@@ -4,10 +4,8 @@ date: 2025-04-01T09:00:00+01:00
 draft: false
 description: "Une conférence sur les défis et les opportunités pour les musulmans en Europe aujourd'hui."
 eventDate: 2025-05-05T18:00:00+01:00
-endDate: 2025-05-05T21:00:00+01:00
 location: "Salle de conférence, Université de Lausanne"
-image: "/images/conference.jpg"
-featured: true
+image: "https://www.eulema.org/_/img/eulema-cmb-flier-1.webp"
 weight: 20
 ---
 

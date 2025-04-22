@@ -4,10 +4,8 @@ date: 2025-03-01T10:00:00+01:00
 draft: false
 description: "Rejoignez-nous pour notre iftar communautaire annuel pendant le mois sacré de Ramadan."
 eventDate: 2025-04-15T19:30:00+01:00
-endDate: 2025-04-15T22:00:00+01:00
 location: "Salle communautaire, 123 Rue de Lausanne, 1000 Lausanne"
-image: "/images/iftar.jpg"
-featured: true
+image: ""
 weight: 10
 ---
 

@@ -4,10 +4,8 @@ date: 2025-03-15T08:00:00+01:00
 draft: false
 description: "Početak kurseva bosanskog jezika za početnike i srednji nivo."
 eventDate: 2025-04-20T10:00:00+01:00
-endDate: 2025-06-29T12:00:00+01:00
 location: "Kulturni centar, 123 Rue de Lausanne, 1000 Lausanne"
 image: ""
-featured: false
 weight: 30
 ---
 

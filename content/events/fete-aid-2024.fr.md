@@ -4,10 +4,8 @@ date: 2024-03-01T10:00:00+01:00
 draft: false
 description: "Célébration de l'Aïd al-Fitr marquant la fin du mois sacré de Ramadan."
 eventDate: 2024-04-10T08:00:00+01:00
-endDate: 2024-04-10T14:00:00+01:00
 location: "Salle communautaire, 123 Rue de Lausanne, 1000 Lausanne"
-image: "/images/placeholder.jpg"
-featured: true
+image: ""
 weight: 10
 ---
 

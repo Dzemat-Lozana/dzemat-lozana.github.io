@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "build": "hugo --gc --minify",
-    "start": "hugo server --disableFastRender"
+    "start": "hugo server --disableFastRender",
+    "tailwind:build": "npx @tailwindcss/cli -i ./assets/css/main.css -o ./assets/css/output.css --minify"
   },
   "keywords": [],
   "author": "",

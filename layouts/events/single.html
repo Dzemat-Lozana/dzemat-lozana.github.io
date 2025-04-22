@@ -41,19 +41,11 @@
                         </svg>
                         <span>
                             {{ $eventDate := .Params.eventDate | time.AsTime }}
-                            {{ $endDate := .Params.endDate | time.AsTime }}
                             
                             {{ $eventDate.Day }} {{ index (slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December") (sub $eventDate.Month 1) }} {{ $eventDate.Year }}
                             
-                            {{ if ne ($eventDate.Format "2006-01-02") ($endDate.Format "2006-01-02") }}
-                                - {{ $endDate.Day }} {{ index (slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December") (sub $endDate.Month 1) }} {{ $endDate.Year }}
-                            {{ end }}
-                            
                             {{ if $eventDate.Hour }}
                                 {{ $eventDate.Format "15:04" }}
-                                {{ if $endDate.Hour }}
-                                    - {{ $endDate.Format "15:04" }}
-                                {{ end }}
                             {{ end }}
                         </span>
                     </div>
