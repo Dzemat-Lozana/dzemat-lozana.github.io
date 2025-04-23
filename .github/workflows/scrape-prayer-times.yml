@@ -33,6 +33,11 @@ jobs:
       - name: Run scraper
         id: scraper
         run: |
+          # Ensure the directory exists
+          mkdir -p data/prayers
+          # Remove the file if it exists to force a change
+          rm -f data/prayers/prayer_times.json
+          # Run the scraper
           python scripts/scrape_prayer_times.py
           # Get the debug directory from the script's output
           DEBUG_DIR=$(python3 -c "import tempfile, os; print(os.path.join(tempfile.gettempdir(), 'prayer_times_debug'))")
