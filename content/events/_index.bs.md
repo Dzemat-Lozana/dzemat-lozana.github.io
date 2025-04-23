@@ -1,4 +1,4 @@
 ---
 title: "Događaji"
-description: "Otkrijte sve naše prošle i nadolazeće događaje"
+description: "Kalendar događaja Bosanskog Udruženja Lausanne"
 ---

@@ -1,14 +1,14 @@
 ---
-title: "O Nama"
+title: "Odbor"
 date: 2025-04-22
 draft: false
-menu: "main"
+menu: "comite"
 weight: 10
 ---
 
-# O Bosanskom Udruženju Lausanne
+# O Bosanskom Udruženju Lozana
 
-Bosansko Udruženje Lausanne osnovano je 2010. godine od strane grupe Bosanaca koji žive u Lausanni i okolini. Naš glavni cilj je očuvanje i promocija bosanske kulture, jezika i tradicije, uz olakšavanje integracije naše zajednice u švicarsko društvo.
+Bosansko Udruženje Lozana osnovano je 2010. godine od strane grupe Bosanaca koji žive u Lausanni i okolini. Naš glavni cilj je očuvanje i promocija bosanske kulture, jezika i tradicije, uz olakšavanje integracije naše zajednice u švicarsko društvo.
 
 ## Naša Historija
 

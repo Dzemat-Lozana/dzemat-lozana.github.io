@@ -16,46 +16,60 @@ languages:
     menu:
       main:
         - name: Accueil
-          url: /#home
+          url: /fr/#home
           weight: 10
         - name: À propos
-          url: /#about
+          url: /fr/#about
           weight: 20
         - name: Services
-          url: /#services
+          url: /fr/#services
           weight: 30
+        - name: Blog
+          url: /fr/blog/
+          weight: 35
+          identifier: blog
         - name: Événements
-          url: /#events
+          url: /fr/events/
           weight: 40
           identifier: events
         - name: Contact
-          url: /#contact
-          weight: 50
+          url: /fr/#contact
+          weight: 100
+        - name: Prières
+          url: /fr/#prayers
+          weight: 60
   bs:
     languageName: Bosanski
     languageCode: bs-ba
     weight: 2
-    title: Bosansko Udruzenje Lausanne
+    title: Bosansko Udruzenje Lozana
     params:
       description: Sluzbena stranica Bosanskog Udruzenja Lausanne
     menu:
       main:
         - name: Početna
-          url: /#home
+          url: /bs/#home
           weight: 10
         - name: O nama
-          url: /#about
+          url: /bs/#about
           weight: 20
         - name: Usluge
-          url: /#services
+          url: /bs/#services
           weight: 30
+        - name: Blog
+          url: /bs/blog/
+          weight: 35
+          identifier: blog
         - name: Događaji
-          url: /#events
+          url: /bs/events/
           weight: 40
           identifier: events
         - name: Kontakt
-          url: /#contact
-          weight: 50
+          url: /bs/#contact
+          weight: 100
+        - name: Vaktija
+          url: /bs/#prayers
+          weight: 60
 
 # Site parameters
 params:

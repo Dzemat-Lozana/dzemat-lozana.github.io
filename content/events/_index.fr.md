@@ -1,4 +1,4 @@
 ---
 title: "Événements"
-description: "Découvrez tous nos événements passés et à venir"
+description: "Calendrier des événements de l'Association Bosniaque de Lausanne"
 ---
