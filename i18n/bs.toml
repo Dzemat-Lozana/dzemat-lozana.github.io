@@ -101,3 +101,30 @@ prayer_jumua = "Džuma"
 prayer_iqama = "Ikamet"
 prayer_last_updated = "Zadnje ažurirano"
 prayer_data_source = "Izvor podataka"
+
+[blog_title]
+other = "Blog"
+
+[blog_all]
+other = "Svi članci"
+
+[blog_latest]
+other = "Najnoviji članci"
+
+[blog_list_description]
+other = "Otkrijte naše najnovije članke, vijesti i razmišljanja"
+
+[blog_latest_description]
+other = "Budite u toku s našim najnovijim člancima i vijestima"
+
+[blog_read_more]
+other = "Pročitaj više"
+
+[blog_view_all]
+other = "Pogledaj sve članke"
+
+[blog_back_to_list]
+other = "Nazad na listu članaka"
+
+[blog_none]
+other = "Trenutno nema dostupnih članaka"

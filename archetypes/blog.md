@@ -3,9 +3,10 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 description: ""
-eventDate: {{ .Date }}
-location: ""
-image: ""
+categories: []
+tags: []
+featured_image: ""
+author: ""
 ---
 
-Content goes here...
+Content goes here... 

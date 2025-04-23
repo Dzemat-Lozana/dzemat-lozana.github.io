@@ -73,5 +73,5 @@ taxonomies:
 
 # Permalinks
 permalinks:
-  posts: /:year/:month/:slug/
-  events: /:sections/:slug/
+  blog: /blog/:year/:month/:slug/
+  events: /events/:year/:month/:slug/

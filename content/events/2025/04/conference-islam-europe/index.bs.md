@@ -4,10 +4,8 @@ date: 2025-04-01T09:00:00+01:00
 draft: false
 description: "Konferencija o izazovima i mogućnostima za muslimane u Evropi danas."
 eventDate: 2025-05-05T18:00:00+01:00
-endDate: 2025-05-05T21:00:00+01:00
 location: "Konferencijska sala, Univerzitet u Lozani"
 image: "https://www.eulema.org/_/img/eulema-cmb-flier-1.webp"
-featured: true
 weight: 20
 ---
 

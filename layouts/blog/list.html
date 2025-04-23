@@ -1,0 +1,59 @@
+{{ define "main" }}
+<section class="py-12 md:py-20 bg-white">
+    <div class="container mx-auto px-4 max-w-7xl">
+        <div class="text-center mb-12">
+            <span class="text-primary font-medium tracking-wider uppercase text-sm">{{ i18n "blog_title" }}</span>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mt-3 mb-6">{{ i18n "blog_all" }}</h1>
+            <p class="text-gray-600 max-w-2xl mx-auto text-lg">{{ i18n "blog_list_description" }}</p>
+        </div>
+
+        <!-- Blog Posts Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
+            {{ $posts := where .Site.RegularPages "Section" "blog" }}
+            {{ $sortedPosts := sort $posts "Date" "desc" }}
+            
+            {{ $paginator := .Paginate $sortedPosts 9 }}
+            {{ if gt (len $paginator.Pages) 0 }}
+                {{ range $paginator.Pages }}
+                    {{ partial "blog/blog-card.html" . }}
+                {{ end }}
+            {{ else }}
+                <div class="col-span-full text-center py-12">
+                    <p class="text-gray-500 text-lg">{{ i18n "blog_none" }}</p>
+                </div>
+            {{ end }}
+        </div>
+
+        <!-- Pagination -->
+        {{ if gt $paginator.TotalPages 1 }}
+        <div class="mt-12 flex justify-center items-center space-x-4">
+            {{ if $paginator.HasPrev }}
+            <a href="{{ $paginator.Prev.URL }}" class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 transition-colors">
+                &larr; {{ i18n "pagination_previous" }}
+            </a>
+            {{ end }}
+            
+            <div class="flex items-center space-x-2">
+                {{ range $paginator.Pagers }}
+                    {{ if eq . $paginator }}
+                    <span class="px-4 py-2 text-sm font-medium text-white bg-primary rounded-md">
+                        {{ .PageNumber }}
+                    </span>
+                    {{ else }}
+                    <a href="{{ .URL }}" class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 transition-colors">
+                        {{ .PageNumber }}
+                    </a>
+                    {{ end }}
+                {{ end }}
+            </div>
+
+            {{ if $paginator.HasNext }}
+            <a href="{{ $paginator.Next.URL }}" class="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 transition-colors">
+                {{ i18n "pagination_next" }} &rarr;
+            </a>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }} 

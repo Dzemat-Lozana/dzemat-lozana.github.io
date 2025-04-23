@@ -1,0 +1,53 @@
+{{ $date := .Date | time.AsTime }}
+<a href="{{ .RelPermalink }}" class="group relative block">
+    <!-- Event Card with Conditional Styling -->
+    <div class="h-full bg-white rounded-lg shadow-md overflow-hidden border border-primary/20 transition-all duration-300 group-hover:shadow-lg">
+        <!-- Image Section -->
+        <div class="relative">
+            <div class="aspect-[16/9] {{ if not .Params.image }}bg-gray-50 flex items-center justify-center overflow-hidden{{ end }}">
+                {{ if .Params.image }}
+                    {{ if hasPrefix .Params.image "http" }}
+                        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full h-full object-cover">
+                    {{ else }}
+                        {{ $image := .Resources.GetMatch .Params.image }}
+                        {{ if $image }}
+                            <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}" class="w-full h-full object-cover">
+                        {{ else }}
+                            <div class="relative w-full h-full flex items-center justify-center">
+                                <img src="/abl/images/logo.png" alt="Logo" class="w-24 h-24 opacity-20">
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                {{ else }}
+                    <div class="relative w-full h-full flex items-center justify-center">
+                        <img src="/abl/images/logo.png" alt="Logo" class="w-24 h-24 opacity-20">
+                    </div>
+                {{ end }}
+            </div>
+            <div class="p-6">
+                <!-- Date -->
+                <div class="text-sm text-primary font-medium mb-2">
+                    {{ $date.Day }} {{ index (slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December") (sub $date.Month 1) }} {{ $date.Year }}
+                </div>
+                
+                <!-- Title -->
+                <h3 class="text-xl font-bold text-gray-900 mb-2 line-clamp-2">{{ .Title }}</h3>
+                
+                <!-- Description/Summary -->
+                {{ with .Params.description }}
+                <p class="text-gray-600 line-clamp-3 mb-4">{{ . }}</p>
+                {{ else }}
+                <p class="text-gray-600 line-clamp-3 mb-4">{{ .Summary }}</p>
+                {{ end }}
+                
+                <!-- Read More -->
+                <div class="flex items-center text-primary font-medium">
+                    {{ i18n "blog_read_more" }}
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
