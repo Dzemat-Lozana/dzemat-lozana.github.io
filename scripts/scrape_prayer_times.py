@@ -176,19 +176,27 @@ def scrape_prayer_times():
 def save_prayer_times(prayer_times):
     if prayer_times:
         # Create output directory if it doesn't exist
-        os.makedirs("../data/prayers", exist_ok=True)
+        data_dir = "../data/prayers"
+        os.makedirs(data_dir, exist_ok=True)
+        output_file = os.path.join(data_dir, "prayer_times.json")
         
         # Load existing times to check for changes
         existing_times = load_existing_times()
         
         if times_have_changed(existing_times, prayer_times):
-            # Save to JSON file
-            output_file = "../data/prayers/prayer_times.json"
+            debug_print(f"Saving prayer times to {output_file}")
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(prayer_times, f, indent=4, ensure_ascii=False)
             
-            debug_print(f"Prayer times have changed, saved to {output_file}")
-            return True
+            # Verify the file was written
+            if os.path.exists(output_file):
+                debug_print(f"Successfully saved prayer times to {output_file}")
+                file_size = os.path.getsize(output_file)
+                debug_print(f"File size: {file_size} bytes")
+                return True
+            else:
+                debug_print(f"Error: Failed to write to {output_file}")
+                return False
         else:
             debug_print("Prayer times haven't changed, skipping save")
             return False
