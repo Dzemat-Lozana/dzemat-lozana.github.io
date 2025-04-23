@@ -13,6 +13,14 @@ def debug_print(*args, **kwargs):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"[{timestamp}]", *args, **kwargs)
 
+def get_repo_root():
+    """Get the repository root directory."""
+    # When running the script from the scripts directory
+    if os.path.basename(os.getcwd()) == 'scripts':
+        return os.path.dirname(os.getcwd())
+    # When running from the root directory
+    return os.getcwd()
+
 def get_debug_dir():
     """Get the directory for debug files."""
     # Use a subdirectory in the system's temp directory
@@ -23,7 +31,8 @@ def get_debug_dir():
 def load_existing_times():
     """Load existing prayer times from file if it exists."""
     try:
-        with open("../data/prayers/prayer_times.json", 'r', encoding='utf-8') as f:
+        file_path = os.path.join(get_repo_root(), "data", "prayers", "prayer_times.json")
+        with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
             debug_print("Successfully loaded existing prayer times")
             return data
@@ -176,9 +185,10 @@ def scrape_prayer_times():
 def save_prayer_times(prayer_times):
     if prayer_times:
         # Create output directory if it doesn't exist
-        data_dir = "../data/prayers"
+        data_dir = os.path.join(get_repo_root(), "data", "prayers")
         os.makedirs(data_dir, exist_ok=True)
         output_file = os.path.join(data_dir, "prayer_times.json")
+        debug_print(f"Will save to: {output_file}")
         
         # Load existing times to check for changes
         existing_times = load_existing_times()
