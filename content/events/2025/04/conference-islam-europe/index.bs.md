@@ -11,7 +11,7 @@ weight: 20
 
 ## Konferencija: Islam u Evropi Danas
 
-Bosansko Udruženje Lozana s ponosom organizuje konferenciju na temu "Islam u Evropi Danas: Izazovi i Mogućnosti" koja će se održati 5. maja 2025. godine na Univerzitetu u Lozani.
+Association Bosniaque de Lausanne s ponosom organizuje konferenciju na temu "Islam u Evropi Danas: Izazovi i Mogućnosti" koja će se održati 5. maja 2025. godine na Univerzitetu u Lozani.
 
 ### Govornici
 

@@ -11,7 +11,7 @@ weight: 30
 
 ## Kursevi Bosanskog Jezika - Proljeće 2025
 
-Bosansko Udruženje Lozana sa zadovoljstvom najavljuje otvaranje registracija za kurseve bosanskog jezika za proljeće 2025. Kursevi će početi 20. aprila i završiti 29. juna 2025. godine.
+Association Bosniaque de Lausanne sa zadovoljstvom najavljuje otvaranje registracija za kurseve bosanskog jezika za proljeće 2025. Kursevi će početi 20. aprila i završiti 29. juna 2025. godine.
 
 ### Ponuđeni nivoi
 

@@ -6,10 +6,21 @@
         <div class="relative">
             <div class="aspect-[16/9] {{ if not .Params.image }}bg-gray-50 flex items-center justify-center overflow-hidden{{ end }}">
                 {{ if .Params.image }}
-                    <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full h-full object-cover {{ if $isPast }}grayscale hover:grayscale-0 transition-all duration-300{{ end }}">
+                    {{ if hasPrefix .Params.image "http" }}
+                        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full h-full object-cover">
+                    {{ else }}
+                        {{ $image := .Resources.GetMatch .Params.image }}
+                        {{ if $image }}
+                            <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}" class="w-full h-full object-cover">
+                        {{ else }}
+                            <div class="relative w-full h-full flex items-center justify-center">
+                                <img src="/abl/images/logo.small.png" alt="Logo" class="w-auto h-auto max-w-[40%] max-h-[40%] opacity-20">
+                            </div>
+                        {{ end }}
+                    {{ end }}
                 {{ else }}
                     <div class="relative w-full h-full flex items-center justify-center">
-                        <img src="/abl/images/logo.png" alt="Logo" class="w-24 h-24 opacity-20">
+                        <img src="/abl/images/logo.small.png" alt="Logo" class="w-auto h-auto max-w-[40%] max-h-[40%] opacity-20">
                     </div>
                 {{ end }}
             </div>

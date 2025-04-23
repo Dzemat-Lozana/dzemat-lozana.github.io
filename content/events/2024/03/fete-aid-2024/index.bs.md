@@ -11,7 +11,7 @@ weight: 10
 
 ## Bajramska svečanost 2024
 
-Bosansko Udruženje Lozana imalo je zadovoljstvo organizovati proslavu Ramazanskog bajrama 10. aprila 2024. godine, označavajući kraj svetog mjeseca Ramazana.
+Association Bosniaque de Lausanne imalo je zadovoljstvo organizovati proslavu Ramazanskog bajrama 10. aprila 2024. godine, označavajući kraj svetog mjeseca Ramazana.
 
 ### Program dana
 
