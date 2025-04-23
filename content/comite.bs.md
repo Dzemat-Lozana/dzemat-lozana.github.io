@@ -1,6 +1,6 @@
 ---
 title: "Odbor Udruženja"
-description: "Članovi odbora Udruženja Muslimana Bienne i Littoral"
+description: "Članovi odbora Bosanskog Udruženja Lausanne"
 layout: "committee"
 leadership:
   - role: "Vjersko Vođstvo"
@@ -12,7 +12,8 @@ leadership:
 members:
   - department: "Potpredsjedništvo"
     positions:
-      - name: "Semir Hajruli"
+      - title: "Potpredsjednik"
+        name: "Semir Hajruli"
   - department: "Blagajna"
     positions:
       - title: "Blagajnik"
@@ -27,5 +28,6 @@ members:
         name: "Mirfet Orić"
   - department: "Tehnička Odgovornost"
     positions:
-      - name: "Ševko Bećirović"
---- 
+      - title: "Tehnički odgovorni"
+        name: "Ševko Bećirović"
+---

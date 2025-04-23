@@ -1,6 +1,6 @@
 ---
 title: "Comité de l'Association"
-description: "Les membres du comité de l'Association des Musulmans de Bienne et Littoral"
+description: "Les membres du comité de l'Association Bosniaque de Lausanne"
 layout: "committee"
 leadership:
   - role: "Direction Spirituelle"
@@ -12,7 +12,8 @@ leadership:
 members:
   - department: "Vice-Présidence"
     positions:
-      - name: "Semir Hajruli"
+      - title: "Vice-Président"
+        name: "Semir Hajruli"
   - department: "Trésorerie"
     positions:
       - title: "Trésorier"
@@ -27,5 +28,6 @@ members:
         name: "Mirfet Oric"
   - department: "Responsabilité Technique"
     positions:
-      - name: "Sevko Becirovic"
---- 
+      - title: "Responsable Technique"
+        name: "Sevko Becirovic"
+---
