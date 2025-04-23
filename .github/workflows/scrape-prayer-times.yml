@@ -31,50 +31,15 @@ jobs:
           pip install requests beautifulsoup4
           
       - name: Run scraper
-        id: scraper
         run: |
-          # Print current directory for debugging
-          pwd
-          ls -la
-          
-          # Ensure the directory exists
           mkdir -p data/prayers
-          
-          # Remove the file if it exists to force a change
           rm -f data/prayers/prayer_times.json
-          
-          # Run the scraper from the repository root
           python scripts/scrape_prayer_times.py
-          
-          # Verify the file was created
-          ls -la data/prayers/
-          
-          # Get the debug directory from the script's output
-          DEBUG_DIR=$(python3 -c "import tempfile, os; print(os.path.join(tempfile.gettempdir(), 'prayer_times_debug'))")
-          echo "debug_dir=$DEBUG_DIR" >> $GITHUB_OUTPUT
-        
-      - name: Upload debug files
-        if: always()  # Upload even if the script fails
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-files
-          path: ${{ steps.scraper.outputs.debug_dir }}
-          retention-days: 7
         
       - name: Check for changes
         id: check_changes
         run: |
-          echo "Current git status:"
-          git status
-          
-          echo -e "\nListing data/prayers directory:"
-          ls -la data/prayers/
-          
-          echo -e "\nChecking prayer_times.json content:"
-          cat data/prayers/prayer_times.json || echo "File not found!"
-          
           CHANGES=$(git status --porcelain data/prayers/prayer_times.json | wc -l)
-          echo -e "\nNumber of changes detected: $CHANGES"
           echo "changes=$CHANGES" >> $GITHUB_OUTPUT
         
       - name: Configure Git
@@ -86,10 +51,7 @@ jobs:
       - name: Commit and push changes
         if: steps.check_changes.outputs.changes > 0
         run: |
-          echo "Changes detected in prayer_times.json, committing..."
-          # Stage any changes (both deletions and additions)
           git add data/prayers/prayer_times.json
-          git status
           git commit -m "Update prayer times [automated]"
           git push origin HEAD:${{ github.ref }}
         env:
