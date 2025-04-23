@@ -6,11 +6,19 @@ import os
 import re
 from datetime import datetime, timedelta
 from collections import OrderedDict
+import tempfile
 
 def debug_print(*args, **kwargs):
     """Print with timestamp for better GitHub Actions logs."""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"[{timestamp}]", *args, **kwargs)
+
+def get_debug_dir():
+    """Get the directory for debug files."""
+    # Use a subdirectory in the system's temp directory
+    debug_dir = os.path.join(tempfile.gettempdir(), "prayer_times_debug")
+    os.makedirs(debug_dir, exist_ok=True)
+    return debug_dir
 
 def load_existing_times():
     """Load existing prayer times from file if it exists."""
@@ -60,11 +68,12 @@ def scrape_prayer_times():
         response = requests.get(f"https://mawaqit.net/fr/{masjid_id}")
         debug_print(f"Response status code: {response.status_code}")
         
-        # Always save the HTML response for debugging
-        os.makedirs("../data/prayers", exist_ok=True)
-        with open("../data/prayers/last_response.html", "w", encoding="utf-8") as f:
+        # Save the HTML response for debugging in temp directory
+        debug_dir = get_debug_dir()
+        html_file = os.path.join(debug_dir, "last_response.html")
+        with open(html_file, "w", encoding="utf-8") as f:
             f.write(response.text)
-            debug_print(f"Saved HTML response ({len(response.text)} bytes)")
+            debug_print(f"Saved HTML response to {html_file} ({len(response.text)} bytes)")
         
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
@@ -82,10 +91,11 @@ def scrape_prayer_times():
                     conf_data = json.loads(conf_data_json)
                     debug_print("Successfully parsed confData JSON")
                     
-                    # Save the full confData for reference
-                    with open("../data/prayers/full_conf_data.json", 'w', encoding='utf-8') as f:
+                    # Save the full confData for debugging
+                    conf_data_file = os.path.join(debug_dir, "full_conf_data.json")
+                    with open(conf_data_file, 'w', encoding='utf-8') as f:
                         json.dump(conf_data, f, indent=2, ensure_ascii=False)
-                        debug_print("Saved full configuration data")
+                        debug_print(f"Saved full configuration data to {conf_data_file}")
                     
                     # Extract today's prayer times
                     times = conf_data.get("times", [])
@@ -140,7 +150,7 @@ def scrape_prayer_times():
                                     pass
                     
                     debug_print(f"Final prayer times: {json.dumps(prayer_times, indent=2)}")
-                    return prayer_times
+                    return prayer_times, debug_dir
                 else:
                     debug_print("Failed to extract confData JSON")
             else:
@@ -154,14 +164,14 @@ def scrape_prayer_times():
             "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M")
         }
         debug_print(f"Returning error response: {error_response}")
-        return error_response
+        return error_response, debug_dir
             
     except Exception as e:
         debug_print(f"Error scraping prayer times: {e}")
         return {
             "error": str(e),
             "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M")
-        }
+        }, debug_dir
 
 def save_prayer_times(prayer_times):
     if prayer_times:
@@ -186,6 +196,6 @@ def save_prayer_times(prayer_times):
 
 if __name__ == "__main__":
     debug_print("Starting prayer times scraper")
-    prayer_times = scrape_prayer_times()
+    prayer_times, debug_dir = scrape_prayer_times()
     save_prayer_times(prayer_times)
-    debug_print("Scraper finished") 
+    debug_print(f"Scraper finished. Debug files are in: {debug_dir}") 

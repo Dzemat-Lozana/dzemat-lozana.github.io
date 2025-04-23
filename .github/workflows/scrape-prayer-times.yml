@@ -31,7 +31,20 @@ jobs:
           pip install requests beautifulsoup4
           
       - name: Run scraper
-        run: python scripts/scrape_prayer_times.py
+        id: scraper
+        run: |
+          python scripts/scrape_prayer_times.py
+          # Get the debug directory from the script's output
+          DEBUG_DIR=$(python3 -c "import tempfile, os; print(os.path.join(tempfile.gettempdir(), 'prayer_times_debug'))")
+          echo "debug_dir=$DEBUG_DIR" >> $GITHUB_OUTPUT
+        
+      - name: Upload debug files
+        if: always()  # Upload even if the script fails
+        uses: actions/upload-artifact@v3
+        with:
+          name: debug-files
+          path: ${{ steps.scraper.outputs.debug_dir }}
+          retention-days: 7
         
       - name: Check for changes
         id: check_changes
@@ -49,7 +62,7 @@ jobs:
         if: steps.check_changes.outputs.changes > 0
         run: |
           echo "Changes detected, committing..."
-          git add data/prayers/*
+          git add data/prayers/prayer_times.json
           git commit -m "Update prayer times [automated]"
           git push
         env:
