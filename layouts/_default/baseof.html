@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="{{ "favicon/favicon.svg" | relURL }}" type="image/svg+xml">
+    <link rel="icon" href="{{ "favicon/favicon.ico" | relURL }}" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon/favicon-32x32.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon/favicon-16x16.png" | relURL }}">
+    <link rel="apple-touch-icon" href="{{ "favicon/apple-touch-icon.png" | relURL }}">
+    <link rel="manifest" href="{{ "favicon/site.webmanifest" | relURL }}">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
     {{- with resources.Get "css/output.css" }}
         {{- if eq hugo.Environment "development" }}
             <link rel="stylesheet" href="{{ .RelPermalink }}" />
