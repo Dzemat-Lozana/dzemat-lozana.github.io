@@ -9,6 +9,10 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     
+    permissions:
+      contents: write
+      pull-requests: write
+
     env:
       TZ: 'Europe/Paris'  # Set timezone to Europe/Paris for consistent timing
     
