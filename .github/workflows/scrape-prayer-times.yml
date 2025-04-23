@@ -2,7 +2,7 @@ name: Scrape Prayer Times
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Run every hour
+    - cron: '0 3 * * *'  # Run every night at 3:00 AM
   workflow_dispatch:     # Allow manual trigger
 
 jobs:
