@@ -7,15 +7,64 @@ import re
 from datetime import datetime, timedelta
 from collections import OrderedDict
 
+def debug_print(*args, **kwargs):
+    """Print with timestamp for better GitHub Actions logs."""
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"[{timestamp}]", *args, **kwargs)
+
+def load_existing_times():
+    """Load existing prayer times from file if it exists."""
+    try:
+        with open("../data/prayers/prayer_times.json", 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            debug_print("Successfully loaded existing prayer times")
+            return data
+    except FileNotFoundError:
+        debug_print("No existing prayer times file found")
+        return None
+    except json.JSONDecodeError as e:
+        debug_print(f"Error decoding existing prayer times: {e}")
+        return None
+
+def times_have_changed(old_times, new_times):
+    """Compare prayer times while ignoring last_updated field."""
+    if not old_times or not new_times:
+        debug_print("No old times or new times available, considering as changed")
+        return True
+        
+    old_copy = old_times.copy()
+    new_copy = new_times.copy()
+    
+    # Remove last_updated field for comparison
+    old_copy.pop('last_updated', None)
+    new_copy.pop('last_updated', None)
+    
+    has_changed = old_copy != new_copy
+    if has_changed:
+        debug_print("Prayer times have changed:")
+        debug_print("Old times:", json.dumps(old_copy, indent=2))
+        debug_print("New times:", json.dumps(new_copy, indent=2))
+    else:
+        debug_print("Prayer times are unchanged")
+    
+    return has_changed
+
 def scrape_prayer_times():
     url = "https://mawaqit.net/fr/dzematlozana"
     masjid_id = "dzematlozana"
     
     try:
-        print(f"Fetching prayer times for {masjid_id}...")
+        debug_print(f"Fetching prayer times for {masjid_id}...")
         
         # Make a request to the masjid page
         response = requests.get(f"https://mawaqit.net/fr/{masjid_id}")
+        debug_print(f"Response status code: {response.status_code}")
+        
+        # Always save the HTML response for debugging
+        os.makedirs("../data/prayers", exist_ok=True)
+        with open("../data/prayers/last_response.html", "w", encoding="utf-8") as f:
+            f.write(response.text)
+            debug_print(f"Saved HTML response ({len(response.text)} bytes)")
         
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
@@ -31,13 +80,12 @@ def scrape_prayer_times():
                     # Parse the JSON data
                     conf_data_json = mawaqit.group(1)
                     conf_data = json.loads(conf_data_json)
-                    
-                    # Create a directory for saving the data
-                    os.makedirs("../data/prayers", exist_ok=True)
+                    debug_print("Successfully parsed confData JSON")
                     
                     # Save the full confData for reference
                     with open("../data/prayers/full_conf_data.json", 'w', encoding='utf-8') as f:
                         json.dump(conf_data, f, indent=2, ensure_ascii=False)
+                        debug_print("Saved full configuration data")
                     
                     # Extract today's prayer times
                     times = conf_data.get("times", [])
@@ -48,6 +96,7 @@ def scrape_prayer_times():
                     
                     # Get current date to find the correct iqama times
                     today = datetime.now()
+                    debug_print(f"Current date: {today}")
                     day = today.day
                     month = today.month - 1  # Arrays are 0-indexed
                     
@@ -59,10 +108,11 @@ def scrape_prayer_times():
                         month_data = iqama_calendar[month]
                         if str(day) in month_data:
                             iqama_today = month_data[str(day)]
+                            debug_print(f"Found iqama times for today: {iqama_today}")
                     
                     # Format the prayer times in our desired structure
                     prayer_times = {
-                        "last_updated": str(datetime.now()),
+                        "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
                         "sunrise": {"time": sunrise} if sunrise else {},
                         "fajr": {"time": times[0]} if len(times) > 0 else {},
                         "dhuhr": {"time": times[1]} if len(times) > 1 else {},
@@ -84,33 +134,33 @@ def scrape_prayer_times():
                                     prayer_time = datetime.strptime(prayer_times[prayer]["time"], "%H:%M")
                                     iqama_time = prayer_time + timedelta(minutes=int(minutes_to_add))
                                     prayer_times[prayer]["iqama"] = iqama_time.strftime("%H:%M")
-                                except (ValueError, TypeError):
+                                    debug_print(f"Calculated {prayer} iqama time: {prayer_times[prayer]['iqama']}")
+                                except (ValueError, TypeError) as e:
+                                    debug_print(f"Error calculating iqama time for {prayer}: {e}")
                                     pass
                     
-                    print(f"Found prayer times: {prayer_times}")
+                    debug_print(f"Final prayer times: {json.dumps(prayer_times, indent=2)}")
                     return prayer_times
                 else:
-                    print("Failed to extract confData JSON")
+                    debug_print("Failed to extract confData JSON")
             else:
-                print("Script containing confData not found.")
-                
-                # Save the raw HTML for debugging
-                with open("../data/prayers/debug_last_html.html", "w", encoding="utf-8") as f:
-                    f.write(soup.prettify())
+                debug_print("Script containing confData not found")
         else:
-            print(f"Failed to fetch page, status code: {response.status_code}")
+            debug_print(f"Failed to fetch page, status code: {response.status_code}")
             
         # Return error state if we couldn't get the data
-        return {
+        error_response = {
             "error": "Failed to extract prayer times",
-            "last_updated": str(datetime.now())
+            "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M")
         }
+        debug_print(f"Returning error response: {error_response}")
+        return error_response
             
     except Exception as e:
-        print(f"Error scraping prayer times: {e}")
+        debug_print(f"Error scraping prayer times: {e}")
         return {
             "error": str(e),
-            "last_updated": str(datetime.now())
+            "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M")
         }
 
 def save_prayer_times(prayer_times):
@@ -118,15 +168,24 @@ def save_prayer_times(prayer_times):
         # Create output directory if it doesn't exist
         os.makedirs("../data/prayers", exist_ok=True)
         
-        # Save to JSON file
-        output_file = "../data/prayers/prayer_times.json"
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(prayer_times, f, indent=4, ensure_ascii=False)
+        # Load existing times to check for changes
+        existing_times = load_existing_times()
         
-        print(f"Prayer times saved to {output_file}")
-        return True
+        if times_have_changed(existing_times, prayer_times):
+            # Save to JSON file
+            output_file = "../data/prayers/prayer_times.json"
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(prayer_times, f, indent=4, ensure_ascii=False)
+            
+            debug_print(f"Prayer times have changed, saved to {output_file}")
+            return True
+        else:
+            debug_print("Prayer times haven't changed, skipping save")
+            return False
     return False
 
 if __name__ == "__main__":
+    debug_print("Starting prayer times scraper")
     prayer_times = scrape_prayer_times()
-    save_prayer_times(prayer_times) 
+    save_prayer_times(prayer_times)
+    debug_print("Scraper finished") 
