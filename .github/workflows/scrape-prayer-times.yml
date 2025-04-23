@@ -40,7 +40,7 @@ jobs:
         
       - name: Upload debug files
         if: always()  # Upload even if the script fails
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: debug-files
           path: ${{ steps.scraper.outputs.debug_dir }}
