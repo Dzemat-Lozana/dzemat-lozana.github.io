@@ -32,12 +32,15 @@ languages:
           url: /fr/events/
           weight: 40
           identifier: events
-        - name: Contact
-          url: /fr/#contact
-          weight: 100
+        - name: Comité
+          url: /fr/comite/
+          weight: 50
         - name: Prières
           url: /fr/#prayers
           weight: 60
+        - name: Contact
+          url: /fr/#contact
+          weight: 100
   bs:
     languageName: Bosanski
     languageCode: bs-ba
@@ -64,12 +67,15 @@ languages:
           url: /bs/events/
           weight: 40
           identifier: events
-        - name: Kontakt
-          url: /bs/#contact
-          weight: 100
+        - name: Odbor
+          url: /bs/comite/
+          weight: 50
         - name: Vaktija
           url: /bs/#prayers
           weight: 60
+        - name: Kontakt
+          url: /bs/#contact
+          weight: 100
 
 # Site parameters
 params:

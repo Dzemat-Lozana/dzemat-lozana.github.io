@@ -85,7 +85,7 @@ pagination_of = "od"
 
 # Prayer times section
 prayer_times_title = "Vrijeme namaza"
-prayer_times_today = "Današnja vaktija"
+prayer_times_today = "Naša džamija je otvorena za pet dnevnih namaza svaki dan od utorka do nedjelje, kao i za džuma namaz."
 prayer_sunrise = "Izlazak sunca"
 prayer_sunrise_desc = "Vrijeme kada se sunce pojavljuje na horizontu"
 prayer_fajr = "Sabah"

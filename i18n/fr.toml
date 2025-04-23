@@ -86,7 +86,7 @@ pagination_of = "sur"
 
 # Prayer times section
 prayer_times_title = "Horaires des prières"
-prayer_times_today = "Horaires pour aujourd'hui"
+prayer_times_today = "Notre mosquée est ouverte pour les cinq prières quotidiennes tous les jours du mardi au dimanche ainsi que la prière du vendredi (Jumu'ah)."
 prayer_sunrise = "Lever du soleil"
 prayer_sunrise_desc = "Moment où le soleil apparaît à l'horizon"
 prayer_fajr = "Fajr"
