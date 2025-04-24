@@ -38,9 +38,6 @@ languages:
         - name: Prières
           url: /fr/#prayers
           weight: 60
-        - name: Adhésion
-          url: /fr/membership/
-          weight: 70
         - name: Contact
           url: /fr/#contact
           weight: 100
