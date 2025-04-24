@@ -4,6 +4,7 @@ import datetime
 from pathlib import Path
 import facebook  # python-facebook-api package
 import re
+import yaml
 
 def slugify(text):
     """Convert text to URL-friendly slug"""
@@ -14,6 +15,19 @@ def slugify(text):
     # Remove multiple consecutive hyphens
     text = re.sub(r'-+', '-', text)
     return text.strip('-')
+
+def clean_text(text):
+    """Clean text from problematic characters"""
+    if not text:
+        return ""
+    # Replace smart quotes with regular quotes
+    text = text.replace('"', '"').replace('"', '"')
+    text = text.replace(''', "'").replace(''', "'")
+    # Replace other problematic characters
+    text = text.replace('\u2028', '\n').replace('\u2029', '\n')
+    # Remove any null bytes
+    text = text.replace('\x00', '')
+    return text
 
 def get_facebook_events():
     # Initialize the Graph API with your access token
@@ -48,12 +62,12 @@ def create_hugo_event(event):
     
     # Create Hugo front matter
     hugo_event = {
-        'title': event['name'],
+        'title': clean_text(event['name']),
         'date': event_date.strftime('%Y-%m-%dT%H:%M:%S%z'),
         'draft': False,
-        'description': event.get('description', ''),
+        'description': clean_text(event.get('description', '')),
         'eventDate': event_date.strftime('%Y-%m-%dT%H:%M:%S%z'),
-        'location': event.get('place', {}).get('name', ''),
+        'location': clean_text(event.get('place', {}).get('name', '')),
         'facebook_id': event['id'],
         'weight': 30
     }
@@ -76,20 +90,22 @@ def create_event_file(event_data, file_path, lang):
     # Create directory if it doesn't exist
     file_path.parent.mkdir(parents=True, exist_ok=True)
     
-    # Create Hugo front matter
-    front_matter = "---\n"
-    for key, value in event_data.items():
-        front_matter += f"{key}: {json.dumps(value)}\n"
-    front_matter += "---\n\n"
+    # Prepare front matter data
+    front_matter_data = {k: v for k, v in event_data.items()}
+    
+    # Create front matter using PyYAML
+    front_matter = yaml.safe_dump(front_matter_data, allow_unicode=True, sort_keys=False)
     
     # Add description as content
-    content = event_data.get('description', '')
+    content = clean_text(event_data.get('description', ''))
     
     # Add Facebook event link at the end
     fb_link = f"\n\n---\n\nPlus d'informations sur [Facebook](https://facebook.com/events/{event_data['facebook_id']})" if lang == 'fr' else f"\n\n---\n\nViše informacija na [Facebook-u](https://facebook.com/events/{event_data['facebook_id']})"
     
     with open(file_path, 'w', encoding='utf-8') as f:
+        f.write('---\n')
         f.write(front_matter)
+        f.write('---\n\n')
         f.write(content)
         f.write(fb_link)
 
@@ -101,7 +117,7 @@ def main():
     # Get existing events
     existing_events = {}
     if (events_dir / 'events.json').exists():
-        with open(events_dir / 'events.json', 'r') as f:
+        with open(events_dir / 'events.json', 'r', encoding='utf-8') as f:
             existing_events = json.load(f)
     
     # Fetch new events
