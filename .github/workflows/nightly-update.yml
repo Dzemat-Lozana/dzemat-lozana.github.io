@@ -7,10 +7,14 @@ on:
 
 jobs:
   facebook-events:
+    permissions:
+      contents: write
     uses: ./.github/workflows/scrape-facebook-events.yml
 
   prayer-times:
     needs: facebook-events
+    permissions:
+      contents: write
     uses: ./.github/workflows/scrape-prayer-times.yml
 
   deploy:
