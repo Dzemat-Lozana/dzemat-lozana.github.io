@@ -8,6 +8,7 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    environment: github-pages  # Specify the environment where secrets are stored
 
     permissions:
       contents: write
