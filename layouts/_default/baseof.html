@@ -19,6 +19,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiJ-Ek-_EeA.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Hw5aXp-p7K4KLg.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    {{ with .Params.images }}{{ range first 1 . }}
+    <meta property="og:image" content="{{ . | absURL }}">
+    {{ end }}{{ end }}
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+    <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    {{ with .Params.images }}{{ range first 1 . }}
+    <meta name="twitter:image" content="{{ . | absURL }}">
+    {{ end }}{{ end }}
     
     <!-- Styles -->
     {{- with resources.Get "css/output.css" }}
@@ -48,53 +69,6 @@
         {{ $js = $js | minify | fingerprint }}
     {{ end }}
     <script src="{{ $js.RelPermalink }}"></script>
-    <script>
-        // Simple JavaScript for dropdown menus
-        document.addEventListener('DOMContentLoaded', function() {
-            // Language dropdown
-            const langButton = document.querySelector('.language-dropdown-button');
-            const langMenu = document.querySelector('.language-dropdown-menu');
-            
-            if (langButton && langMenu) {
-                langButton.addEventListener('click', function() {
-                    langMenu.classList.toggle('hidden');
-                });
-                
-                document.addEventListener('click', function(event) {
-                    if (!langButton.contains(event.target) && !langMenu.contains(event.target)) {
-                        langMenu.classList.add('hidden');
-                    }
-                });
-            }
-            
-            // Mobile menu
-            const mobileMenuButton = document.querySelector('.mobile-menu-button');
-            const mobileMenu = document.querySelector('.mobile-menu');
-            
-            if (mobileMenuButton && mobileMenu) {
-                mobileMenuButton.addEventListener('click', function() {
-                    mobileMenu.classList.toggle('hidden');
-                });
-            }
-            
-            // Dropdown menus in navbar
-            const dropdownButtons = document.querySelectorAll('.dropdown-button');
-            
-            dropdownButtons.forEach(button => {
-                const menu = button.nextElementSibling;
-                
-                button.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    menu.classList.toggle('hidden');
-                });
-                
-                document.addEventListener('click', function(event) {
-                    if (!button.contains(event.target) && !menu.contains(event.target)) {
-                        menu.classList.add('hidden');
-                    }
-                });
-            });
-        });
-    </script>
+
 </body>
 </html>

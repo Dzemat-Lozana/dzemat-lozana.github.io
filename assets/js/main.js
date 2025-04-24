@@ -1,18 +1,12 @@
-// Toggle language dropdown
+// Main JavaScript file for the site
 document.addEventListener('DOMContentLoaded', function() {
-  const langButton = document.querySelector('.language-dropdown-button');
-  const langMenu = document.querySelector('.language-dropdown-menu');
+  // Mobile menu
+  const mobileMenuButton = document.querySelector('.mobile-menu-button');
+  const mobileMenu = document.querySelector('.mobile-menu');
   
-  if (langButton && langMenu) {
-    langButton.addEventListener('click', function() {
-      langMenu.classList.toggle('hidden');
-    });
-    
-    // Close the dropdown when clicking outside
-    document.addEventListener('click', function(event) {
-      if (!langButton.contains(event.target) && !langMenu.contains(event.target)) {
-        langMenu.classList.add('hidden');
-      }
+  if (mobileMenuButton && mobileMenu) {
+    mobileMenuButton.addEventListener('click', function() {
+      mobileMenu.classList.toggle('hidden');
     });
   }
 });

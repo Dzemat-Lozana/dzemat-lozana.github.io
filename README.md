@@ -48,8 +48,6 @@ This will start a local development server at http://localhost:1313/ with hot-re
 ├── assets/             # Source files that require processing (CSS, JS, etc.)
 │   ├── css/
 │   │   └── main.css    # Main CSS file with TailwindCSS imports
-│   └── js/
-│       └── main.js     # JavaScript for interactive elements
 ├── content/            # Content files with language suffixes
 │   ├── _index.fr.md    # French home page
 │   ├── _index.bs.md    # Bosnian home page
@@ -103,16 +101,6 @@ To customize the design:
 1. Edit the TailwindCSS configuration in `tailwind.config.js`
 2. Add custom styles in `assets/css/main.css`
 3. Use TailwindCSS utility classes directly in the HTML templates
-
-## JavaScript Functionality
-
-The website includes minimal JavaScript for interactive elements like the language dropdown menu. The main JavaScript file is located at `assets/js/main.js`.
-
-To add new JavaScript functionality:
-
-1. Edit the `assets/js/main.js` file or add new JavaScript files in the `assets/js/` directory
-2. Import new JavaScript files in the `layouts/_default/baseof.html` template
-3. Use event listeners and DOM manipulation for interactive elements
 
 ## Deployment
 
