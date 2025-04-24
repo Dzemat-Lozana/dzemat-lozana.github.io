@@ -105,6 +105,22 @@ prayer_iqama = "Iqama"
 prayer_last_updated = "Dernière mise à jour"
 prayer_data_source = "Source des données"
 
+# Membership form
+membership_form_title = "INSCRIPTION DE MEMBRE DZEMAT LOZANA"
+membership_form_description = "Rejoignez notre communauté ! Devenez membre de l'Association Bosniaque de Lausanne et renforcez notre fraternité, notre foi et nos traditions."
+membership_form_firstname = "Prénom"
+membership_form_lastname = "Nom"
+membership_form_birthdate = "Date de naissance"
+membership_form_children = "Enfants"
+membership_form_address = "Adresse"
+membership_form_postal = "NPA"
+membership_form_city = "Ville"
+membership_form_phone = "Téléphone"
+membership_form_email = "Email"
+membership_form_terms = "En remplissant et signant ce formulaire, j'atteste mon adhésion et celle des membres de mon foyer, en tant que cotisants du Dzemat Lozana. Les informations des membres restent dans les archives et servent uniquement à la communication ainsi que les activités liées au Dzemat."
+membership_form_submit = "Envoyer"
+membership_required = "Champ obligatoire"
+
 [blog_title]
 other = "Blog"
 

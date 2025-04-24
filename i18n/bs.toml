@@ -104,6 +104,22 @@ prayer_iqama = "Ikamet"
 prayer_last_updated = "Zadnje ažurirano"
 prayer_data_source = "Izvor podataka"
 
+# Membership form
+membership_form_title = "REGISTRACIJA ČLANOVA DŽEMAT LOZANA"
+membership_form_description = "Pridružite se našoj zajednici! Postanite dio Udruženja Bošnjaka Lozane i ojačajte naše bratstvo, vjeru i tradiciju."
+membership_form_firstname = "Ime"
+membership_form_lastname = "Prezime"
+membership_form_birthdate = "Datum rođenja"
+membership_form_children = "Djeca"
+membership_form_address = "Adresa"
+membership_form_postal = "Poštanski broj"
+membership_form_city = "Grad"
+membership_form_phone = "Telefon"
+membership_form_email = "Email"
+membership_form_terms = "Popunjavanjem i potpisom ovog obrasca potvrđujem svoje članstvo Dzemata Lozane kao i članstvo članova mog domaćinstva. Podaci o članovima se čuvaju u arhivi i mogu im pristupiti samo osobe ovlaštene za rukovođenje poslovima džemata."
+membership_form_submit = "Poslati"
+membership_required = "Obavezno polje"
+
 [blog_title]
 other = "Blog"
 

@@ -1,4 +1,4 @@
 ---
 title: "Blog"
-description: "Novosti i članci Bosanskog Udruženja Lausanne"
+description: "Novosti i članci Udruženja Bošnjaka Lozane"
 --- 

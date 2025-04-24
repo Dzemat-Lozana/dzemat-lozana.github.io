@@ -1,4 +1,4 @@
 ---
 title: "Događaji"
-description: "Kalendar događaja Bosanskog Udruženja Lausanne"
+description: "Kalendar događaja Udruženja Bošnjaka Lozane"
 ---

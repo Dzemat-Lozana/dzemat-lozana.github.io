@@ -1,6 +1,6 @@
 ---
 title: "Odbor Udruženja"
-description: "Članovi odbora Bosanskog Udruženja Lausanne"
+description: "Članovi odbora Udruženja Bošnjaka Lozane"
 layout: "committee"
 leadership:
   - role: "Vjersko Vođstvo"

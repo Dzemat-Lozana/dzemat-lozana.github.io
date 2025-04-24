@@ -3,11 +3,11 @@ title: "Novi Odbor Udruženja: Tim posvećen našoj zajednici"
 date: 2025-02-25
 author: "ABL Tim"
 categories: ["Novosti", "Zajednica"]
-description: "Upoznajte članove novog odbora Bosanskog Udruženja Lausanne, posvećene služenju našoj zajednici"
+description: "Upoznajte članove novog odbora Udruženja Bošnjaka Lozane, posvećene služenju našoj zajednici"
 image: "committee.png"
 ---
 
-Sa velikim zadovoljstvom vam predstavljamo novi odbor Bosanskog Udruženja Lausanne. Ovaj predani tim se obavezuje da će služiti našoj zajednici i nastaviti razvoj naših aktivnosti.
+Sa velikim zadovoljstvom vam predstavljamo novi odbor Udruženja Bošnjaka Lozane. Ovaj predani tim se obavezuje da će služiti našoj zajednici i nastaviti razvoj naših aktivnosti.
 
 ## Vođstvo i Rukovodstvo
 

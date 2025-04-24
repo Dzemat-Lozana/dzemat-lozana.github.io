@@ -3,11 +3,11 @@ title: "Usvajanje Novog Statuta: Važan korak za naše udruženje"
 date: 2024-03-10
 author: "ABL Tim"
 categories: ["Novosti", "Udruženje"]
-description: "Novi statut Bosanskog Udruženja Lausanne usvojen je na Generalnoj skupštini 10. marta 2024"
+description: "Novi statut Udruženja Bošnjaka Lozane usvojen je na Generalnoj skupštini 10. marta 2024"
 image: "image.png"
 ---
 
-Sa zadovoljstvom vas obavještavamo da su članovi Bosanskog Udruženja Lausanne na Generalnoj skupštini održanoj 10. marta 2024. usvojili novi statut našeg udruženja.
+Sa zadovoljstvom vas obavještavamo da su članovi Udruženja Bošnjaka Lozane na Generalnoj skupštini održanoj 10. marta 2024. usvojili novi statut našeg udruženja.
 
 ## Važno Ažuriranje
 

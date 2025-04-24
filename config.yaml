@@ -38,6 +38,9 @@ languages:
         - name: Prières
           url: /fr/#prayers
           weight: 60
+        - name: Adhésion
+          url: /fr/membership/
+          weight: 70
         - name: Contact
           url: /fr/#contact
           weight: 100
@@ -45,9 +48,9 @@ languages:
     languageName: Bosanski
     languageCode: bs-ba
     weight: 2
-    title: Bosansko Udruzenje Lozana
+    title: Udruženje Bošnjaka Lozane
     params:
-      description: Sluzbena stranica Bosanskog Udruzenja Lausanne
+      description: Sluzbena stranica Udruženja Bošnjaka Lozane
     menu:
       main:
         - name: Početna
@@ -73,6 +76,9 @@ languages:
         - name: Vaktija
           url: /bs/#prayers
           weight: 60
+        - name: Članstvo
+          url: /bs/membership/
+          weight: 70
         - name: Kontakt
           url: /bs/#contact
           weight: 100
