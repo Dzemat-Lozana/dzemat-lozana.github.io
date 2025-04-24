@@ -10,7 +10,7 @@ nav_prayer = "Prières"
 nav_committee = "Comité"
 nav_community = "Communauté"
 nav_documents = "Documents"
-
+nav_donation = "Dons"
 # Footer
 footer_statutes = "Statuts de l'association"
 footer_rights = "Tous droits réservés"
@@ -147,3 +147,13 @@ membership_form_gdpr = "En remplissant et signant ce formulaire, j'atteste mon a
 membership_form_submit = "Envoyer"
 membership_form_success = "Votre inscription a été enregistrée avec succès !"
 membership_form_required = "champ obligatoire"
+
+# Donation page
+donation_title = "Faire un Don"
+donation_subtitle = "Soutenez notre mosquée et notre communauté"
+donation_why = "Pourquoi soutenir notre mosquée ?"
+donation_invest = "Un investissement pour notre avenir"
+donation_resp = "Une responsabilité partagée"
+donation_diff = "Comment votre don fait la différence"
+donation_button = "Faire un don"
+donation_back = "Retour à l'accueil"
