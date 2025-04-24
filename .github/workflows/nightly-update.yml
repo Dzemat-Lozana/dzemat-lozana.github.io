@@ -10,6 +10,8 @@ jobs:
     permissions:
       contents: write
     uses: ./.github/workflows/scrape-facebook-events.yml
+    secrets:
+      FACEBOOK_ACCESS_TOKEN: ${{ secrets.FACEBOOK_ACCESS_TOKEN }}
 
   prayer-times:
     needs: facebook-events

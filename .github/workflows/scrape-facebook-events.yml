@@ -3,6 +3,10 @@ name: Scrape Facebook Events
 on:
   workflow_dispatch:     # Allow manual trigger
   workflow_call:         # Allow calling from other workflows
+    secrets:
+      FACEBOOK_ACCESS_TOKEN:
+        required: true
+        description: "Facebook API access token for fetching events"
 
 jobs:
   scrape:
