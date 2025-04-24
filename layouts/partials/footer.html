@@ -2,7 +2,7 @@
     <!-- Subtle pattern in background -->
 
     <div class="container mx-auto px-4 relative z-10 text-white">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div>
                 <h3 class="font-heading text-2xl font-bold mb-6 text-white">Džemat Lozana</h3>
                 <p class="mb-6 text-white">Association Bosniaque de Lausanne</p>
@@ -44,7 +44,7 @@
             </div>
 
             <div>
-                <h3 class="font-heading text-xl font-bold mb-6 text-white">{{ i18n "nav.home" }}</h3>
+                <h3 class="font-heading text-xl font-bold mb-6 text-white">{{ i18n "nav" }}</h3>
                 <ul class="space-y-3">
                     {{ range .Site.Menus.main }}
                     <li>
@@ -54,6 +54,25 @@
                         </a>
                     </li>
                     {{ end }}
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="font-heading text-xl font-bold mb-6 text-white">{{ i18n "nav_documents" }}</h3>
+                <ul class="space-y-3">
+                    <li>
+                        {{ if eq .Site.Language.Lang "fr" }}
+                        <a href="/documents/statut/Statuts%20de%20l'Association%20Bosniaque%20de%20Lausanne%20FR.pdf" class="text-white hover:text-white transition-colors duration-300 flex items-center" target="_blank">
+                            <span class="bg-white/20 w-2 h-2 rounded-full mr-2"></span>
+                            {{ i18n "footer_statutes" }}
+                        </a>
+                        {{ else }}
+                        <a href="/documents/statut/Statuts%20de%20l'Association%20Bosniaque%20de%20Lausanne%20BA.pdf" class="text-white hover:text-white transition-colors duration-300 flex items-center" target="_blank">
+                            <span class="bg-white/20 w-2 h-2 rounded-full mr-2"></span>
+                            {{ i18n "footer_statutes" }}
+                        </a>
+                        {{ end }}
+                    </li>
                 </ul>
             </div>
 

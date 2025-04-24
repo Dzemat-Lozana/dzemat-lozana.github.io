@@ -1,4 +1,5 @@
 # Navigation
+nav = "Navigacija"
 nav_home = "Početna"
 nav_about = "O nama"
 nav_services = "Usluge"
@@ -9,6 +10,11 @@ nav_membership = "Članstvo"
 nav_prayer = "Namaz"
 nav_committee = "Odbor"
 nav_community = "Zajednica"
+nav_documents = "Dokumenti"
+
+# Footer
+footer_statutes = "Statut udruženja"
+footer_rights = "Sva prava zadržana"
 
 # Hero section
 hero_welcome = "Dobrodošli"

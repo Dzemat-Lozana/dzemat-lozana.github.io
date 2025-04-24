@@ -1,4 +1,5 @@
 # Navigation
+nav = "Navigation"  
 nav_home = "Accueil"
 nav_about = "À propos"
 nav_services = "Services"
@@ -9,6 +10,11 @@ nav_membership = "Adhésion"
 nav_prayer = "Prières"
 nav_committee = "Comité"
 nav_community = "Communauté"
+nav_documents = "Documents"
+
+# Footer
+footer_statutes = "Statuts de l'association"
+footer_rights = "Tous droits réservés"
 
 # Hero section
 hero_welcome = "Bienvenue"
