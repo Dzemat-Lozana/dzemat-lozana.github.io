@@ -1,0 +1,18 @@
+name: Nightly Update
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # Run every night at 2:00 AM
+  workflow_dispatch:     # Allow manual trigger
+
+jobs:
+  facebook-events:
+    uses: ./.github/workflows/scrape-facebook-events.yml
+
+  prayer-times:
+    needs: facebook-events
+    uses: ./.github/workflows/scrape-prayer-times.yml
+
+  deploy:
+    needs: prayer-times
+    uses: ./.github/workflows/hugo.yml 

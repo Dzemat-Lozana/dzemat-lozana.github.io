@@ -1,9 +1,8 @@
 name: Scrape Facebook Events
 
 on:
-  schedule:
-    - cron: '0 4 * * *'  # Run every night at 4:00 AM
   workflow_dispatch:     # Allow manual trigger
+  workflow_call:         # Allow calling from other workflows
 
 jobs:
   scrape:
