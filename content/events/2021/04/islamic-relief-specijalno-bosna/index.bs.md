@@ -11,7 +11,7 @@ eventDate: 2021-04-30T19:00:00+0200
 location: Facebook
 facebook_id: '1108288333008378'
 weight: 30
-image: https://scontent-atl3-1.xx.fbcdn.net/v/t1.6435-9/179034199_3861536210608836_3937081865507227599_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9e60e4&_nc_eui2=AeHFHkEXWI3G4QzBqZn_yemjl20gmntJqYyXbSCae0mpjJBqf9j8T1w9VijY8z6a1kcHiMTNR2Gao1rgVgm-3s6M&_nc_ohc=Ve-OginyWosQ7kNvwH8zDUu&_nc_oc=AdmuAG7ZC04SGL89LZlmgvehUXReeIjTTZfhFRjTplCnBO385i7tyOfAWMGHVkqh8mQ&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=xyTM3-PIXHrqWZhwHC0RqQ&oh=00_AfGx6mx4FljIvYA-Bewm58ja_YjsFyIpXuzdvkdHcUMP9Q&oe=683C803B
+image: https://scontent-ams2-1.xx.fbcdn.net/v/t1.6435-9/179034199_3861536210608836_3937081865507227599_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9e60e4&_nc_eui2=AeHFHkEXWI3G4QzBqZn_yemjl20gmntJqYyXbSCae0mpjJBqf9j8T1w9VijY8z6a1kcHiMTNR2Gao1rgVgm-3s6M&_nc_ohc=Ve-OginyWosQ7kNvwE2kDzJ&_nc_oc=AdkSyM8Huu01lEkrJ4wFSwcXq7aPiz4kurCeR_nFG8dQPilzf8zHP-DSOYeTgWmgIWE&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=ABTKTjYEAAAA&_nc_gid=cU2wsVbUpEGAhcBgcgnMEA&oh=00_AfH-TBPslz2Dw0C5SC4V-42bSlCRKApNRupvYHYYFk0ZcA&oe=683C803B
 ---
 
 Islamic Relief Suisse u partnerstvu sa džematom Lozana - Association bosniaque de Lausanne, Vas poziva da prisustvujete njegovom online događaju "SPECIJALNO BOSNA"  tokom kojeg  će biti predstavljen projekat KUCNA POMOC  STARIM OSOBAMA U BOSNI.  
