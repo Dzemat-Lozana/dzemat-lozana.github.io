@@ -89,6 +89,9 @@ params:
 build:
   writeStats: true # Needed for TailwindCSS
 
+# Future content
+buildFuture: true
+
 # Content management
 taxonomies:
   category: categories
