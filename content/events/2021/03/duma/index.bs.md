@@ -7,7 +7,7 @@ eventDate: 2021-03-05T12:30:00+0100
 location: Écublens, Vaud
 facebook_id: '254713972954306'
 weight: 30
-image: https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/155294275_3695079563921169_4909597834044538694_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=F4FtzGlRkMAQ7kNvwE_aMQ2&_nc_oc=Adlx204-NuZVG2FME6Up8iXztibTT3fNd50DboG-pwGvKIgyHzzwH8c006ovU_XZhFo&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=v6sCdK41ZahPhlJsrQBwmA&oh=00_AfL3T-bTVLj5vtZVLIQQaCKkzutAHs9LilNPtcbwfUAzrg&oe=684CCDDB
+image: https://scontent-lhr8-2.xx.fbcdn.net/v/t1.6435-9/155294275_3695079563921169_4909597834044538694_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=n0Fe3788-pcQ7kNvwH6w-fu&_nc_oc=AdnJxl_p_dg0AInjHtVPKLlHrChZ5wO9iYQwcpASyUjAfhfjPLh7L-cU662nrPAzwao&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&edm=ABTKTjYEAAAA&_nc_gid=3M-15HbDVKkxV8h-fZcNpw&oh=00_AfK49F3fiVwq1QTMtOoNXr-d71wZifZlKMQwSsUxYfU69w&oe=684E1F5B
 ---
 
 Champs-courbes 24. 1024 Ecublens
