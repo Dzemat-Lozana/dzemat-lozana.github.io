@@ -18,7 +18,7 @@ footer_rights = "Sva prava zadržana"
 
 # Hero section
 hero_welcome = "Dobrodošli"
-hero_description = "Mjesto molitve, obrazovanja i zajednice za bosanske muslimane u Lozani"
+hero_description = "Mjesto molitve, obrazovanja i zajednice na raspolaganju i na usluzi svih."
 hero_button = "Saznajte više"
 hero_current_time = "Trenutno vrijeme"
 hero_association = "Association Bosniaque de Lausanne"
@@ -26,7 +26,7 @@ hero_community_place = "Mjesto molitve, obrazovanja i zajednice"
 
 # About section
 about_title = "O nama"
-about_description = "Association Bosniaque de Lausanne je neprofitna organizacija koja služi bosanskoj muslimanskoj zajednici u Lozani i okolini. Osnovana na principima islama prema hanefijskoj školi i vrijednostima otvorenosti i tolerancije, trudimo se očuvati naš kulturni identitet dok promovišemo integraciju i međukulturalni dijalog."
+about_description = "Association Bosniaque de Lausanne je neprofitna organizacija osnovana na principima islama prema hanefijskoj školi i vrijednostima otvorenosti i tolerancije, trudimo se očuvati naš kulturni identitet dok promovišemo integraciju, međukulturalni i međureligijski dijalog i poštovanje."
 about_mission_title = "Naša misija"
 about_mission_description = "Stvoriti prostor gdje bosanska kultura i vjerska praksa cvjetaju, doprinoseći švicarskom društvu."
 about_mission_list = "Osigurati mjesto bogoslužja za muslimane porijeklom iz BiH, Pružati časove bosanskog jezika i kulture, Doprinositi međukulturnom i međureligijskom dijalogu, Jačati vrijednosti poštovanja između društvenih i kulturnih komponenti, Raditi na očuvanju društvene kohezije, Izgraditi mrežu partnera koji dijele iste ciljeve"

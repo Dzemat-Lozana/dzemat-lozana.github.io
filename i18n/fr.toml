@@ -18,7 +18,7 @@ footer_rights = "Tous droits réservés"
 # Hero section
 hero_welcome = "Bienvenue"
 hero_subtitle = "Džemat Lozana"
-hero_description = "Un lieu de prière, d'éducation et de communauté pour les musulmans bosniaques de Lausanne"
+hero_description = "Un lieu de prière, d'éducation et de communauté à disposition et au service de tous."
 hero_button = "En savoir plus"
 hero_current_time = "Heure actuelle"
 hero_association = "Association Bosniaque de Lausanne"
@@ -26,7 +26,7 @@ hero_community_place = "Un lieu de prière, d'éducation et de communauté"
 
 # About section
 about_title = "À propos de nous"
-about_description = "L'Association Bosniaque de Lausanne est une organisation à but non lucratif qui sert la communauté bosniaque musulmane de Lausanne et ses environs. Fondée sur les principes de l'Islam selon l'école Hanafite et les valeurs d'ouverture et de tolérance, nous nous efforçons de préserver notre identité culturelle tout en favorisant l'intégration et le dialogue interculturel."
+about_description = "L'Association Bosniaque de Lausanne est une organisation à but non lucratif fondée sur les principes de l'Islam selon l'école Hanafite et les valeurs d'ouverture et de tolérance, nous nous efforçons de préserver notre identité culturelle tout en favorisant l'intégration et le dialogue interculturel et interreligieux."
 about_mission_title = "Notre mission"
 about_mission_description = "Créer un espace où la culture bosniaque et la pratique religieuse s'épanouissent tout en contribuant à la société suisse."
 about_mission_list = "Assurer un lieu de culte pour les musulmans originaires de Bosnie, Dispenser des cours de langue et culture bosniaque, Contribuer au dialogue interculturel et interreligieux, Renforcer les valeurs de respect entre les composantes sociales et culturelles, Œuvrer pour la préservation de la cohésion sociale, Construire un réseau de partenaires partageant les mêmes buts"
