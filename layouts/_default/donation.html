@@ -1,15 +1,15 @@
 {{ define "main" }}
 <div class="max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
   <div class="bg-white shadow-xl rounded-lg overflow-hidden">
-    <div class="bg-gradient-to-r from-teal-500 to-teal-700 py-8 px-6 sm:px-10">
+    <div class="bg-gradient-to-r from-primary to-primary-dark py-8 px-6 sm:px-10">
       <h1 class="text-white text-3xl font-bold">{{ .Title }}</h1>
-      <p class="mt-2 text-teal-100">{{ .Description }}</p>
+      <p class="mt-2 text-primary-light/90">{{ .Description }}</p>
     </div>
 
     <div class="px-6 py-8 sm:px-10">
       <div class="prose lg:prose-lg max-w-none">{{ .Content }}</div>
     </div>
-    <div class="bg-gradient-to-r from-teal-500 to-teal-700 py-8 px-6 sm:px-10 flex justify-center">
+    <div class="bg-gradient-to-r from-primary to-primary-dark py-8 px-6 sm:px-10 flex justify-center">
       <button
         style="
           width: auto;

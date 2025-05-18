@@ -37,7 +37,7 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <!-- Fajr -->
-        {{ $prayer := merge $prayerTimes.fajr (dict "name" (i18n "prayer_fajr") "color" "teal" "icon" "sunrise") }}
+        {{ $prayer := merge $prayerTimes.fajr (dict "name" (i18n "prayer_fajr") "color" "primary" "icon" "sunrise") }}
         {{ partial "prieres/card.html" $prayer }}
         
         <!-- Dhuhr -->

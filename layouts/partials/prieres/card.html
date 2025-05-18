@@ -1,6 +1,12 @@
+{{ if eq .color "primary" }}
+<div class="bg-white rounded-lg p-6 shadow-md border-t-4 border-primary hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+  <div class="flex items-center mb-4">
+    <div class="mr-3 p-2 bg-primary/10 rounded-md text-primary">
+{{ else }}
 <div class="bg-white rounded-lg p-6 shadow-md border-t-4 border-{{ .color }}-500 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
   <div class="flex items-center mb-4">
     <div class="mr-3 p-2 bg-{{ .color }}-50 rounded-md text-{{ .color }}-600">
+{{ end }}
       {{ if eq .icon "moon" }}
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5">
         <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
@@ -54,9 +60,18 @@
     </svg>
     <span class="text-2xl font-bold">{{ .time }}</span>
   </div>
+  
+  {{ if eq .color "primary" }}
+  <div class="flex items-center text-sm mt-2 bg-primary/10 rounded-md px-3 py-1 inline-block">
+    <span class="text-primary">
+      <span class="font-medium">{{ i18n "prayer_iqama" }}:</span> {{ .iqama }}
+    </span>
+  </div>
+  {{ else }}
   <div class="flex items-center text-sm mt-2 bg-{{ .color }}-50 rounded-md px-3 py-1 inline-block">
     <span class="text-{{ .color }}-600">
       <span class="font-medium">{{ i18n "prayer_iqama" }}:</span> {{ .iqama }}
     </span>
   </div>
+  {{ end }}
 </div>
