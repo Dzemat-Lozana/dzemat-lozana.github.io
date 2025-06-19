@@ -1,11 +1,11 @@
 {
-    "last_updated": "2025-06-18 05:13",
+    "last_updated": "2025-06-19 05:14",
     "sunrise": {
         "time": "05:30"
     },
     "fajr": {
-        "time": "03:42",
-        "iqama": "03:57"
+        "time": "03:41",
+        "iqama": "03:56"
     },
     "dhuhr": {
         "time": "13:40",
@@ -16,12 +16,12 @@
         "iqama": "17:58"
     },
     "maghrib": {
-        "time": "21:40",
-        "iqama": "21:43"
+        "time": "21:41",
+        "iqama": "21:44"
     },
     "isha": {
-        "time": "23:10",
-        "iqama": "23:15"
+        "time": "23:11",
+        "iqama": "23:16"
     },
     "jumua": {
         "time": "13:40"
