@@ -13,7 +13,7 @@ eventDate: 2024-11-25T20:30:00+0100
 location: Le Cinématographe
 facebook_id: '1169288944157981'
 weight: 30
-image: https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/480458870_669400799102559_463094215784846016_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=-jQmj_5PecAQ7kNvwFxgMrL&_nc_oc=Adl4llGwh7ImlWdhWcdhZEPiQrCfyhRtvaiuMcljNJFPUGPd68a4GqlbjnsyiIViIAQ&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=ABTKTjYEAAAA&_nc_gid=krEkOe_1kG9AwQQW5SHnLw&oh=00_AfTN9O8CHjGD_Bfs_jJm--gZ8Sc-jyjfmMEVgJU1W25QnQ&oe=6872474E
+image: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/480458870_669400799102559_463094215784846016_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=Eobnk-T2tVwQ7kNvwHe8L-J&_nc_oc=AdmrgKicxnw-m7pBmt5zA3EKCSpslJpdW2Jwe1F5qTqUT5ChccMKCpwVRR7WuRHTCKY&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=y6BKEH7PRdSw8LJVpqO8fg&oh=00_AfTgz7xyLSVPMHQhSK4e1ElupkjACQnVRmS2_YGNltPPCw&oe=687398CE
 endDate: 2024-11-25T23:00:00+0100
 ---
 
