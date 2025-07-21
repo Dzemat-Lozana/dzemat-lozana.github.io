@@ -7,7 +7,7 @@ eventDate: 2021-07-11T18:00:00+0200
 location: ''
 facebook_id: '216159003711963'
 weight: 30
-image: https://scontent-ams4-1.xx.fbcdn.net/v/t39.30808-6/467911425_8702124949883247_8451066247417132989_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=UxM7YfH_qTIQ7kNvwGxKU1Y&_nc_oc=AdngGFo7C4f6YSUJK7Wj0m7K6w_iNRQnBs2hYjE_o_KMIpmdW1FsFTA_gw0HDog4pdY&_nc_zt=23&_nc_ht=scontent-ams4-1.xx&edm=ABTKTjYEAAAA&_nc_gid=I9HWgP3SvoqEJeAaFm1ZNA&oh=00_AfSxmFdmjZ5Ny9NvPwPL2_bkMOAhGE8Df1quwj6PheLaBw&oe=688249D9
+image: https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/467911425_8702124949883247_8451066247417132989_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=UxM7YfH_qTIQ7kNvwFdLTpz&_nc_oc=AdlGb2Bg6zgjl4uqlux3lG82tX6VmqrqDzY3PjZCqTFQEXt61CvJv1VYWgPBcA9Nf1U&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=jgBmSDW6QV93fX1yVQQpcQ&oh=00_AfTPYz3ySV7CRMjnTqqKWxXH4PqVn71fnPqTrx0ElUET9w&oe=68839B59
 ---
 
 djeca dzemata Lozana za Srebrenicu
