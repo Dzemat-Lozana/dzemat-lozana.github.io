@@ -8,7 +8,7 @@ eventDate: 2025-05-10T20:00:00+0200
 location: Champs-Courbes 24, ‏إيكوبلينس‏، ‏سويسرا‏
 facebook_id: '543664342124666'
 weight: 30
-image: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/494655977_999846225609310_4487878895912218163_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=d9CKA3LPgwwQ7kNvwFuT1mL&_nc_oc=AdkEWLjQaMHuttsbqNEt6NTEgklVkjIswG0poRLUmSSf8AXoJoZG3gBPwspW_St_mMg&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=XVr40dKFFstXdtiXQNacIg&oh=00_AfUyvZa-1-KZBDBWo3ElqDOisr8btsJjsvSgBc7ImInUzg&oe=68A07618
+image: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/494655977_999846225609310_4487878895912218163_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=d9CKA3LPgwwQ7kNvwEKDPJH&_nc_oc=Adloqa7CMV64_0kuW_YZyZMXT5JTq11x-ybszJsvUjyN_-4kFofhKmwG9lX9Xib6I7s&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=zRteroaG_HaPd8tYTw3WpQ&oh=00_AfXII2ONSp_6xO3N68zZ01iVPf9ErRaUNn2NKhbDXK0O5w&oe=68A1C798
 ---
 
 Ovaj događaj je prilika da se okupimo, i rastemo zajedno. Radujemo se što ćemo provesti ovo vrijeme u zajedničkom duhu .”
