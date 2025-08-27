@@ -8,7 +8,7 @@ eventDate: 2018-05-13T12:00:00+0200
 location: Cugy, Vaud
 facebook_id: '755216564867662'
 weight: 30
-image: https://scontent-ord5-2.xx.fbcdn.net/v/t1.6435-9/31947293_1665614486867697_1159691004425535488_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=UdLZ4PZLaWoQ7kNvwEe-fiZ&_nc_oc=AdlnqLyAH8GBa4hxMNLhvK3Gb-Sr9NC1vODfQQ7EtEaqmqJXlg4npz26HP48GioOE4w&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=ABTKTjYEAAAA&_nc_gid=AJb7JvBWCWu4NKsg7gzsLg&oh=00_AfX3m1wdn6EJq-2ydjbfXN0qpwmmXujXVbC6J3vh7tI3dg&oe=68D47BDA
+image: https://scontent-ord5-2.xx.fbcdn.net/v/t1.6435-9/31947293_1665614486867697_1159691004425535488_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=UdLZ4PZLaWoQ7kNvwHLw9Lf&_nc_oc=AdlC8rWJfdQngIS7XT-yeTexuDzp2G4lnKK3Dxzu21eCW9yfTOkQUQxmJ7asfZrQX_c&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=ABTKTjYEAAAA&_nc_gid=Ds21akcLhsPlO_3YuOR-mA&oh=00_AfV4qYGmKrIWw3h_C1BN8fvewDvEJ8Y6jacwlcomKFGgZg&oe=68D5CD5A
 endDate: 2018-05-13T20:00:00+0200
 ---
 
