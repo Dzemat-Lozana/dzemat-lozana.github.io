@@ -7,7 +7,7 @@ eventDate: 2025-06-15T09:00:00+0200
 location: Rue Chasseral 3 2053 Cernier
 facebook_id: '1403473444164976'
 weight: 30
-image: https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/496358384_1007574214836511_4806363768185633011_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=7Dyj_-XjXkoQ7kNvwFWwCpJ&_nc_oc=Adnzx0trN-6WrSuN7d-bkM1OdJHLsEjGLSw153d8Ktoe9nQMmMbYYVd0D7m5eZro8qo&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=ABTKTjYEAAAA&_nc_gid=73yuzpXq6R5uWryU5tyJhQ&oh=00_AfbFBMH6vg2wMQ6vQ5pfcqSiWRl4rhlbS4SyFD9IcHOCVA&oe=68D679AE
+image: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/496358384_1007574214836511_4806363768185633011_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=Lz6F3Nc_K-AQ7kNvwEKKZaG&_nc_oc=AdkVegOYG1i8J5bVjPLY65OmYNAp3DspTuiaYaVPpDM9sGLCvNvuR2HdLJHZ5YIvCsY&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=8JEz0c1ozwlgxetBmzMypQ&oh=00_AfYRl_Eexr2QLlGrHjHfbIIJIUoVg05Iig4jI9GuvGOAvQ&oe=68D7CB2E
 ---
 
 Komemorativni mars sjecanja na genocid u Srebrenici.
