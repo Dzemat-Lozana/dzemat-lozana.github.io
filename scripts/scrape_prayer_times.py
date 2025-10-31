@@ -44,10 +44,10 @@ def scrape_prayer_times():
         
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
-            script = soup.find('script', string=re.compile(r'var confData = (.*?);', re.DOTALL))
-            
+            script = soup.find('script', string=re.compile(r'let confData = ', re.DOTALL))
+
             if script:
-                mawaqit = re.search(r'var confData = (.*?);', script.string, re.DOTALL)
+                mawaqit = re.search(r'let confData = ({.*?});', script.string, re.DOTALL)
                 
                 if mawaqit:
                     conf_data = json.loads(mawaqit.group(1))
