@@ -104,32 +104,16 @@ prayer_iqama = "Iqama"
 prayer_last_updated = "Dernière mise à jour"
 prayer_data_source = "Source des données"
 
-[blog_title]
-other = "Blog"
-
-[blog_all]
-other = "Tous les articles"
-
-[blog_latest]
-other = "Derniers articles"
-
-[blog_list_description]
-other = "Découvrez nos derniers articles, actualités et réflexions"
-
-[blog_latest_description]
-other = "Restez informé avec nos derniers articles et actualités"
-
-[blog_read_more]
-other = "Lire la suite"
-
-[blog_view_all]
-other = "Voir tous les articles"
-
-[blog_back_to_list]
-other = "Retour à la liste des articles"
-
-[blog_none]
-other = "Aucun article disponible pour le moment"
+# Blog section
+blog_title = "Blog"
+blog_all = "Tous les articles"
+blog_latest = "Derniers articles"
+blog_list_description = "Découvrez nos derniers articles, actualités et réflexions"
+blog_latest_description = "Restez informé avec nos derniers articles et actualités"
+blog_read_more = "Lire la suite"
+blog_view_all = "Voir tous les articles"
+blog_back_to_list = "Retour à la liste des articles"
+blog_none = "Aucun article disponible pour le moment"
 
 # Membership Form
 membership_form_title = "INSCRIPTION DE MEMBRE"
