@@ -1,29 +1,4 @@
 {
-    "last_updated": "2025-10-31 06:59",
-    "sunrise": {
-        "time": "07:09"
-    },
-    "fajr": {
-        "time": "05:32",
-        "iqama": "06:32"
-    },
-    "dhuhr": {
-        "time": "12:22",
-        "iqama": "12:27"
-    },
-    "asr": {
-        "time": "14:57",
-        "iqama": "15:02"
-    },
-    "maghrib": {
-        "time": "17:26",
-        "iqama": "17:29"
-    },
-    "isha": {
-        "time": "18:56",
-        "iqama": "19:01"
-    },
-    "jumua": {
-        "time": "12:22"
-    }
+    "error": "Failed to extract prayer times",
+    "last_updated": "2025-10-31 06:42"
 }
