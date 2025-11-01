@@ -7,7 +7,7 @@ eventDate: 2025-06-15T09:00:00+0200
 location: Rue Chasseral 3 2053 Cernier
 facebook_id: '1403473444164976'
 weight: 30
-image: https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/496358384_1007574214836511_4806363768185633011_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=R_CgQAnMOPsQ7kNvwEyysmE&_nc_oc=Adm8vUsW6Oe2itxLJKJE65WGjovFpERMTRywlIrqTShYAJmVKKv2Us6tcHXzm8CdoGk&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=ABTKTjYEAAAA&_nc_gid=3-XvjHbv37Fyz1RhrrHI_g&_nc_tpa=Q5bMBQHcSWHhe6-ZTPGv8AH22wo3mRRALktvwXQRvGGdI7UMCFxSL36z0HyObmCRwn7ayBAp7VGa7o0C0A&oh=00_Afc_0OHVtOE6HLhT78ZDsGTga-OwArcsPO3Wqru1-hrBxw&oe=690A1C6E
+image: https://scontent-fra5-1.xx.fbcdn.net/v/t39.30808-6/496358384_1007574214836511_4806363768185633011_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=6gaNMsbczoUQ7kNvwGmkpVO&_nc_oc=AdnNwhKArzhKHVa4r6b3VgDMw01uCv-V6zE3CHiy22jykTBDCon0TabvksyVso8-yHQ&_nc_zt=23&_nc_ht=scontent-fra5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=r5uuwwDPuSUtykq09lUSbA&_nc_tpa=Q5bMBQFdNUA7YcvBbruKs4kCU5Y4l6mx3B83bZJsR3ZE2gqOryghoKeEMwln_T2SQBlFOQgg8yPfFCSvGQ&oh=00_AfdiLKGPFYBvAtLkzjtq1r927i8j_3izdC2C3JX8ofqUOw&oe=690B35AE
 ---
 
 Komemorativni mars sjecanja na genocid u Srebrenici.
