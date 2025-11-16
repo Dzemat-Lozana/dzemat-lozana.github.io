@@ -16,7 +16,7 @@ eventDate: 2023-03-04T19:00:00+0100
 location: Džemat Lozana - Association Bosniaque de Lausanne
 facebook_id: '928244301541147'
 weight: 30
-image: https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/475951840_935481025379164_1390410738246455704_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=9e60e4&_nc_eui2=AeHhG90KMScEaziMDA_8--SDuKfqv4yy4bi4p-q_jLLhuKxMatgvbnp6zoB59_h6rSpqA-U-G-ST9f2qmdqmZGV4&_nc_ohc=gk_FaWf7HJsQ7kNvwFN0uRr&_nc_oc=Admm7xtYcjvaqZd-Kw0-KCUg3EvBHtuUhwLUiydN4r8uD5X72Lm_UAoa_-4pkp0Lchg&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&edm=ABTKTjYEAAAA&_nc_gid=1JVoGxH46LSiQ_QGYMqa6Q&_nc_tpa=Q5bMBQEdrh-WdR9lUM4-2bx1rOu_Z31j8M8svmDurRxFh2JQ_y8wJUSBUSKvT3hLVNCNp9WDT-OptUUVwA&oh=00_Afh3Zr-VDArGXsaSQcFkaU0unbVUz9j-vE_VO8P4XvvdUA&oe=691DAEF9
+image: https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/475951840_935481025379164_1390410738246455704_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=9e60e4&_nc_eui2=AeHhG90KMScEaziMDA_8--SDuKfqv4yy4bi4p-q_jLLhuKxMatgvbnp6zoB59_h6rSpqA-U-G-ST9f2qmdqmZGV4&_nc_ohc=gk_FaWf7HJsQ7kNvwE7nd0E&_nc_oc=AdnK-Cv5X2tbQGfh3uxxak1m2EAm_Upq-OC36RS_hGx3-XdJFamig14LnTA3G8ygOog&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&edm=ABTKTjYEAAAA&_nc_gid=rboOxERkQMjXnFDRmgr3Hw&_nc_tpa=Q5bMBQG9rWy7dlKDi_EVTlWWqmtzEjUcnbQ6Mp9nx571y_thCg4Aq9nAD63fmf-f5DFs5SfBcL2g2ZGOGQ&oh=00_Afhs4xGM8Iyr0CcNI925y3J8vrXXxMdvUO1Ybc9FzG8SDg&oe=691F0079
 ---
 
 Čast nam je pozvati Vas na svečanu manifestaciju povodom Dana nezavisnosti Bosne i Hercegovine, koja će se održati u Subotu, 4. Marta, u 19:00 sati, u prostorijama našeg Džemata Lozana s našim uvaženim gostom Prof. Enver Imamović.
