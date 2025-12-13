@@ -23,7 +23,7 @@ eventDate: 2025-05-11T09:00:00+0200
 location: Refuge de Montassé
 facebook_id: '1193996425719456'
 weight: 30
-image: https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-6/495002816_999819255612007_6095771516433501333_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=Am4U09IdV-cQ7kNvwG-DjCl&_nc_oc=AdnrI4cB0QI0hP7G_eD-MqEAVQNFDHulz2kMI4c4ityTWe8cLJ0WyEUR1gwe5wmYdao&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&edm=ABTKTjYEAAAA&_nc_gid=f027tYiq6VSIBA6YVVKvqQ&_nc_tpa=Q5bMBQEIetBL_YFKwk2dr9GO_xs9uL7wgFqVB-EEa32L3mCHZENdgZZLhsTCSMWRrsEnSJ_YQ30qlHloZw&oh=00_AflbI9nJ2EnYBmsfefyOfqPJlLLy9HNX_JtKiDOIpaRDYw&oe=69416E85
+image: https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/495002816_999819255612007_6095771516433501333_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=Am4U09IdV-cQ7kNvwHnIbew&_nc_oc=AdmZymHU429ZP8BVC2v4mPCqFjgkVp-0SikDrk3V273CXPq_3Jbd6n8X-Zh9uEnq1Og&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=VM49hERQd3vq7PdEBFukng&_nc_tpa=Q5bMBQGawBiRSHzK8Ui3nsOT64Ys4PmMJJToYAc5dk-ksLEpm_cMzNVG-Z2_w8LrqvGLg1KzvhMUUr_ZcQ&oh=00_AfltTp3jq0ro5yu9W5IKw9NI8RX7eJzF3oglxtjVCmgb7w&oe=6942C005
 ---
 
 Esselamu alejkum dragi roditelji,
