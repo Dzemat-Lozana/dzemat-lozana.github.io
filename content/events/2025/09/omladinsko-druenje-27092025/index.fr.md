@@ -22,7 +22,7 @@ eventDate: 2025-09-27T19:00:00+0200
 location: Champs-Courbes 24, 1024 Ecublens, Switzerland
 facebook_id: '950941150568873'
 weight: 30
-image: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/552637089_1108051454788786_5018616264435163544_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=jakRbJ3tuzYQ7kNvwEIj0wi&_nc_oc=AdkDbvrp1UIyBXt-uEG0CLSJ0ZdcUvJT-pd2oXiSHBmV9BU7M06I9FIFJ5LCKaPZr-g&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=ScC4kp0RAPOnEwtcruIxow&_nc_tpa=Q5bMBQFZQlLVCMOa0tmscVwvpqvC7JY75XNL_z1L6To64uGSA1ATQBKe86LP2020IFfPpq1hI9cGpyZKjQ&oh=00_AfrsQefaNk3dKCCxk0OG8VbIXkcmNbOPq7wRS0ORYMQNDg&oe=696B96E6
+image: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/552637089_1108051454788786_5018616264435163544_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=jakRbJ3tuzYQ7kNvwEzGWv4&_nc_oc=Adk7ir8wzDWlMTM3_N2pdij_Z5FcMa2xrUv2NVdgtFcVgb9pjmTtqpY-Cfh5ZAImn8A&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=24bTcU2N1qUmF1fOXFgCTw&_nc_tpa=Q5bMBQE9clzmKNc6Z8ic0NLFza8wcFBYgM5SB9nENOM4-Vnf7I6iXTeWVSQ1bvB2GPUQA0JShUyHqc_xkw&oh=00_AfpTrWROPzRPh1CVpx8sEoVdJqIw_32P2r8kx6oOfjGqgg&oe=696CE866
 ---
 
 Udruženje mladih Dzemata Lozana druzenje za mlade !
