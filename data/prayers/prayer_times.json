@@ -1,27 +1,27 @@
 {
-    "last_updated": "2026-02-11 05:27",
+    "last_updated": "2026-02-12 05:22",
     "sunrise": {
-        "time": "07:39"
+        "time": "07:38"
     },
     "fajr": {
-        "time": "06:02",
-        "iqama": "07:02"
+        "time": "06:01",
+        "iqama": "07:01"
     },
     "dhuhr": {
         "time": "12:53",
         "iqama": "12:58"
     },
     "asr": {
-        "time": "15:28",
-        "iqama": "15:33"
+        "time": "15:29",
+        "iqama": "15:34"
     },
     "maghrib": {
-        "time": "17:57",
-        "iqama": "18:00"
+        "time": "17:59",
+        "iqama": "18:02"
     },
     "isha": {
-        "time": "19:27",
-        "iqama": "19:32"
+        "time": "19:29",
+        "iqama": "19:34"
     },
     "jumua": {
         "time": "12:53"
