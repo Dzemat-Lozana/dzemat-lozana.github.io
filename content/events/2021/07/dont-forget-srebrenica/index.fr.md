@@ -7,7 +7,7 @@ eventDate: 2021-07-11T18:00:00+0200
 location: ''
 facebook_id: '216159003711963'
 weight: 30
-image: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/467911425_8702124949883247_8451066247417132989_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=478c00&_nc_ohc=T4vinRV835AQ7kNvwH_pr9T&_nc_oc=AdmTI2p0tL7nCWXwxHiIXPQVRk2E14rNo_xJkAz3qvuisuZZKG79vhpxqmMNL-50J1c&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=ABTKTjYEAAAA&_nc_gid=SnDPFxkKtCETEqtiZA7vJA&_nc_tpa=Q5bMBQGRGt1zjFyt630VDXjNciNaVV9NoBTOv5Kki_iK-ZFwehtDjUi5RLKp305ZwTp4trfXBTcI2ktXNw&oh=00_Afzrk5kWYQJrw2RNpQA4DiV_vHmWomZqBM7N8OpGmcV14w&oe=69BD6059
+image: https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/467911425_8702124949883247_8451066247417132989_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=478c00&_nc_ohc=9xgQb2cBKQoQ7kNvwFVyKah&_nc_oc=Adk0CIKSQFLi3xJRNE_u7Ytw-yQWQHJc46qjRczp60-vxM_ThOacKvS8ylUimp_svao&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=ABTKTjYEAAAA&_nc_gid=0JR4G6aaXnajLVqDNByP7A&_nc_tpa=Q5bMBQHaD4jZg_qzgoMajvKtGyfqyGTmcOIXgR4J6U2YENWTA6FoG3HxrSEzHvUwwCaFkWv0t40aL3kF9A&oh=00_AfyIRAUcjpLRwPESw_NOksBfVE27c67RqlBnaOKEx_92og&oe=69BEB1D9
 ---
 
 djeca dzemata Lozana za Srebrenicu
