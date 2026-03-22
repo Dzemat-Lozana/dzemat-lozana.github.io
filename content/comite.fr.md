@@ -5,10 +5,10 @@ layout: "committee"
 leadership:
   - role: "Direction Spirituelle"
     title: "Imam"
-    name: "Ejjub Tulic"
+    name: "Muamer Salkić"
   - role: "Présidence"
     title: "Président"
-    name: "Miralem Idrizovic"
+    name: "Miralem Idrizović"
 members:
   - department: "Vice-Présidence"
     positions:
@@ -17,17 +17,15 @@ members:
   - department: "Trésorerie"
     positions:
       - title: "Trésorier"
-        name: "Hamed Salkic"
+        name: "Hamed Salkić"
       - title: "Vice-Trésorier"
-        name: "Mirzet Hrnjic"
+        name: "Mirzet Hrnjić"
   - department: "Secrétariat"
     positions:
       - title: "Secrétaire"
-        name: "Hasan Ahmetovic"
-      - title: "Vice-Secrétaire"
-        name: "Mirfet Oric"
+        name: "Hasan Ahmetović"
   - department: "Responsabilité Technique"
     positions:
       - title: "Responsable Technique"
-        name: "Sevko Becirovic"
+        name: "Ševko Becirović"
 ---
