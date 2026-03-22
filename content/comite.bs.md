@@ -5,7 +5,7 @@ layout: "committee"
 leadership:
   - role: "Vjersko Vođstvo"
     title: "Imam"
-    name: "Ejjub Tulić"
+    name: "Muamer Salkić"
   - role: "Predsjedništvo"
     title: "Predsjednik"
     name: "Miralem Idrizović"
@@ -24,8 +24,6 @@ members:
     positions:
       - title: "Sekretar"
         name: "Hasan Ahmetović"
-      - title: "Zamjenik sekretara"
-        name: "Mirfet Orić"
   - department: "Tehnička Odgovornost"
     positions:
       - title: "Tehnički odgovorni"
