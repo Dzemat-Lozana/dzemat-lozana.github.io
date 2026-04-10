@@ -7,7 +7,7 @@ eventDate: 2022-05-14T19:00:00+0200
 location: Chemin des Champs-Courbes, 1024 Ecublens Vaud, Suisse
 facebook_id: '365920628908259'
 weight: 30
-image: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/483842093_9330013443761058_8599832410174975788_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=478c00&_nc_ohc=2jS6lpvu7UgQ7kNvwHpgXBD&_nc_oc=Adp4dmIZNg1thkQnHfMfK2o0Bhd93NDZj9mML9-WgpzAuMN9oMcEbXJMfJmjVqqauLY&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=qL3bX1JjuptyTLEJIFvoAg&_nc_tpa=Q5bMBQGEmiQIwATUBYBfFKHtNAVLYEDVBvcyCEwHiuTPD4Cmpoc_9TXPfN8z1wElTMFrBxlYACmZTm9bPg&oh=00_Af3DanIWJ1SJbZ9SE7mamyz6EtXsiQ01KhCywamO0IWyGw&oe=69DD1593
+image: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/483842093_9330013443761058_8599832410174975788_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=478c00&_nc_ohc=2jS6lpvu7UgQ7kNvwGkmStY&_nc_oc=AdrUopqClKVhp4F8PmVNcLxX9-s3HjaKME-B2tXixeJnWiwYX-bn7TDaGulvn_BLVyQ&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=3Ef_YBGRGz_y4AbYHEXgoA&_nc_tpa=Q5bMBQFoBnVaoNrrrXpc2wGQKgMOTVSfuPhkeIytE6c8-qtcVmW_GoAIpzKTXI9-d9jcGOp_zLaTxUDNqg&oh=00_Af1g7dcCNpP5GL4eDrQegPEPZvoyYiZ6lPlPuTZwpzbH0w&oe=69DE6713
 ---
 
 projekcija filma "Atentat na Bosnu" uz prisustvo autora Avde Huseinovića.
