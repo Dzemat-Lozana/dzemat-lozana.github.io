@@ -15,7 +15,7 @@ eventDate: 2023-03-25T05:30:00+0100
 location: Džemat Lozana - Association Bosniaque de Lausanne
 facebook_id: '1334994127064384'
 weight: 30
-image: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/476009657_935496042044329_8178626072168630847_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=478c00&_nc_ohc=YQwjYevvCzkQ7kNvwFTooRk&_nc_oc=Adq9gpnxbS4KQtcFjXgktsrONpvq29qva1RzwSrIHEmQRdKwHCZJ5E35UVgsPQJE2dA&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=H4Dci7RL2qayWRBmGf5u_w&_nc_tpa=Q5bMBQEh9R5y0jDuP1u5Pp5eidHiKNxoo67hQb4ltfuW3AShkwCrXBW3zruC3699rOuurTRp5_m_aPOg4Q&oh=00_Af1ToF7iZhTo0lGtq1RS7iiyJ5o__fo20SG5fAFkBQnYng&oe=69F4D7DC
+image: https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/476009657_935496042044329_8178626072168630847_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=478c00&_nc_ohc=YQwjYevvCzkQ7kNvwGu2xpK&_nc_oc=AdoKXvBXSA-GTHWPpeOlrX5tI5aGWeSh5rF55zhPA0XSf27ZlJmTYvf0B5IiMWVB2Qc&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&edm=ABTKTjYEAAAA&_nc_gid=AIK4HsTzkMxO4zLu2ERLCg&_nc_tpa=Q5bMBQFuVjQPYktTbglCMBnw_X0bC4PpMKpChk03lPL5-FkM1laJDmCv6XB1GdHsTgVTTeXWaB4F0FFbAg&oh=00_Af1w0M1nFkad3dOwlwPutcd1U2cf3FzVP9cczTOb9QqXcw&oe=69F6295C
 endDate: 2023-03-25T18:30:00+0100
 ---
 
