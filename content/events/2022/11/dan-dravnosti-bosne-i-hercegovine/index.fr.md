@@ -16,7 +16,7 @@ eventDate: 2022-11-25T19:30:00+0100
 location: Paudex
 facebook_id: '655117239386651'
 weight: 30
-image: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/486641854_9399207156841686_1516080123773765506_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=478c00&_nc_ohc=GnxQKdrOd6MQ7kNvwEX7D4t&_nc_oc=AdolHY_8pT7xt59f2GsDVtPVbke9JmmY78r7rWC1oboo_czu9bAIcQmn6thKyEIV4dY&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=ABTKTjYEAAAA&_nc_gid=pdHGOPO2SKmQbqEyrnNWag&_nc_tpa=Q5bMBQFUkrpS2Jzeang2zjJioeKQ03S6KTGS4CrReEvWRfe4yMhZ9w-CZwZQlXfvbJXLpNY8zWi0PIzrvg&oh=00_Af3tbnAQ9WqUCTzqZg4cB__6tDPzNXwFM0yYmKOeN1HopA&oe=69F8ABBD
+image: https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/486641854_9399207156841686_1516080123773765506_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=478c00&_nc_ohc=GnxQKdrOd6MQ7kNvwHvw7-b&_nc_oc=AdqifHMDjtbM6PzSpLRPSlremyxJ66y3IRf08RuWP1q4YFNwzAUQ4tTli1KNKBSHvHk&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=ABTKTjYEAAAA&_nc_gid=C80M7KLhOnNsAxK57D00dQ&_nc_tpa=Q5bMBQE796nESJWSy30xDXl_3PNTnZd1FyMw8SGhvhbIXy-PAdsuYHLsiuEw80fkD9EGbYj3f3Fv2k6twA&oh=00_Af6Vqf2IfK3VPjK9bPAiWQxp8EDKw6QbMVrZICFH2Mr78Q&oe=69F9FD3D
 ---
 
 Sve informacije ili rezervaciju moze te nazvati na broj +41 78 921 59 93 Hamed Salkic ili +41 79 622 41 88 Mirsad Muminovic.
