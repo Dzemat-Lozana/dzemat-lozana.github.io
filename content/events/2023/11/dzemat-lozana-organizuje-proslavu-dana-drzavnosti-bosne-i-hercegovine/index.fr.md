@@ -15,7 +15,7 @@ eventDate: 2023-11-18T19:00:00+0100
 location: Salle Polyvalente, Route d’Echallens 19, 1041 Poliez-Pittet
 facebook_id: '1330476484506898'
 weight: 30
-image: https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/480285085_944333661160567_3277375841641556820_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=478c00&_nc_ohc=h2biYqugC2YQ7kNvwGYC93h&_nc_oc=Adr7dNX6ga_QQQHRxiSO7jl910walECbANDSVHaIlxfY3nJk3q29mNzjhrxxT5irRa4&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=ABTKTjYEAAAA&_nc_gid=kOKiuzBHBTj8GtqgFY3VYA&_nc_tpa=Q5bMBQEY9F4tfkEMgCSrtxIMrWrEX4PzANZ4X7ucuLXro5b2bxdbv4NgYukDW0LnqkIV0vS_fuwTGRm84Q&oh=00_Af5o6crIO314EkzQy5zs0hyiM5nZsSdYOa6vk6dDA-SeDg&oe=69FB5DDF
+image: https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/480285085_944333661160567_3277375841641556820_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=478c00&_nc_ohc=n17j7EoclfsQ7kNvwF9idE8&_nc_oc=AdoTMRlRVL6nC14edKbqwXIrQJp8RIsy18zkluJ6EYVXCJTPolIec3WcbxMOsBrEfcY&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=ABTKTjYEAAAA&_nc_gid=Ky5creBWFL9vztpDmRMHrg&_nc_tpa=Q5bMBQFKPEvXGd3oXnkyPz9DtL9oEiIr2KWhCfUGis-jzR2Di4xm0X2m_H9WH1vsRqauVkHLKRFICgDzcw&oh=00_Af4s0rgjjPiiPLABg4krMkk6LYTSkAZZGXqdCwTZk7Z1dA&oe=69FCAF5F
 ---
 
 Salle Polyvalente
