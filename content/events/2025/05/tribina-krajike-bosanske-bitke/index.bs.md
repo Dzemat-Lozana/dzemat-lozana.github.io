@@ -9,7 +9,7 @@ eventDate: 2025-05-24T20:00:00+0200
 location: Champs-Courbes 24, ‏إيكوبلينس‏، ‏سويسرا‏
 facebook_id: '1181399717069140'
 weight: 30
-image: https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/497910328_1007825038144762_7375653666811415510_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=478c00&_nc_ohc=lDEhRANEbGcQ7kNvwFI-Ibk&_nc_oc=AdrWpaSv1FUHTwB5uDCDec2bUW9KfUyzC6OUEZNc6tSXHeQkZTNZqE4dCWZ5WCLx0LU&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=iwBRPdwFa8SUKtMqFhpIDA&_nc_tpa=Q5bMBQHRlowWGakkO8WOR3z9IN2TxmM4E1A03wP7eD4pnV5ZCKE2rz8aEv1cT43KK1Tx-Bef4ngPPuyJXg&oh=00_Af7CYG4PcXIxy4oXaf_8dtzRFPQrMY4pPRftofOQV2TV0w&oe=6A01F86F
+image: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/497910328_1007825038144762_7375653666811415510_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=478c00&_nc_ohc=lDEhRANEbGcQ7kNvwEdchhX&_nc_oc=Adp2-pOlpTzNweJ5YMBbmUASx4ULhQtE3SeRNhS8xpghPqnenPjtWkF2XRrARL9VIdo&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=ICz2boXaYjHh4b2r2KBT4Q&_nc_tpa=Q5bMBQEXCfGoJ9-p073r4KF66PvbXg0upFyaz8nJWA4XpFUUb3D4VybqxRocW2BWReKSXJk1yVRYFgZ27w&oh=00_Af6GmIxUELJrfxtDXnLN-zGS_0aSFPxnk0SU7tPRAxWw2w&oe=6A0349EF
 ---
 
 Gost: Sead Jusic
