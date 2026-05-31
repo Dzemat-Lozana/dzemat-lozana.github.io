@@ -7,7 +7,7 @@ eventDate: 2026-03-20T06:00:00+0100
 location: Champs-Courbes 24, 1024 Ecublens, Switzerland
 facebook_id: '954672737005136'
 weight: 30
-image: https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/653174570_1246351977625399_8800639457865185001_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=YtjW6YaRLy0Q7kNvwGR8r4v&_nc_oc=AdrlunvJ4bsdmxa325m5x0-YZAi9ifLLdwPnzNtiLPXyiYCvW5HROYNMSU5m0GMCUoY&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=h46G7zfIYgMaufAbhWJ1vg&_nc_tpa=Q5bMBQEmD7Pc_HcCQGGQjPSIDbvt-tRYAgHlXnCMdHWrUVKusiad1MHU7s3fte3kCJtxc1BW89L0zrC2ng&oh=00_Af4OK2CffmUXRQ2Hns5LRNSKpBQ_CydTxFLQ_bsimFwEdg&oe=6A203AD2
+image: https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/653174570_1246351977625399_8800639457865185001_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=YtjW6YaRLy0Q7kNvwHlvnb1&_nc_oc=AdpCXZ8ZHhWiCDKC-OAyW2BDwCJqq1URzS_s9aYeYyE6cR7eY65zjCohHRunzYhkeKc&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=-FMR1kqRVmzR6qcmCsABPQ&_nc_tpa=Q5bMBQGykJl6uG5gQmVUvphPLvt6gFxBR_aNJzi9hAZojiAnbe8HSXJdxXbCOKBjlwkC4q0KgiN9K7fimQ&oh=00_Af_LpC4DtKRPcHjEYzmmbmIcheFVsSZ-ThpJfY4aQzbwbw&oe=6A218C52
 ---
 
 Bujrum !
