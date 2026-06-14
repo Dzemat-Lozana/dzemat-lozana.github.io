@@ -13,7 +13,7 @@ eventDate: 2024-11-25T20:30:00+0100
 location: Le Cinématographe
 facebook_id: '1169288944157981'
 weight: 30
-image: https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/480458870_669400799102559_463094215784846016_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=bDv6qjh31GIQ7kNvwE7z2vU&_nc_oc=AdrDvvoJlAuM-eTQ6mve9e4NZCj7YY9OTMDHU9nZIjnzELN92cMVkQo1TcDFompwMnw&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&edm=ABTKTjYEAAAA&_nc_gid=BtoyjY_grrUj2Men5rEfXQ&_nc_tpa=Q5bMBQFG1IA_i4dhQgOdHxc3MOjVRt27wiUQoj_i3kKf_79zCjLLyV1dTfS7wTEbfCBVygW2VJO_Osm1bw&oh=00_Af9ai4ciFkDzWbNV1WBpfel4fRimywx-RQ4tbm7PV1hi3A&oe=6A32BD8E
+image: https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/480458870_669400799102559_463094215784846016_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=bDv6qjh31GIQ7kNvwFwFIt0&_nc_oc=AdoxSTuRmQliot6XSZAypNJAeBh9ynK9i9RphDmucrnivi2TJdMHcyQFMJamaZLFzAk&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&edm=ABTKTjYEAAAA&_nc_gid=lg9FtBa7Fdv54xNuSsD4JA&_nc_tpa=Q5bMBQHZdowAirFbB98FApg9c5FA-JFD4ppEm-Szv3xW6iYoCrQNmmgF6Ujiaq3QbySJtYXIr5gUdB_isA&oh=00_Af-_czuXZ_BKSx56e_WjkAxLvo_iJYsO1rYypHYruHowiw&oe=6A340F0E
 endDate: 2024-11-25T23:00:00+0100
 ---
 
