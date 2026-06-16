@@ -80,7 +80,7 @@ eventDate: 2025-06-21T06:00:00+0200
 location: Maison du peuple
 facebook_id: '747199404330076'
 weight: 30
-image: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/505912799_1028722406055025_4649897371739641578_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=31XghIP7lWcQ7kNvwFKEUXg&_nc_oc=AdqLiADwuwmHVwR1sGHBdOgSZfrzJUIaUJtdsmKTeCjQ7FIYU_cMvmjgHaFTGHumxu0&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=ABTKTjYEAAAA&_nc_gid=ephPoNF6d6A9n43vJtHXCQ&_nc_tpa=Q5bMBQGDAqx9FdPaNxOxQyZjw5TmBJuQ_YYlZHZMQ5-JnFkh9UoRUJbmTlQJezVJAKA3UZ8IY4fyEYVf2A&oh=00_Af_gcEZI5RI5PkNWAkpF_hjYEl1JiWoJfFqgOSPClOD7_g&oe=6A358444
+image: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/505912799_1028722406055025_4649897371739641578_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=kW_Sg98xxB0Q7kNvwFUPSjS&_nc_oc=Adogioz-8xJEmlSh_lvF47atU3fXVnMmp1Ik2g9xvRvIVHb8bkuRvGzX5UupXCthv5s&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=ABTKTjYEAAAA&_nc_gid=P0QwORRKUbOby4mE8eudxQ&_nc_tpa=Q5bMBQHkkR3dSgto51Us_-RNZAtPtHTwb-Jqw-VYq-VgROEU_yanTiVr25FQCF1K3F0IK0PoRbJlrwGvxA&oh=00_Af_nZ2SWuX8GT3SZFxAWhziWyWpQ0kjEzcJOHwS0KyvLdQ&oe=6A36D5C4
 ---
 
 🕊️ 𝐂𝐎𝐌𝐌𝐄́𝐌𝐎𝐑𝐀𝐓𝐈𝐎𝐍 𝐃𝐄𝐒 𝟑𝟎 𝐀𝐍𝐒 𝐃𝐔 𝐆𝐄́𝐍𝐎𝐂𝐈𝐃𝐄 𝐃𝐄 𝐒𝐑𝐄𝐁𝐑𝐄𝐍𝐈𝐂𝐀 🕊️
