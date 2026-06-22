@@ -59,7 +59,7 @@ eventDate: 2025-02-09T10:00:00+0100
 location: Džemat Lozana - Association Bosniaque de Lausanne
 facebook_id: '658166049872249'
 weight: 30
-image: https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/480830132_954423803484886_7743822091948684736_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=hiNIPwQz4j8Q7kNvwE6NQDl&_nc_oc=AdrGbVwkoOgBR_9hveLQ0JsfiPDsewb_A2n961reyZwVDeeNGP_7P4l4p1HuFIG9h4E&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=iodcHp8FB72e14v2ol8kig&_nc_tpa=Q5bMBQH0J4djkytRO-p-NcUo00m-9QWwDiEew_uFOe8VMNYsTfy_DhvYFLMsbJpCrNZxbv8e2HWznPoNpA&oh=00_Af9SFyg5bapoLjgiwGvqchMv_e-9rqfXNmwGrhC3LIANWw&oe=6A3D7083
+image: https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/480830132_954423803484886_7743822091948684736_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=hiNIPwQz4j8Q7kNvwHuK-ye&_nc_oc=AdpqVoq2Z1SnDg13j8xuvwqxLYfEJbR5Bx-JCvHCsIiAUnParl6q-8bQytbsoTioSbw&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=6-OxM9P1w0Ot539ZCMHL5g&_nc_tpa=Q5bMBQHg4Fab83OXhP_IityRYAa7H9d4an1j7YyJlSVi7ftx4eA3BRbDc4UPFPZAJ_1ql6OoO9RMJNcgbA&oh=00_Af8Cf2fVmn9s7PFwpfy6x_sZnZnZ7tfMRuov38bQcaJ93Q&oe=6A3EC203
 ---
 
 🔔 RAPPEL 🔔
