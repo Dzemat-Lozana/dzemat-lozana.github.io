@@ -19,7 +19,7 @@ eventDate: 2023-04-08T20:00:00+0200
 location: Džemat Lozana - Association Bosniaque de Lausanne
 facebook_id: '224742946887049'
 weight: 30
-image: https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/476057994_936635281930405_1135964331823661885_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=vxzIAyJ894YQ7kNvwFthae6&_nc_oc=AdpS6-PA5rkKCktKiKrzrulfUqMt4XmuSWAQIw6Vg8I5qDRZjX5rE3cluCzKLZWwxG0&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=26TuUoDLd3FFHHqIbFQC8g&_nc_tpa=Q5bMBQGQc1VS5COWX9DeR6jX7dTHPwtfnwSGWAQon3NDOPpjuKk9YWIkPrCAkTHQgQgSTmWD7SCtSWSFOA&oh=00_AQC6o75KEXewopFM5eCaZQ_gTOd7-iryDZdOIwI9VHVOog&oe=6A4BE63D
+image: https://scontent-ams2-1.xx.fbcdn.net/v/t39.30808-6/476057994_936635281930405_1135964331823661885_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=vxzIAyJ894YQ7kNvwEryZL7&_nc_oc=Ado3rpVKbTf9X3zPx3lL2iRvc1VlySL_of7RRRk078kuTANiHHnCzQ58fLKLm4ONhz4&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=ABTKTjYEAAAA&_nc_gid=2N7GhudFELY3lW9oXrER8w&_nc_tpa=Q5bMBQEIk2jkcdOXME-7wpQF7UB2pnWxyQzvn5AhF_XQiJY6xnuBi7mPYbTfV-9fU3-XiZ2ygcglwUYWPQ&oh=00_AQBw_KLNuYbU-8_6AtQzL2YyVu_PklldNlN0cCx9Gahucg&oe=6A4D37BD
 ---
 
 Prosperitet Fond u skladu sa Džematom organizuje u prostorijama Džemata Lozana, aBd u Subotu 8og. Aprila 2023 godine, humantarni donatorski Iftar.
