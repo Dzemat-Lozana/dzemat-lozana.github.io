@@ -38,7 +38,7 @@ eventDate: 2025-11-29T07:00:00+0100
 location: Salle des spectacles, Renens
 facebook_id: '1999912897625725'
 weight: 30
-image: https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/583048195_1155103840083547_1937816396994490819_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=4T8mBmMeUUIQ7kNvwFDamh_&_nc_oc=AdrICUyC1bilkW8C-_oHaKWmP0PMaTTCeWCpJSQZCrvHJ4isTHbYiF-LLVGwSvCoH7E&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=4T_Ilk9UF9E2FjdXM2jjsw&_nc_tpa=Q5bMBQF--SFkCW7fQfE1J4SZbFYJNO5ebAyYgC86sq34zpUAabP3ofNUn3SoRL86BtQVMqN3FP3oSram7g&oh=00_AQB-1IW_1VnKGRUkDV-TadMVeIGjnwWQuyhr-LcksNhdsQ&oe=6A565055
+image: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/583048195_1155103840083547_1937816396994490819_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=4T8mBmMeUUIQ7kNvwHIDitj&_nc_oc=Adp3z3wwMmy1sbvBD1Du2_heR5AxjYf9TgqLAAO5C9ooL77YQMzGQ1qhs8_hJnPjgT4&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=aG4Vv0l74Lm8-hHik1Xm1g&_nc_tpa=Q5bMBQEHEjXoFFh6q0xLlKkwePbxMr51v_X0BJeZoX8c8KibCIeh3BIlb-UxIHsrzSDGMI_0edzBbJAl6w&oh=00_AQBRg3fcihDbGrw5kZk6WAwOhoo0NdNyDj32M4_QuBgFeQ&oe=6A57A1D5
 ---
 
 Rejoignez-nous le 29 novembre 2025 à la Salle de Spectacle de Renens pour une soirée inoubliable !
