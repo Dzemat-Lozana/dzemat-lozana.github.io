@@ -45,7 +45,7 @@ eventDate: 2024-11-25T20:30:00+0100
 location: Le Cinématographe
 facebook_id: '536978469287161'
 weight: 30
-image: https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/481682419_936266505344065_7770626978622306899_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=WcD2QyUed6QQ7kNvwG1BnOj&_nc_oc=AdrQZ0d4-lU4RdUrKglmIoirQpq_Kwt7q-VQllQ6rzaqBW1TZ4aZhUcIaSOG3HhC6kY&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=ABTKTjYEAAAA&_nc_gid=Q0XrJceboQLpfBfBb8xKzQ&_nc_tpa=Q5bMBQGWShNoOVsempakiWyQ43th1pa5sxa4GlO8sxfEokwrFFjBj5QZuzWqfUuLURzsRIMVyjZh0TgWNg&oh=00_AQFruiDpKNm3BiMEdGKVEwTKYtsr7F4hm5NcvQBTcRdpZA&oe=6A7C8C44
+image: https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/481682419_936266505344065_7770626978622306899_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=kGBbuTEsvcUQ7kNvwH1TKb5&_nc_oc=Adrf6vLuQFyJuGKsQ4hSOf2EkWRJEVqUHdajj_GZqIej1SXhf0fPcEw-XhR15bazZwA&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=8NjGD3lmn7yz-oOxb2xWMg&_nc_tpa=Q5bMBQJ-nIEN4aXhYhjUeQSwoHtmgItPCmywj_tSrOP9JohIfxv1IMNmU3q4VmIveUvZ2kTyogKyiUgq3Q&oh=00_AQFTwRBMuSu3RocIMzRE0ynTPM2DdlNfHhtHe73xAT-stQ&oe=6A7DDDC4
 ---
 
 Pridružite nam se u proslavi Dana državnosti Bosne i Hercegovine  povodom projekcije filma Jean-Gabriela Périota "Sjećanje na grad".

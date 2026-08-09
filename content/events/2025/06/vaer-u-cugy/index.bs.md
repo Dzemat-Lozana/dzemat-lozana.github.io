@@ -29,7 +29,7 @@ eventDate: 2025-06-08T12:00:00+0200
 location: Stade de Cugy
 facebook_id: '691937186720591'
 weight: 30
-image: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/494047402_999818758945390_8441447694134301818_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=nVGpHfYm1s4Q7kNvwGh70rb&_nc_oc=Adp3qa2vPRlmMQEB0MGcGhky_eNpIXicnlW8hz6c_i_0WIKhI1mM1nFbWyrk4N6QSG8&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=Q0XrJceboQLpfBfBb8xKzQ&_nc_tpa=Q5bMBQGCm0BugUqtNam6OCyHTI7ityOD52ENUeQrsFQ473z1UH1j5sHummOlaOlEIo-8WdsHSrtQU6OrFQ&oh=00_AQHptlXKyPNCgTS3FKFfkVuRFcIzoLwWNMQfHii3u059hQ&oe=6A7C698F
+image: https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-6/494047402_999818758945390_8441447694134301818_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=nVGpHfYm1s4Q7kNvwHtsj9T&_nc_oc=Adr54mUVxsiKpsEJdPbSI09AZhWchqHS7oDHkbqIyYhCupQtDqMwVNbRtyD3_SbyRnY&_nc_zt=23&_nc_ht=scontent-dfw6-2.xx&edm=ABTKTjYEAAAA&_nc_gid=8NjGD3lmn7yz-oOxb2xWMg&_nc_tpa=Q5bMBQKYZVppL3OvKPn4JCDrmZT5W-02JGep_bVI4K8aSJxCmLYkLotQwHwbypHnSK60tZiuTpl8DuAVOA&oh=00_AQEv0vjy-8aRUc1ZWZpZfX2RJDhHee73tLHqhCovvn19eQ&oe=6A7DBB0F
 ---
 
 🏆⚽ VAŠER U CUGY ⚽🏆
