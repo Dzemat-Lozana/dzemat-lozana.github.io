@@ -8,7 +8,7 @@ eventDate: 2023-05-07T12:00:00+0200
 location: ''
 facebook_id: '1340810243143093'
 weight: 30
-image: https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/476233477_936651505262116_4103480540059516894_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=VH2AcLDMeRMQ7kNvwHwQP2o&_nc_oc=AdqoAtjRg-91obXcy6tn41iVCX7RUROq2HEtRReeZGdyDmjSAzxb-j9Cr8mQ_Sfjaco&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&edm=ABTKTjYEAAAA&_nc_gid=GYOiX9qM7YmLd0mHlAYVHg&_nc_tpa=Q5bMBQIZk6N7SuHlG08mKWBZ6xgHof71ISE7TvhxhoIp6yOt-NGs1xGp7P_G3qvW7OPFIV5BqzPP4Bh4BQ&oh=00_AQKicKsYwzGMxqMe1G4y8L57aERohKfWPF6GAE5FQ6HGAA&oe=6AA2D68B
+image: https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/476233477_936651505262116_4103480540059516894_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=VH2AcLDMeRMQ7kNvwHPyjkq&_nc_oc=AdpHYndWVbc7zS6MxlTzkZDemq391AQEyhn3-o5lVQdluoeWIyfdwJKTdhHpJeXjzS4&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=ABTKTjYEAAAA&_nc_gid=nOdM6n5Qn9sOIwxYjr3hNg&_nc_tpa=Q5bMBQKV6ESN9GS4oDHFVxYsENIomXBlBrC8cVXwTAongh3CvaCIqE_-K9hWg3-qNuGzFwphkJ3leLYcpw&oh=00_AQL7ye78jC69CBXUMugG8LkwlbpufK1_iBua-wUDQ6xDpA&oe=6AA4280B
 ---
 
 - Ćevapi
