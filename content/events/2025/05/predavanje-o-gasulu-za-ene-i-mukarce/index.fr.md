@@ -29,7 +29,7 @@ eventDate: 2025-05-31T05:45:00+0200
 location: Džemat Lozana - Association Bosniaque de Lausanne
 facebook_id: '1755177568738277'
 weight: 30
-image: https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/494914199_999822612278338_4903146151217973195_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=90apxN-dc_kQ7kNvwEO8-yg&_nc_oc=AdogLVeBWTC5tKnC00rvN6-Faa8wSjCDO4M2iquuoWYge-oKwHbu1UOt0VDtVwojnK0&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&edm=ABTKTjYEAAAA&_nc_gid=EIwHmAr59No3fUjCf9ZyXA&_nc_tpa=Q5bMBQLt_HkKeTfAwIQEMS6QrvG14__8muvRnfokkzss0lCwMqA8bS8fJTPzwY-1ZYPh6U-ey4j5JwXwbA&oh=00_AQOkz2DKb6hkb2_4-ee21bAmI2ac2j8IKWP31wX7BbXOqg&oe=6ACBBCE4
+image: https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-6/494914199_999822612278338_4903146151217973195_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=6CmFA-ACdIMQ7kNvwHEOYhT&_nc_oc=AdrAUTGFh9hShYyvNYp-Iaqb1uBwdrd5UxLwSKZdkDxGg6DMu0mtWvEzg6bYn9Cngsc&_nc_zt=23&_nc_ht=scontent-sea5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=GiVXzmNZhbNyI_vL7JpcEQ&_nc_tpa=Q5bMBQJah8FPg0y9MJtTib_lWIAr2KXUlWhTa6p24P9Wq26VxpH0d_mp05hBoFoCFBEgJ9n-Cmfrn1t63A&oh=00_AQNtOYFW7g3FCN_W43Pcm43C1QvC8jZhQDynZEgOy5z72w&oe=6ACD0E64
 ---
 
 Džemat Lozana vas srdačno poziva na posebno predavanje o gasulu koje će se održati u subotu, 31. maja, u 17:45h (nakon ikindija namaza).
