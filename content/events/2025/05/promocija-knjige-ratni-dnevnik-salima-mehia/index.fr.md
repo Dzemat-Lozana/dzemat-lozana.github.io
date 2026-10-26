@@ -35,7 +35,7 @@ eventDate: 2025-05-11T17:30:00+0200
 location: Džemat Lozana - Association Bosniaque de Lausanne
 facebook_id: '462409180263788'
 weight: 30
-image: https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-6/493166353_999821285611804_7329147311345463896_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=C366S8QPpdQQ7kNvwGioUUm&_nc_oc=AdoSZIq89o9DoipkpOpDX9sjuGR1dVwPxrl-EDcAdTXCLU7p9jY2LoWIqtH0FoS_X6U&_nc_zt=23&_nc_ht=scontent-sea5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=TYFRGKHqzvZqisHLjD5fKQ&_nc_tpa=Q5bMBQLho8SoRJtu1lfINchhq54J1JBLUXlyr1JQ0i0gxKnqLZqjYbaoJItFvwOB55yKgoZjRrxSrfqXbw&oh=00_AQPGBO6Y6uy1Pv-hE2TZpy4cSHHgxu8tYWCaRJ4nDfoXWA&oe=6AE39351
+image: https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/493166353_999821285611804_7329147311345463896_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=C366S8QPpdQQ7kNvwEeWcSv&_nc_oc=AdpUNs_gEiBirZMDn4c7LwhxXFwElFfhn27i6H4t13gtOTAX3Zp00Vn5lrGPZ4nWcUo&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=ABTKTjYEAAAA&_nc_gid=i_BUrCWpk9zgkMNoXXrKIg&_nc_tpa=Q5bMBQLe5SmmrdN9mDLGccjNUVzI4pc_cPJELaFiYa86f2tOPfcvZ4__M0w98aIhumiEn2R04S4mfaZZzQ&oh=00_AQMB9TIbTt1BI1YrQfZ_52fmQSKk_0XRxAGp-lTXCButog&oe=6AE4E4D1
 ---
 
 Poštovani džematlije i dragi prijatelji,
