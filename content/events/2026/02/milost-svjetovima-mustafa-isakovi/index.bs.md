@@ -41,7 +41,7 @@ eventDate: 2026-02-13T19:30:00+0100
 location: Cinéma Pathé les Galeries
 facebook_id: '1254630323255424'
 weight: 30
-image: https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-6/875942184_1442603091333619_3228815918989418037_n.avif?stp=dst-jpg_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=UnF6i19ZBW8Q7kNvwHwxlve&_nc_oc=Ado1pt6DGRJGzWyG5CcsjFBNeH_nzYZTdh4iZV4_VDFpnlZDACHyH_5GObWVfYavvP4&_nc_zt=23&_nc_ht=scontent-dfw6-2.xx&edm=ABTKTjYEAAAA&_nc_gid=hX7qFXgL6SaguVrhXqTr_A&_nc_tpa=Q5bMBQL_GC8NkPa87iQgxBGf0dHt-IjbeGv2o60Nk6kIvE_YEDxiZPMq-EINtHvudc2pEIsTo1rER4H2Qg&oh=00_AQSYWogAVz1YRhqkFp_T6k6mx8LxGmsZuWRIqQq3e84zzQ&oe=6B01FDBC
+image: https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/875942184_1442603091333619_3228815918989418037_n.avif?stp=dst-jpg_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=9e60e4&_nc_ohc=UnF6i19ZBW8Q7kNvwH4fP9J&_nc_oc=Ado9uCldxx6fOm6O32lkmdtMr_GnfsHuNaxKgoo5grpcuGj_vjHei6Bp2VAsaQKTs54&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&edm=ABTKTjYEAAAA&_nc_gid=yQorRqAv5Wgn0ACKyPSW_g&_nc_tpa=Q5bMBQKyxqJgQ5Mks_qIzYlJAqpTV305HTl0vy0Z4iEkYsXPME_Mn8e2urNIx7YjxpInh6LuMrz8dxwrVg&oh=00_AQRlwWn4ucgS1dNaXhKKBn88GIutxybN8zXwWbgFJ68k9g&oe=6B034F3C
 ---
 
 ✨ Događaj koji ne smijete propustiti prije Ramazana aBd! ✨
